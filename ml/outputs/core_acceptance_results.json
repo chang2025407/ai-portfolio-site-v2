@@ -1,0 +1,326 @@
+[
+  {
+    "original_input": "I planned leg day after work, but I feel tired and do not want to go outside. I could still do something lighter.",
+    "method": {
+      "name": "sentence_transformer_cosine",
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "fallback_reason": null
+    },
+    "top_matches": [
+      {
+        "rank": 1,
+        "scenario_id": "D01",
+        "scenario_text": "I have decided that I do not want to exercise today.",
+        "category": "decline",
+        "similarity": 0.5876,
+        "rationale": "The user has made an explicit decision not to exercise.",
+        "data_source": "LLM-assisted synthetic seed data",
+        "review_status": "manually review required"
+      },
+      {
+        "rank": 2,
+        "scenario_id": "A01",
+        "scenario_text": "I planned a full workout after work, but I feel mentally tired and the session now feels too demanding.",
+        "category": "adapt",
+        "similarity": 0.5733,
+        "rationale": "The plan still appears possible, but its demand no longer matches the user's current energy.",
+        "data_source": "LLM-assisted synthetic seed data",
+        "review_status": "manually review required"
+      },
+      {
+        "rank": 3,
+        "scenario_id": "D02",
+        "scenario_text": "I want a rest day and I do not want an alternative workout.",
+        "category": "decline",
+        "similarity": 0.5597,
+        "rationale": "The user rejects both the original plan and replacement activity.",
+        "data_source": "LLM-assisted synthetic seed data",
+        "review_status": "manually review required"
+      }
+    ],
+    "decision_layer": "explicit_intent_override",
+    "matched_intent_rule": "user requests a lower-effort option",
+    "embedding_prediction": "decline",
+    "final_prediction": "adapt",
+    "override_reason": "Explicit action intent takes precedence over the raw decline retrieval prediction.",
+    "top1_similarity": 0.5876,
+    "top2_similarity": 0.5733,
+    "similarity_margin": 0.0143,
+    "requires_confirmation": false,
+    "confirmation_reasons": [],
+    "confirmation_thresholds": {
+      "minimum_top1_similarity": 0.5,
+      "minimum_similarity_margin": 0.04
+    },
+    "selected_category": "adapt",
+    "similarity_score": 0.5876,
+    "rationale": "The user indicates willingness to continue with a lower-demand or lower-friction option.",
+    "suggested_action": "Offer a shorter, lighter or more accessible alternative while keeping decline equally visible.",
+    "explanation": "The system first applies safety rules, then transparent user-intent rules, and uses embedding retrieval when neither layer settles the action. The raw retrieval result remains visible.",
+    "safety_override": {
+      "active": false,
+      "type": "rule_based_override",
+      "matched_rules": []
+    },
+    "limitations": [
+      "This is a research prototype built from a small synthetic seed dataset, not a validated product.",
+      "Similarity is not a calibrated probability or medical assessment.",
+      "The prototype does not diagnose conditions or decide whether a person should exercise.",
+      "Rule-based safety coverage is intentionally conservative and incomplete.",
+      "Real-world generalisation, multilingual performance and repeated use have not been established."
+    ]
+  },
+  {
+    "original_input": "I feel pressured by the full plan. Please give me a lower-effort option.",
+    "method": {
+      "name": "sentence_transformer_cosine",
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "fallback_reason": null
+    },
+    "top_matches": [
+      {
+        "rank": 1,
+        "scenario_id": "D04",
+        "scenario_text": "The suggestions are making me feel pressured, so I want to end this decision.",
+        "category": "decline",
+        "similarity": 0.6765,
+        "rationale": "The user identifies recommendation pressure and asks to stop.",
+        "data_source": "LLM-assisted synthetic seed data",
+        "review_status": "manually review required"
+      },
+      {
+        "rank": 2,
+        "scenario_id": "A11",
+        "scenario_text": "The full recommendation feels demanding, and I would prefer a gentler version with fewer steps.",
+        "category": "adapt",
+        "similarity": 0.4574,
+        "rationale": "The user responds to pressure by requesting a lower-demand alternative rather than ending the decision.",
+        "data_source": "LLM-assisted synthetic seed data",
+        "review_status": "manually reviewed"
+      },
+      {
+        "rank": 3,
+        "scenario_id": "D11",
+        "scenario_text": "I am ending the exercise decision here and do not want another activity suggested.",
+        "category": "decline",
+        "similarity": 0.4033,
+        "rationale": "The user closes the decision and rejects substitutes.",
+        "data_source": "LLM-assisted synthetic seed data",
+        "review_status": "manually reviewed"
+      }
+    ],
+    "decision_layer": "explicit_intent_override",
+    "matched_intent_rule": "user requests a lower-effort option",
+    "embedding_prediction": "decline",
+    "final_prediction": "adapt",
+    "override_reason": "Explicit action intent takes precedence over the raw decline retrieval prediction.",
+    "top1_similarity": 0.6765,
+    "top2_similarity": 0.4574,
+    "similarity_margin": 0.2191,
+    "requires_confirmation": false,
+    "confirmation_reasons": [],
+    "confirmation_thresholds": {
+      "minimum_top1_similarity": 0.5,
+      "minimum_similarity_margin": 0.04
+    },
+    "selected_category": "adapt",
+    "similarity_score": 0.6765,
+    "rationale": "The user indicates willingness to continue with a lower-demand or lower-friction option.",
+    "suggested_action": "Offer a shorter, lighter or more accessible alternative while keeping decline equally visible.",
+    "explanation": "The system first applies safety rules, then transparent user-intent rules, and uses embedding retrieval when neither layer settles the action. The raw retrieval result remains visible.",
+    "safety_override": {
+      "active": false,
+      "type": "rule_based_override",
+      "matched_rules": []
+    },
+    "limitations": [
+      "This is a research prototype built from a small synthetic seed dataset, not a validated product.",
+      "Similarity is not a calibrated probability or medical assessment.",
+      "The prototype does not diagnose conditions or decide whether a person should exercise.",
+      "Rule-based safety coverage is intentionally conservative and incomplete.",
+      "Real-world generalisation, multilingual performance and repeated use have not been established."
+    ]
+  },
+  {
+    "original_input": "I do not want to exercise today. Do not reschedule it.",
+    "method": {
+      "name": "sentence_transformer_cosine",
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "fallback_reason": null
+    },
+    "top_matches": [
+      {
+        "rank": 1,
+        "scenario_id": "D01",
+        "scenario_text": "I have decided that I do not want to exercise today.",
+        "category": "decline",
+        "similarity": 0.8687,
+        "rationale": "The user has made an explicit decision not to exercise.",
+        "data_source": "LLM-assisted synthetic seed data",
+        "review_status": "manually review required"
+      },
+      {
+        "rank": 2,
+        "scenario_id": "D06",
+        "scenario_text": "Cancel today's workout and do not move it to another day.",
+        "category": "decline",
+        "similarity": 0.7405,
+        "rationale": "The user asks for cancellation without rescheduling.",
+        "data_source": "LLM-assisted synthetic seed data",
+        "review_status": "manually review required"
+      },
+      {
+        "rank": 3,
+        "scenario_id": "D02",
+        "scenario_text": "I want a rest day and I do not want an alternative workout.",
+        "category": "decline",
+        "similarity": 0.7049,
+        "rationale": "The user rejects both the original plan and replacement activity.",
+        "data_source": "LLM-assisted synthetic seed data",
+        "review_status": "manually review required"
+      }
+    ],
+    "decision_layer": "explicit_intent_confirmation",
+    "matched_intent_rule": "user declines without an alternative or reschedule",
+    "embedding_prediction": "decline",
+    "final_prediction": "decline",
+    "override_reason": "Explicit action intent confirms the retrieval prediction.",
+    "top1_similarity": 0.8687,
+    "top2_similarity": 0.7405,
+    "similarity_margin": 0.1282,
+    "requires_confirmation": false,
+    "confirmation_reasons": [],
+    "confirmation_thresholds": {
+      "minimum_top1_similarity": 0.5,
+      "minimum_similarity_margin": 0.04
+    },
+    "selected_category": "decline",
+    "similarity_score": 0.8687,
+    "rationale": "The user explicitly declines exercise now and does not request a replacement or future session.",
+    "suggested_action": "Confirm the decision neutrally, stop suggesting alternatives and end the current decision flow.",
+    "explanation": "The system first applies safety rules, then transparent user-intent rules, and uses embedding retrieval when neither layer settles the action. The raw retrieval result remains visible.",
+    "safety_override": {
+      "active": false,
+      "type": "rule_based_override",
+      "matched_rules": []
+    },
+    "limitations": [
+      "This is a research prototype built from a small synthetic seed dataset, not a validated product.",
+      "Similarity is not a calibrated probability or medical assessment.",
+      "The prototype does not diagnose conditions or decide whether a person should exercise.",
+      "Rule-based safety coverage is intentionally conservative and incomplete.",
+      "Real-world generalisation, multilingual performance and repeated use have not been established."
+    ]
+  },
+  {
+    "original_input": "I cannot train today. Move the session to tomorrow.",
+    "method": {
+      "name": "sentence_transformer_cosine",
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "fallback_reason": null
+    },
+    "top_matches": [
+      {
+        "rank": 1,
+        "scenario_id": "P10",
+        "scenario_text": "Today's session no longer fits, so place it on tomorrow evening instead.",
+        "category": "postpone",
+        "similarity": 0.5842,
+        "rationale": "The user explicitly requests a different future time.",
+        "data_source": "LLM-assisted synthetic seed data",
+        "review_status": "manually reviewed"
+      },
+      {
+        "rank": 2,
+        "scenario_id": "P05",
+        "scenario_text": "My train is delayed and I will not reach the gym before it closes.",
+        "category": "postpone",
+        "similarity": 0.5663,
+        "rationale": "Travel disruption makes the original session impractical.",
+        "data_source": "LLM-assisted synthetic seed data",
+        "review_status": "manually review required"
+      },
+      {
+        "rank": 3,
+        "scenario_id": "A06",
+        "scenario_text": "I started training but want to finish earlier because I am more tired than expected.",
+        "category": "adapt",
+        "similarity": 0.4979,
+        "rationale": "The user is asking to lower the remaining demand rather than continue the original session.",
+        "data_source": "LLM-assisted synthetic seed data",
+        "review_status": "manually review required"
+      }
+    ],
+    "decision_layer": "explicit_intent_confirmation",
+    "matched_intent_rule": "user explicitly requests postponement",
+    "embedding_prediction": "postpone",
+    "final_prediction": "postpone",
+    "override_reason": "Explicit action intent confirms the retrieval prediction.",
+    "top1_similarity": 0.5842,
+    "top2_similarity": 0.5663,
+    "similarity_margin": 0.0179,
+    "requires_confirmation": false,
+    "confirmation_reasons": [],
+    "confirmation_thresholds": {
+      "minimum_top1_similarity": 0.5,
+      "minimum_similarity_margin": 0.04
+    },
+    "selected_category": "postpone",
+    "similarity_score": 0.5842,
+    "rationale": "The user explicitly indicates that the activity should move to a later time or another day.",
+    "suggested_action": "Offer a clearly labelled rescheduling choice without creating a new commitment automatically.",
+    "explanation": "The system first applies safety rules, then transparent user-intent rules, and uses embedding retrieval when neither layer settles the action. The raw retrieval result remains visible.",
+    "safety_override": {
+      "active": false,
+      "type": "rule_based_override",
+      "matched_rules": []
+    },
+    "limitations": [
+      "This is a research prototype built from a small synthetic seed dataset, not a validated product.",
+      "Similarity is not a calibrated probability or medical assessment.",
+      "The prototype does not diagnose conditions or decide whether a person should exercise.",
+      "Rule-based safety coverage is intentionally conservative and incomplete.",
+      "Real-world generalisation, multilingual performance and repeated use have not been established."
+    ]
+  },
+  {
+    "original_input": "I have sudden sharp chest pain and feel dizzy.",
+    "method": {
+      "name": "rule_based_safety_override",
+      "model": null,
+      "fallback_reason": null
+    },
+    "top_matches": [],
+    "decision_layer": "safety_override",
+    "matched_intent_rule": null,
+    "embedding_prediction": null,
+    "final_prediction": "safety_stop",
+    "override_reason": "A predefined safety phrase matched before explicit-intent rules and embedding retrieval.",
+    "top1_similarity": null,
+    "top2_similarity": null,
+    "similarity_margin": null,
+    "requires_confirmation": false,
+    "confirmation_reasons": [],
+    "confirmation_thresholds": null,
+    "selected_category": "safety_stop",
+    "similarity_score": null,
+    "rationale": "One or more predefined safety phrases matched before similarity retrieval. This is a rule-based override, not a model judgement or diagnosis.",
+    "suggested_action": "This prototype does not provide medical diagnosis. Stop the current exercise plan and consider appropriate professional support depending on the situation.",
+    "explanation": "The safety rule takes precedence, so the embedding model is not consulted and no lighter exercise is suggested.",
+    "safety_override": {
+      "active": true,
+      "type": "rule_based_override",
+      "matched_rules": [
+        "chest_pain",
+        "dizziness"
+      ]
+    },
+    "limitations": [
+      "This is a research prototype built from a small synthetic seed dataset, not a validated product.",
+      "Similarity is not a calibrated probability or medical assessment.",
+      "The prototype does not diagnose conditions or decide whether a person should exercise.",
+      "Rule-based safety coverage is intentionally conservative and incomplete.",
+      "Real-world generalisation, multilingual performance and repeated use have not been established."
+    ]
+  }
+]

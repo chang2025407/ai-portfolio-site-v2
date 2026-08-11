@@ -1,0 +1,66 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "metrics": {
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "imageFailures": [],
+      "chapters": [
+        "传统健身体验中的不确定感",
+        "降低训练压力，需要一条连续的服务路径。",
+        "五个连续阶段，把数字触点、现场支持与空间使用接起来。",
+        "把“可控感”转化为空间边界、进入路径与设备支持。",
+        "App 是服务系统的入口，而不是项目的全部。",
+        "低保真测试记录了问题，但没有证明系统已经有效。"
+      ],
+      "clipped": []
+    },
+    "issues": {
+      "consoleErrors": [],
+      "exceptions": [],
+      "notFound": [],
+      "imageRequestFailures": []
+    },
+    "lightbox": {
+      "open": true,
+      "source": "http://127.0.0.1:5180/assets/quiet-fitness-cabin/full/user-journey.webp",
+      "closedByEscape": true
+    }
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "metrics": {
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "imageFailures": [],
+      "chapters": [
+        "传统健身体验中的不确定感",
+        "降低训练压力，需要一条连续的服务路径。",
+        "五个连续阶段，把数字触点、现场支持与空间使用接起来。",
+        "把“可控感”转化为空间边界、进入路径与设备支持。",
+        "App 是服务系统的入口，而不是项目的全部。",
+        "低保真测试记录了问题，但没有证明系统已经有效。"
+      ],
+      "clipped": []
+    },
+    "issues": {
+      "consoleErrors": [],
+      "exceptions": [],
+      "notFound": [],
+      "imageRequestFailures": []
+    },
+    "lightbox": {
+      "open": true,
+      "source": "http://127.0.0.1:5180/assets/quiet-fitness-cabin/full/user-journey.webp",
+      "closedByEscape": true
+    }
+  }
+}

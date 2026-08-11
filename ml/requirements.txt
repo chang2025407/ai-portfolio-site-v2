@@ -1,0 +1,5 @@
+# Primary semantic embedding backend. The prototype falls back to its
+# dependency-free TF-IDF implementation when this package or the model
+# cannot be loaded.
+sentence-transformers>=3.0,<6.0
+numpy>=1.26,<3.0

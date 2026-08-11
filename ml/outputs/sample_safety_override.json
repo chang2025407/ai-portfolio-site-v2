@@ -1,0 +1,40 @@
+{
+  "original_input": "I have sudden sharp chest pain and feel dizzy.",
+  "method": {
+    "name": "rule_based_safety_override",
+    "model": null,
+    "fallback_reason": null
+  },
+  "top_matches": [],
+  "decision_layer": "safety_override",
+  "matched_intent_rule": null,
+  "embedding_prediction": null,
+  "final_prediction": "safety_stop",
+  "override_reason": "A predefined safety phrase matched before explicit-intent rules and embedding retrieval.",
+  "top1_similarity": null,
+  "top2_similarity": null,
+  "similarity_margin": null,
+  "requires_confirmation": false,
+  "confirmation_reasons": [],
+  "confirmation_thresholds": null,
+  "selected_category": "safety_stop",
+  "similarity_score": null,
+  "rationale": "One or more predefined safety phrases matched before similarity retrieval. This is a rule-based override, not a model judgement or diagnosis.",
+  "suggested_action": "This prototype does not provide medical diagnosis. Stop the current exercise plan and consider appropriate professional support depending on the situation.",
+  "explanation": "The safety rule takes precedence, so the embedding model is not consulted and no lighter exercise is suggested.",
+  "safety_override": {
+    "active": true,
+    "type": "rule_based_override",
+    "matched_rules": [
+      "chest_pain",
+      "dizziness"
+    ]
+  },
+  "limitations": [
+    "This is a research prototype built from a small synthetic seed dataset, not a validated product.",
+    "Similarity is not a calibrated probability or medical assessment.",
+    "The prototype does not diagnose conditions or decide whether a person should exercise.",
+    "Rule-based safety coverage is intentionally conservative and incomplete.",
+    "Real-world generalisation, multilingual performance and repeated use have not been established."
+  ]
+}

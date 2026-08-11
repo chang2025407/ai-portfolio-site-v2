@@ -1,0 +1,300 @@
+{
+  "previewUrl": "http://127.0.0.1:4180/cases/quiet-fitness-cabin.html",
+  "desktop": {
+    "initial": {
+      "root": "qfc-motion-ready",
+      "titleOpacity": "0.930716",
+      "titleTranslate": "0px 0.692843px",
+      "titleScale": "1",
+      "duration": "0.52s"
+    },
+    "heroFinal": {
+      "titleOpacity": "1",
+      "spaceOpacity": "1",
+      "spaceScale": "1",
+      "uiOpacity": [
+        "1",
+        "1"
+      ],
+      "uiTranslate": [
+        "0px",
+        "0px"
+      ]
+    },
+    "slowScroll": {
+      "pageHeight": 10686,
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "motionItems": 57,
+      "withoutVisibleClass": 0,
+      "visuallyHidden": 0,
+      "imageFailures": [],
+      "appendixOpen": false,
+      "headingOverflow": [],
+      "appUi": [
+        {
+          "alt": "需求设置界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.603,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        },
+        {
+          "alt": "经验者列表界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.603,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        },
+        {
+          "alt": "匹配确认界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.603,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        },
+        {
+          "alt": "场地预约与地图界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.603,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        },
+        {
+          "alt": "经验者处理请求界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.603,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        }
+      ]
+    },
+    "fastScroll": {
+      "pageHeight": 10686,
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "motionItems": 57,
+      "withoutVisibleClass": 0,
+      "visuallyHidden": 0,
+      "imageFailures": [],
+      "appendixOpen": false,
+      "headingOverflow": [],
+      "appUi": [
+        {
+          "alt": "需求设置界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.603,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        },
+        {
+          "alt": "经验者列表界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.603,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        },
+        {
+          "alt": "匹配确认界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.603,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        },
+        {
+          "alt": "场地预约与地图界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.603,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        },
+        {
+          "alt": "经验者处理请求界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.603,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        }
+      ]
+    },
+    "once": {
+      "retainedBeforeRevisit": true,
+      "retainedAfterRevisit": true
+    },
+    "appendix": {
+      "defaultClosed": true,
+      "opens": true,
+      "returnsClosed": true,
+      "focused": true
+    },
+    "nextProject": {
+      "href": "/cases/connected-long-journey.html",
+      "targetExists": true
+    },
+    "runtimeErrors": [],
+    "networkFailures": []
+  },
+  "mobile": {
+    "initial": {
+      "root": "qfc-motion-ready",
+      "titleOpacity": "1",
+      "titleTranslate": "0px",
+      "titleScale": "1",
+      "duration": "0.36s"
+    },
+    "heroFinal": {
+      "titleOpacity": "1",
+      "spaceOpacity": "1",
+      "spaceScale": "1",
+      "uiOpacity": [
+        "1",
+        "1"
+      ],
+      "uiTranslate": [
+        "0px",
+        "0px"
+      ]
+    },
+    "slowScroll": {
+      "pageHeight": 13173,
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "motionItems": 57,
+      "withoutVisibleClass": 0,
+      "visuallyHidden": 0,
+      "imageFailures": [],
+      "appendixOpen": false,
+      "headingOverflow": [],
+      "appUi": [
+        {
+          "alt": "需求设置界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.918,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        },
+        {
+          "alt": "经验者列表界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.618,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        },
+        {
+          "alt": "匹配确认界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.618,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        },
+        {
+          "alt": "场地预约与地图界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.918,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        },
+        {
+          "alt": "经验者处理请求界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.618,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        }
+      ]
+    },
+    "fastScroll": {
+      "pageHeight": 13173,
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "motionItems": 57,
+      "withoutVisibleClass": 0,
+      "visuallyHidden": 0,
+      "imageFailures": [],
+      "appendixOpen": false,
+      "headingOverflow": [],
+      "appUi": [
+        {
+          "alt": "需求设置界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.918,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        },
+        {
+          "alt": "经验者列表界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.618,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        },
+        {
+          "alt": "匹配确认界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.618,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        },
+        {
+          "alt": "场地预约与地图界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.918,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        },
+        {
+          "alt": "经验者处理请求界面",
+          "sourceRatio": 0.564,
+          "renderedRatio": 0.618,
+          "opacity": "1",
+          "translate": "0px",
+          "scale": "1"
+        }
+      ]
+    },
+    "once": {
+      "retainedBeforeRevisit": true,
+      "retainedAfterRevisit": true
+    },
+    "appendix": {
+      "defaultClosed": true,
+      "opens": true,
+      "returnsClosed": true,
+      "focused": true
+    },
+    "nextProject": {
+      "href": "/cases/connected-long-journey.html",
+      "targetExists": true
+    },
+    "runtimeErrors": [],
+    "networkFailures": []
+  },
+  "reducedMotion": {
+    "media": true,
+    "scrollBehavior": "auto",
+    "hidden": 0,
+    "transformed": 0,
+    "clipped": 0,
+    "appendixWorks": true,
+    "runtimeErrors": []
+  }
+}

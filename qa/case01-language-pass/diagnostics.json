@@ -1,0 +1,26 @@
+[
+  {
+    "target": "desktop",
+    "status": 200,
+    "clientWidth": 1440,
+    "scrollWidth": 1440,
+    "pageHeight": 16623,
+    "overflowElements": [],
+    "brokenImages": [],
+    "language": "zh-CN",
+    "reducedMotion": true,
+    "consoleErrors": []
+  },
+  {
+    "target": "mobile",
+    "status": 200,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "pageHeight": 27998,
+    "overflowElements": [],
+    "brokenImages": [],
+    "language": "zh-CN",
+    "reducedMotion": true,
+    "consoleErrors": []
+  }
+]

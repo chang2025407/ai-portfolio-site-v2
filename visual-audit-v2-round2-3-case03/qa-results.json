@@ -1,0 +1,1479 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "reduced": false,
+    "firstLoad": {
+      "document": {
+        "width": 1440,
+        "clientWidth": 1440,
+        "height": 10832
+      },
+      "overflow": 0,
+      "sections": {
+        "hero": {
+          "top": 115,
+          "bottom": 852,
+          "height": 737,
+          "width": 1240
+        },
+        "problem": {
+          "top": 978,
+          "bottom": 1725,
+          "height": 747,
+          "width": 1240
+        },
+        "roles": {
+          "top": 1879,
+          "bottom": 3083,
+          "height": 1204,
+          "width": 1440
+        },
+        "opportunity": {
+          "top": 3209,
+          "bottom": 3744,
+          "height": 535,
+          "width": 1240
+        },
+        "journey": {
+          "top": 3870,
+          "bottom": 5052,
+          "height": 1182,
+          "width": 1440
+        },
+        "spatial": {
+          "top": 5178,
+          "bottom": 6665,
+          "height": 1486,
+          "width": 1440
+        },
+        "digital": {
+          "top": 6791,
+          "bottom": 8126,
+          "height": 1336,
+          "width": 1440
+        },
+        "testing": {
+          "top": 8252,
+          "bottom": 9204,
+          "height": 951,
+          "width": 1440
+        },
+        "outcome": {
+          "top": 9330,
+          "bottom": 10570,
+          "height": 1240,
+          "width": 1440
+        },
+        "footer": {
+          "top": 10570,
+          "bottom": 10832,
+          "height": 262,
+          "width": 1240
+        }
+      },
+      "gaps": {
+        "hero_to_problem": 126,
+        "problem_to_roles": 154,
+        "roles_to_opportunity": 126,
+        "opportunity_to_journey": 126,
+        "journey_to_spatial": 126,
+        "spatial_to_digital": 126,
+        "digital_to_testing": 126,
+        "testing_to_outcome": 126,
+        "outcome_to_footer": 0
+      },
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/hero-family-app.webp",
+          "complete": true,
+          "naturalWidth": 2000,
+          "naturalHeight": 1300,
+          "renderedWidth": 718,
+          "renderedHeight": 735,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/service-blueprint-source.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 1211,
+          "renderedWidth": 675,
+          "renderedHeight": 290,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-evidence.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 1166,
+          "renderedWidth": 1240,
+          "renderedHeight": 520,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-postcards.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 484,
+          "renderedWidth": 1240,
+          "renderedHeight": 180,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/research-interviews.webp",
+          "complete": false,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "renderedWidth": 1240,
+          "renderedHeight": 500,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/app-concept-screens.webp",
+          "complete": false,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "renderedWidth": 1240,
+          "renderedHeight": 500,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/workshop-evidence.webp",
+          "complete": false,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "renderedWidth": 1240,
+          "renderedHeight": 500,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-postcards.webp",
+          "complete": false,
+          "naturalWidth": 2200,
+          "naturalHeight": 484,
+          "renderedWidth": 1240,
+          "renderedHeight": 484,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/service-blueprint-source.webp",
+          "complete": false,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "renderedWidth": 1240,
+          "renderedHeight": 500,
+          "visible": true,
+          "objectFit": "contain"
+        }
+      ],
+      "imageFailures": [
+        "http://127.0.0.1:4177/assets/connected-long-journey/full/research-interviews.webp",
+        "http://127.0.0.1:4177/assets/connected-long-journey/full/app-concept-screens.webp",
+        "http://127.0.0.1:4177/assets/connected-long-journey/full/workshop-evidence.webp",
+        "http://127.0.0.1:4177/assets/connected-long-journey/workshop-postcards.webp",
+        "http://127.0.0.1:4177/assets/connected-long-journey/full/service-blueprint-source.webp"
+      ],
+      "motionNodeCount": 0,
+      "hiddenMotion": [],
+      "header": {
+        "height": 77,
+        "zIndex": "1000",
+        "background": "rgb(247, 247, 242)",
+        "position": "sticky"
+      },
+      "hero": {
+        "visible": true,
+        "copyOpacity": "1",
+        "visualOpacity": "1",
+        "h1Height": 203,
+        "h1Width": 404,
+        "h1FontSize": "77.04px"
+      },
+      "reducedMotion": false
+    },
+    "metrics": {
+      "document": {
+        "width": 1440,
+        "clientWidth": 1440,
+        "height": 10832
+      },
+      "overflow": 0,
+      "sections": {
+        "hero": {
+          "top": 115,
+          "bottom": 852,
+          "height": 737,
+          "width": 1240
+        },
+        "problem": {
+          "top": 978,
+          "bottom": 1725,
+          "height": 747,
+          "width": 1240
+        },
+        "roles": {
+          "top": 1879,
+          "bottom": 3083,
+          "height": 1204,
+          "width": 1440
+        },
+        "opportunity": {
+          "top": 3209,
+          "bottom": 3744,
+          "height": 535,
+          "width": 1240
+        },
+        "journey": {
+          "top": 3870,
+          "bottom": 5052,
+          "height": 1182,
+          "width": 1440
+        },
+        "spatial": {
+          "top": 5178,
+          "bottom": 6665,
+          "height": 1486,
+          "width": 1440
+        },
+        "digital": {
+          "top": 6791,
+          "bottom": 8126,
+          "height": 1336,
+          "width": 1440
+        },
+        "testing": {
+          "top": 8252,
+          "bottom": 9204,
+          "height": 951,
+          "width": 1440
+        },
+        "outcome": {
+          "top": 9330,
+          "bottom": 10570,
+          "height": 1240,
+          "width": 1440
+        },
+        "footer": {
+          "top": 10570,
+          "bottom": 10832,
+          "height": 262,
+          "width": 1240
+        }
+      },
+      "gaps": {
+        "hero_to_problem": 126,
+        "problem_to_roles": 154,
+        "roles_to_opportunity": 126,
+        "opportunity_to_journey": 126,
+        "journey_to_spatial": 126,
+        "spatial_to_digital": 126,
+        "digital_to_testing": 126,
+        "testing_to_outcome": 126,
+        "outcome_to_footer": 0
+      },
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/hero-family-app.webp",
+          "complete": true,
+          "naturalWidth": 2000,
+          "naturalHeight": 1300,
+          "renderedWidth": 718,
+          "renderedHeight": 735,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/service-blueprint-source.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 1211,
+          "renderedWidth": 675,
+          "renderedHeight": 290,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-evidence.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 1166,
+          "renderedWidth": 1240,
+          "renderedHeight": 520,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-postcards.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 484,
+          "renderedWidth": 1240,
+          "renderedHeight": 180,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/research-interviews.webp",
+          "complete": true,
+          "naturalWidth": 5130,
+          "naturalHeight": 2256,
+          "renderedWidth": 1240,
+          "renderedHeight": 500,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/app-concept-screens.webp",
+          "complete": true,
+          "naturalWidth": 3975,
+          "naturalHeight": 2130,
+          "renderedWidth": 1240,
+          "renderedHeight": 500,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/workshop-evidence.webp",
+          "complete": true,
+          "naturalWidth": 4076,
+          "naturalHeight": 2162,
+          "renderedWidth": 1240,
+          "renderedHeight": 500,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-postcards.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 484,
+          "renderedWidth": 1240,
+          "renderedHeight": 484,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/service-blueprint-source.webp",
+          "complete": true,
+          "naturalWidth": 3923,
+          "naturalHeight": 2162,
+          "renderedWidth": 1240,
+          "renderedHeight": 500,
+          "visible": true,
+          "objectFit": "contain"
+        }
+      ],
+      "imageFailures": [],
+      "motionNodeCount": 0,
+      "hiddenMotion": [],
+      "header": {
+        "height": 77,
+        "zIndex": "1000",
+        "background": "rgb(247, 247, 242)",
+        "position": "sticky"
+      },
+      "hero": {
+        "visible": true,
+        "copyOpacity": "1",
+        "visualOpacity": "1",
+        "h1Height": 203,
+        "h1Width": 404,
+        "h1FontSize": "77.04px"
+      },
+      "reducedMotion": false
+    },
+    "anchors": [
+      {
+        "href": "#problem",
+        "targetTop": 184,
+        "headerBottom": 77,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#roles",
+        "targetTop": 184,
+        "headerBottom": 77,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#journey",
+        "targetTop": 187,
+        "headerBottom": 77,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#spatial",
+        "targetTop": 1492,
+        "headerBottom": 77,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#digital",
+        "targetTop": 242,
+        "headerBottom": 77,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#testing",
+        "targetTop": 1645,
+        "headerBottom": 77,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#outcome",
+        "targetTop": 211,
+        "headerBottom": 77,
+        "visibleBelowHeader": true
+      }
+    ],
+    "links": [
+      {
+        "href": "http://127.0.0.1:4177/#work",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#problem",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#roles",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#journey",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#spatial",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#digital",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#testing",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#outcome",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/quiet-fitness-cabin.html",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "issues": {
+      "js": [],
+      "consoleErrors": [],
+      "imageFailures": [],
+      "notFound": []
+    }
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reduced": false,
+    "firstLoad": {
+      "document": {
+        "width": 390,
+        "clientWidth": 390,
+        "height": 13338
+      },
+      "overflow": 0,
+      "sections": {
+        "hero": {
+          "top": 81,
+          "bottom": 1041,
+          "height": 960,
+          "width": 358
+        },
+        "problem": {
+          "top": 1113,
+          "bottom": 1894,
+          "height": 781,
+          "width": 358
+        },
+        "roles": {
+          "top": 1966,
+          "bottom": 3589,
+          "height": 1622,
+          "width": 390
+        },
+        "opportunity": {
+          "top": 3661,
+          "bottom": 4452,
+          "height": 791,
+          "width": 358
+        },
+        "journey": {
+          "top": 4524,
+          "bottom": 5967,
+          "height": 1443,
+          "width": 390
+        },
+        "spatial": {
+          "top": 6039,
+          "bottom": 7595,
+          "height": 1556,
+          "width": 390
+        },
+        "digital": {
+          "top": 7667,
+          "bottom": 9988,
+          "height": 2321,
+          "width": 390
+        },
+        "testing": {
+          "top": 10060,
+          "bottom": 11507,
+          "height": 1447,
+          "width": 390
+        },
+        "outcome": {
+          "top": 11579,
+          "bottom": 13116,
+          "height": 1537,
+          "width": 390
+        },
+        "footer": {
+          "top": 13116,
+          "bottom": 13338,
+          "height": 222,
+          "width": 358
+        }
+      },
+      "gaps": {
+        "hero_to_problem": 72,
+        "problem_to_roles": 72,
+        "roles_to_opportunity": 72,
+        "opportunity_to_journey": 72,
+        "journey_to_spatial": 72,
+        "spatial_to_digital": 72,
+        "digital_to_testing": 72,
+        "testing_to_outcome": 72,
+        "outcome_to_footer": 0
+      },
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/hero-family-app.webp",
+          "complete": true,
+          "naturalWidth": 2000,
+          "naturalHeight": 1300,
+          "renderedWidth": 356,
+          "renderedHeight": 350,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/service-blueprint-source.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 1211,
+          "renderedWidth": 358,
+          "renderedHeight": 210,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-evidence.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 1166,
+          "renderedWidth": 358,
+          "renderedHeight": 270,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-postcards.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 484,
+          "renderedWidth": 358,
+          "renderedHeight": 108,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/research-interviews.webp",
+          "complete": false,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "renderedWidth": 358,
+          "renderedHeight": 2256,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/app-concept-screens.webp",
+          "complete": false,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "renderedWidth": 358,
+          "renderedHeight": 2130,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/workshop-evidence.webp",
+          "complete": false,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "renderedWidth": 358,
+          "renderedHeight": 2162,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-postcards.webp",
+          "complete": false,
+          "naturalWidth": 2200,
+          "naturalHeight": 484,
+          "renderedWidth": 358,
+          "renderedHeight": 484,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/service-blueprint-source.webp",
+          "complete": false,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "renderedWidth": 358,
+          "renderedHeight": 2162,
+          "visible": true,
+          "objectFit": "contain"
+        }
+      ],
+      "imageFailures": [
+        "http://127.0.0.1:4177/assets/connected-long-journey/full/research-interviews.webp",
+        "http://127.0.0.1:4177/assets/connected-long-journey/full/app-concept-screens.webp",
+        "http://127.0.0.1:4177/assets/connected-long-journey/full/workshop-evidence.webp",
+        "http://127.0.0.1:4177/assets/connected-long-journey/workshop-postcards.webp",
+        "http://127.0.0.1:4177/assets/connected-long-journey/full/service-blueprint-source.webp"
+      ],
+      "motionNodeCount": 0,
+      "hiddenMotion": [],
+      "header": {
+        "height": 65,
+        "zIndex": "1000",
+        "background": "rgb(247, 247, 242)",
+        "position": "sticky"
+      },
+      "hero": {
+        "visible": true,
+        "copyOpacity": "1",
+        "visualOpacity": "1",
+        "h1Height": 135,
+        "h1Width": 308,
+        "h1FontSize": "51px"
+      },
+      "reducedMotion": false
+    },
+    "metrics": {
+      "document": {
+        "width": 390,
+        "clientWidth": 390,
+        "height": 13338
+      },
+      "overflow": 0,
+      "sections": {
+        "hero": {
+          "top": 81,
+          "bottom": 1041,
+          "height": 960,
+          "width": 358
+        },
+        "problem": {
+          "top": 1113,
+          "bottom": 1894,
+          "height": 781,
+          "width": 358
+        },
+        "roles": {
+          "top": 1966,
+          "bottom": 3589,
+          "height": 1622,
+          "width": 390
+        },
+        "opportunity": {
+          "top": 3661,
+          "bottom": 4452,
+          "height": 791,
+          "width": 358
+        },
+        "journey": {
+          "top": 4524,
+          "bottom": 5967,
+          "height": 1443,
+          "width": 390
+        },
+        "spatial": {
+          "top": 6039,
+          "bottom": 7595,
+          "height": 1556,
+          "width": 390
+        },
+        "digital": {
+          "top": 7667,
+          "bottom": 9988,
+          "height": 2321,
+          "width": 390
+        },
+        "testing": {
+          "top": 10060,
+          "bottom": 11507,
+          "height": 1447,
+          "width": 390
+        },
+        "outcome": {
+          "top": 11579,
+          "bottom": 13116,
+          "height": 1537,
+          "width": 390
+        },
+        "footer": {
+          "top": 13116,
+          "bottom": 13338,
+          "height": 222,
+          "width": 358
+        }
+      },
+      "gaps": {
+        "hero_to_problem": 72,
+        "problem_to_roles": 72,
+        "roles_to_opportunity": 72,
+        "opportunity_to_journey": 72,
+        "journey_to_spatial": 72,
+        "spatial_to_digital": 72,
+        "digital_to_testing": 72,
+        "testing_to_outcome": 72,
+        "outcome_to_footer": 0
+      },
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/hero-family-app.webp",
+          "complete": true,
+          "naturalWidth": 2000,
+          "naturalHeight": 1300,
+          "renderedWidth": 356,
+          "renderedHeight": 350,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/service-blueprint-source.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 1211,
+          "renderedWidth": 358,
+          "renderedHeight": 210,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-evidence.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 1166,
+          "renderedWidth": 358,
+          "renderedHeight": 270,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-postcards.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 484,
+          "renderedWidth": 358,
+          "renderedHeight": 108,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/research-interviews.webp",
+          "complete": true,
+          "naturalWidth": 5130,
+          "naturalHeight": 2256,
+          "renderedWidth": 358,
+          "renderedHeight": 2256,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/app-concept-screens.webp",
+          "complete": true,
+          "naturalWidth": 3975,
+          "naturalHeight": 2130,
+          "renderedWidth": 358,
+          "renderedHeight": 2130,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/workshop-evidence.webp",
+          "complete": true,
+          "naturalWidth": 4076,
+          "naturalHeight": 2162,
+          "renderedWidth": 358,
+          "renderedHeight": 2162,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-postcards.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 484,
+          "renderedWidth": 358,
+          "renderedHeight": 484,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/service-blueprint-source.webp",
+          "complete": true,
+          "naturalWidth": 3923,
+          "naturalHeight": 2162,
+          "renderedWidth": 358,
+          "renderedHeight": 2162,
+          "visible": true,
+          "objectFit": "contain"
+        }
+      ],
+      "imageFailures": [],
+      "motionNodeCount": 0,
+      "hiddenMotion": [],
+      "header": {
+        "height": 65,
+        "zIndex": "1000",
+        "background": "rgb(247, 247, 242)",
+        "position": "sticky"
+      },
+      "hero": {
+        "visible": true,
+        "copyOpacity": "1",
+        "visualOpacity": "1",
+        "h1Height": 135,
+        "h1Width": 308,
+        "h1FontSize": "51px"
+      },
+      "reducedMotion": false
+    },
+    "anchors": [
+      {
+        "href": "#problem",
+        "targetTop": 152,
+        "headerBottom": 65,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#roles",
+        "targetTop": 152,
+        "headerBottom": 65,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#journey",
+        "targetTop": 174,
+        "headerBottom": 65,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#spatial",
+        "targetTop": 1667,
+        "headerBottom": 65,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#digital",
+        "targetTop": 233,
+        "headerBottom": 65,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#testing",
+        "targetTop": 2545,
+        "headerBottom": 65,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#outcome",
+        "targetTop": 319,
+        "headerBottom": 65,
+        "visibleBelowHeader": true
+      }
+    ],
+    "links": [
+      {
+        "href": "http://127.0.0.1:4177/#work",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#problem",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#roles",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#journey",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#spatial",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#digital",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#testing",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#outcome",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/quiet-fitness-cabin.html",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "issues": {
+      "js": [],
+      "consoleErrors": [],
+      "imageFailures": [],
+      "notFound": []
+    }
+  },
+  "reduced": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reduced": true,
+    "firstLoad": {
+      "document": {
+        "width": 390,
+        "clientWidth": 390,
+        "height": 13338
+      },
+      "overflow": 0,
+      "sections": {
+        "hero": {
+          "top": 81,
+          "bottom": 1041,
+          "height": 960,
+          "width": 358
+        },
+        "problem": {
+          "top": 1113,
+          "bottom": 1894,
+          "height": 781,
+          "width": 358
+        },
+        "roles": {
+          "top": 1966,
+          "bottom": 3589,
+          "height": 1622,
+          "width": 390
+        },
+        "opportunity": {
+          "top": 3661,
+          "bottom": 4452,
+          "height": 791,
+          "width": 358
+        },
+        "journey": {
+          "top": 4524,
+          "bottom": 5967,
+          "height": 1443,
+          "width": 390
+        },
+        "spatial": {
+          "top": 6039,
+          "bottom": 7595,
+          "height": 1556,
+          "width": 390
+        },
+        "digital": {
+          "top": 7667,
+          "bottom": 9988,
+          "height": 2321,
+          "width": 390
+        },
+        "testing": {
+          "top": 10060,
+          "bottom": 11507,
+          "height": 1447,
+          "width": 390
+        },
+        "outcome": {
+          "top": 11579,
+          "bottom": 13116,
+          "height": 1537,
+          "width": 390
+        },
+        "footer": {
+          "top": 13116,
+          "bottom": 13338,
+          "height": 222,
+          "width": 358
+        }
+      },
+      "gaps": {
+        "hero_to_problem": 72,
+        "problem_to_roles": 72,
+        "roles_to_opportunity": 72,
+        "opportunity_to_journey": 72,
+        "journey_to_spatial": 72,
+        "spatial_to_digital": 72,
+        "digital_to_testing": 72,
+        "testing_to_outcome": 72,
+        "outcome_to_footer": 0
+      },
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/hero-family-app.webp",
+          "complete": true,
+          "naturalWidth": 2000,
+          "naturalHeight": 1300,
+          "renderedWidth": 356,
+          "renderedHeight": 350,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/service-blueprint-source.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 1211,
+          "renderedWidth": 358,
+          "renderedHeight": 210,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-evidence.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 1166,
+          "renderedWidth": 358,
+          "renderedHeight": 270,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-postcards.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 484,
+          "renderedWidth": 358,
+          "renderedHeight": 108,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/research-interviews.webp",
+          "complete": false,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "renderedWidth": 358,
+          "renderedHeight": 2256,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/app-concept-screens.webp",
+          "complete": false,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "renderedWidth": 358,
+          "renderedHeight": 2130,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/workshop-evidence.webp",
+          "complete": false,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "renderedWidth": 358,
+          "renderedHeight": 2162,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-postcards.webp",
+          "complete": false,
+          "naturalWidth": 2200,
+          "naturalHeight": 484,
+          "renderedWidth": 358,
+          "renderedHeight": 484,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/service-blueprint-source.webp",
+          "complete": false,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "renderedWidth": 358,
+          "renderedHeight": 2162,
+          "visible": true,
+          "objectFit": "contain"
+        }
+      ],
+      "imageFailures": [
+        "http://127.0.0.1:4177/assets/connected-long-journey/full/research-interviews.webp",
+        "http://127.0.0.1:4177/assets/connected-long-journey/full/app-concept-screens.webp",
+        "http://127.0.0.1:4177/assets/connected-long-journey/full/workshop-evidence.webp",
+        "http://127.0.0.1:4177/assets/connected-long-journey/workshop-postcards.webp",
+        "http://127.0.0.1:4177/assets/connected-long-journey/full/service-blueprint-source.webp"
+      ],
+      "motionNodeCount": 0,
+      "hiddenMotion": [],
+      "header": {
+        "height": 65,
+        "zIndex": "1000",
+        "background": "rgb(247, 247, 242)",
+        "position": "sticky"
+      },
+      "hero": {
+        "visible": true,
+        "copyOpacity": "1",
+        "visualOpacity": "1",
+        "h1Height": 135,
+        "h1Width": 308,
+        "h1FontSize": "51px"
+      },
+      "reducedMotion": true
+    },
+    "metrics": {
+      "document": {
+        "width": 390,
+        "clientWidth": 390,
+        "height": 13338
+      },
+      "overflow": 0,
+      "sections": {
+        "hero": {
+          "top": 81,
+          "bottom": 1041,
+          "height": 960,
+          "width": 358
+        },
+        "problem": {
+          "top": 1113,
+          "bottom": 1894,
+          "height": 781,
+          "width": 358
+        },
+        "roles": {
+          "top": 1966,
+          "bottom": 3589,
+          "height": 1622,
+          "width": 390
+        },
+        "opportunity": {
+          "top": 3661,
+          "bottom": 4452,
+          "height": 791,
+          "width": 358
+        },
+        "journey": {
+          "top": 4524,
+          "bottom": 5967,
+          "height": 1443,
+          "width": 390
+        },
+        "spatial": {
+          "top": 6039,
+          "bottom": 7595,
+          "height": 1556,
+          "width": 390
+        },
+        "digital": {
+          "top": 7667,
+          "bottom": 9988,
+          "height": 2321,
+          "width": 390
+        },
+        "testing": {
+          "top": 10060,
+          "bottom": 11507,
+          "height": 1447,
+          "width": 390
+        },
+        "outcome": {
+          "top": 11579,
+          "bottom": 13116,
+          "height": 1537,
+          "width": 390
+        },
+        "footer": {
+          "top": 13116,
+          "bottom": 13338,
+          "height": 222,
+          "width": 358
+        }
+      },
+      "gaps": {
+        "hero_to_problem": 72,
+        "problem_to_roles": 72,
+        "roles_to_opportunity": 72,
+        "opportunity_to_journey": 72,
+        "journey_to_spatial": 72,
+        "spatial_to_digital": 72,
+        "digital_to_testing": 72,
+        "testing_to_outcome": 72,
+        "outcome_to_footer": 0
+      },
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/hero-family-app.webp",
+          "complete": true,
+          "naturalWidth": 2000,
+          "naturalHeight": 1300,
+          "renderedWidth": 356,
+          "renderedHeight": 350,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/service-blueprint-source.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 1211,
+          "renderedWidth": 358,
+          "renderedHeight": 210,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-evidence.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 1166,
+          "renderedWidth": 358,
+          "renderedHeight": 270,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-postcards.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 484,
+          "renderedWidth": 358,
+          "renderedHeight": 108,
+          "visible": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/research-interviews.webp",
+          "complete": true,
+          "naturalWidth": 5130,
+          "naturalHeight": 2256,
+          "renderedWidth": 358,
+          "renderedHeight": 2256,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/app-concept-screens.webp",
+          "complete": true,
+          "naturalWidth": 3975,
+          "naturalHeight": 2130,
+          "renderedWidth": 358,
+          "renderedHeight": 2130,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/workshop-evidence.webp",
+          "complete": true,
+          "naturalWidth": 4076,
+          "naturalHeight": 2162,
+          "renderedWidth": 358,
+          "renderedHeight": 2162,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/workshop-postcards.webp",
+          "complete": true,
+          "naturalWidth": 2200,
+          "naturalHeight": 484,
+          "renderedWidth": 358,
+          "renderedHeight": 484,
+          "visible": true,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4177/assets/connected-long-journey/full/service-blueprint-source.webp",
+          "complete": true,
+          "naturalWidth": 3923,
+          "naturalHeight": 2162,
+          "renderedWidth": 358,
+          "renderedHeight": 2162,
+          "visible": true,
+          "objectFit": "contain"
+        }
+      ],
+      "imageFailures": [],
+      "motionNodeCount": 0,
+      "hiddenMotion": [],
+      "header": {
+        "height": 65,
+        "zIndex": "1000",
+        "background": "rgb(247, 247, 242)",
+        "position": "sticky"
+      },
+      "hero": {
+        "visible": true,
+        "copyOpacity": "1",
+        "visualOpacity": "1",
+        "h1Height": 135,
+        "h1Width": 308,
+        "h1FontSize": "51px"
+      },
+      "reducedMotion": true
+    },
+    "anchors": [
+      {
+        "href": "#problem",
+        "targetTop": 152,
+        "headerBottom": 65,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#roles",
+        "targetTop": 152,
+        "headerBottom": 65,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#journey",
+        "targetTop": 180,
+        "headerBottom": 65,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#spatial",
+        "targetTop": 1667,
+        "headerBottom": 65,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#digital",
+        "targetTop": 221,
+        "headerBottom": 65,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#testing",
+        "targetTop": 2545,
+        "headerBottom": 65,
+        "visibleBelowHeader": true
+      },
+      {
+        "href": "#outcome",
+        "targetTop": 319,
+        "headerBottom": 65,
+        "visibleBelowHeader": true
+      }
+    ],
+    "links": [
+      {
+        "href": "http://127.0.0.1:4177/#work",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#problem",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#roles",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#journey",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#spatial",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#digital",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#testing",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/connected-long-journey.html#outcome",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4177/cases/quiet-fitness-cabin.html",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "issues": {
+      "js": [],
+      "consoleErrors": [],
+      "imageFailures": [],
+      "notFound": []
+    }
+  },
+  "generatedAt": "2026-08-08T23:40:11.951Z"
+}

@@ -1,0 +1,880 @@
+{
+  "generatedAt": "2026-08-09T13:38:55.648Z",
+  "build": {
+    "command": "npm.cmd run build",
+    "status": "passed"
+  },
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "pages": {
+      "homepage": {
+        "page": "homepage",
+        "url": "http://127.0.0.1:4193/",
+        "zoom": {
+          "devicePixelRatio": 1,
+          "scale": 1
+        },
+        "overflow": 0,
+        "imageFailures": [],
+        "hiddenMotion": [],
+        "header": null,
+        "scan": {
+          "h1": "为运动健康与\n智能产品，\n设计清晰、可控的\n人本体验。",
+          "heroCopy": "李昶 · 产品设计师 / UX设计师",
+          "roles": [
+            "主要贡献: 产品设计、UX 设计与决策流程",
+            "能力与方法: 用户研究 · 交互设计 · AI 透明度",
+            "主要贡献: 用户研究、服务系统与空间体验设计",
+            "能力与方法: 服务蓝图 · 空间系统 · App 原型",
+            "主要贡献: 多角色研究、产品体验与服务系统设计",
+            "能力与方法: 异步沟通 · 亲子任务 · 服务系统"
+          ],
+          "headings": [
+            "Should I Work Out Today?",
+            "从身体状态、空间体验到长期连接，设计复杂系统里清晰而有温度的下一步。",
+            "Quiet Fitness Cabin",
+            "Connected on a Long Journey",
+            "在研究、系统与技术之间建立可理解的产品体验。",
+            "如果你正在设计更清晰、更可控的人本产品，欢迎联系我。"
+          ],
+          "projects": [
+            "Should I Work Out Today?",
+            "Quiet Fitness Cabin",
+            "Connected on a Long Journey"
+          ],
+          "boundaryMatches": 5
+        },
+        "links": [
+          {
+            "href": "http://127.0.0.1:4193/#top",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/#work",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/#about",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/chang-li-cv.pdf",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/#contact",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/should-i-work-out-today.html",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/quiet-fitness-cabin.html",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html",
+            "status": 200,
+            "ok": true
+          }
+        ],
+        "brokenLinks": []
+      },
+      "case01": {
+        "page": "case01",
+        "url": "http://127.0.0.1:4193/cases/should-i-work-out-today.html",
+        "zoom": {
+          "devicePixelRatio": 1,
+          "scale": 1
+        },
+        "overflow": 0,
+        "imageFailures": [],
+        "hiddenMotion": [],
+        "header": {
+          "position": "sticky",
+          "height": 77,
+          "zIndex": "1000"
+        },
+        "scan": {
+          "h1": "Should I\nWork Out Today?",
+          "heroCopy": "01",
+          "roles": [
+            "角色: 产品设计 / UX设计",
+            "关注: Human-Centred AI / Decision Support",
+            "状态: 进行中 / 未上线"
+          ],
+          "headings": [
+            "计划没有消失，但现实发生了变化。",
+            "系统整理信息，用户保留最后决定。",
+            "三个决定定义了 AI应该做什么，也定义了它 不应该 做什么。",
+            "从状态变化到最终选择，一个连续而可纠正的 决策过程。",
+            "目前的证据支持迭代，不支持夸大的结论。"
+          ],
+          "projects": [],
+          "boundaryMatches": 3
+        },
+        "links": [
+          {
+            "href": "http://127.0.0.1:4193/",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/should-i-work-out-today.html#overview",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/should-i-work-out-today.html#system",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/should-i-work-out-today.html#decisions",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/should-i-work-out-today.html#experience",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/should-i-work-out-today.html#testing",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/#work",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/quiet-fitness-cabin.html",
+            "status": 200,
+            "ok": true
+          }
+        ],
+        "brokenLinks": []
+      },
+      "case02": {
+        "page": "case02",
+        "url": "http://127.0.0.1:4193/cases/quiet-fitness-cabin.html",
+        "zoom": {
+          "devicePixelRatio": 1,
+          "scale": 1
+        },
+        "overflow": 0,
+        "imageFailures": [],
+        "hiddenMotion": [],
+        "header": {
+          "position": "sticky",
+          "height": 77,
+          "zIndex": "1000"
+        },
+        "scan": {
+          "h1": "Quiet\nFitness Cabin",
+          "heroCopy": "Product–Service System / Fitness Experience",
+          "roles": [
+            "Role: Product / Service / UX Design",
+            "Status: Concept Project"
+          ],
+          "headings": [
+            "困难不只发生在训练开始后。",
+            "解决方案不能只是增加一个私人房间。",
+            "数字产品、空间与现场支持必须被当作同一条路径。",
+            "空间设计的作用，是把“可控感”变成可使用的边界。",
+            "每一个界面都在减少进入服务之前的一种不确定性。",
+            "低保真测试暴露了流程问题；它没有证明系统已经有效。",
+            "一个已形成系统逻辑、但仍需要被验证的概念。"
+          ],
+          "projects": [],
+          "boundaryMatches": 14
+        },
+        "links": [
+          {
+            "href": "http://127.0.0.1:4193/#work",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/quiet-fitness-cabin.html#friction",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/quiet-fitness-cabin.html#journey",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/quiet-fitness-cabin.html#outcome",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html",
+            "status": 200,
+            "ok": true
+          }
+        ],
+        "brokenLinks": []
+      },
+      "case03": {
+        "page": "case03",
+        "url": "http://127.0.0.1:4193/cases/connected-long-journey.html",
+        "zoom": {
+          "devicePixelRatio": 1,
+          "scale": 1
+        },
+        "overflow": 0,
+        "imageFailures": [],
+        "hiddenMotion": [],
+        "header": {
+          "position": "sticky",
+          "height": 77,
+          "zIndex": "1000"
+        },
+        "scan": {
+          "h1": "Connected\non a Long\nJourney",
+          "heroCopy": "Product–Service System / Family Connection",
+          "roles": [
+            "Role: Product / UX / Service Design",
+            "Status: 2024 Academic concept",
+            "Focus: User research · Multi-stakeholder thinking · Service design · Interaction design"
+          ],
+          "headings": [
+            "联系变少不是核心问题；真正困难的是无法同步参与。",
+            "同一段分离，对司机、配偶与孩子意味着不同负担。",
+            "设计机会不是让家庭“联系更多”，而是让参与更容易发生。",
+            "数字产品、家庭互动与服务支持不是三个项目，而是一条连续体验。",
+            "关系维护不只发生在屏幕里。",
+            "App 的价值不是功能多，而是让不同家庭成员留下可被回应的互动。",
+            "已有证据可以推动设计迭代，但还不能证明长期效果。",
+            "项目形成了系统概念，但没有完成真实世界验证。"
+          ],
+          "projects": [],
+          "boundaryMatches": 14
+        },
+        "links": [
+          {
+            "href": "http://127.0.0.1:4193/#work",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html#problem",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html#roles",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html#journey",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html#spatial",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html#digital",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html#testing",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html#outcome",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/quiet-fitness-cabin.html",
+            "status": 200,
+            "ok": true
+          }
+        ],
+        "brokenLinks": []
+      }
+    },
+    "steps": [
+      {
+        "action": "About",
+        "result": {
+          "url": "http://127.0.0.1:4193/#about",
+          "visible": true
+        }
+      },
+      {
+        "action": "Resume / CV",
+        "result": {
+          "href": "/chang-li-cv.pdf",
+          "download": true,
+          "status": 200,
+          "ok": true,
+          "contentType": "application/pdf"
+        }
+      },
+      {
+        "action": "Contact",
+        "result": {
+          "url": "http://127.0.0.1:4193/#contact",
+          "visible": true,
+          "mailto": "mailto:ddshynh2025@163.com"
+        }
+      },
+      {
+        "action": "Homepage → Case 01",
+        "result": {
+          "clicked": true,
+          "url": "http://127.0.0.1:4193/cases/should-i-work-out-today.html"
+        }
+      },
+      {
+        "action": "Case 01 appendix",
+        "result": {
+          "present": true,
+          "open": true,
+          "closedHeight": 127,
+          "openHeight": 3144,
+          "closed": true,
+          "closedAgainHeight": 127
+        }
+      },
+      {
+        "action": "Case 01 Back → Homepage",
+        "result": {
+          "clicked": true,
+          "url": "http://127.0.0.1:4193/#work"
+        }
+      },
+      {
+        "action": "Homepage → Case 01 again",
+        "result": {
+          "clicked": true,
+          "url": "http://127.0.0.1:4193/cases/should-i-work-out-today.html"
+        }
+      },
+      {
+        "action": "Case 01 → Case 02",
+        "result": {
+          "clicked": true,
+          "url": "http://127.0.0.1:4193/cases/quiet-fitness-cabin.html"
+        }
+      },
+      {
+        "action": "Case 02 appendix",
+        "result": {
+          "present": true,
+          "open": true,
+          "closedHeight": 74,
+          "openHeight": 1546,
+          "closed": true,
+          "closedAgainHeight": 74
+        }
+      },
+      {
+        "action": "Case 02 → Case 03",
+        "result": {
+          "clicked": true,
+          "url": "http://127.0.0.1:4193/cases/connected-long-journey.html"
+        }
+      },
+      {
+        "action": "Case 03 appendix",
+        "result": {
+          "present": true,
+          "open": true,
+          "closedHeight": 74,
+          "openHeight": 2743,
+          "closed": true,
+          "closedAgainHeight": 74
+        }
+      },
+      {
+        "action": "Case 03 → Homepage",
+        "result": {
+          "clicked": true,
+          "url": "http://127.0.0.1:4193/#work"
+        }
+      }
+    ],
+    "issues": {
+      "runtimeErrors": [],
+      "consoleErrors": [],
+      "notFound": [],
+      "imageNetworkFailures": []
+    },
+    "finalUrl": "http://127.0.0.1:4193/#work"
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "pages": {
+      "homepage": {
+        "page": "homepage",
+        "url": "http://127.0.0.1:4193/",
+        "zoom": {
+          "devicePixelRatio": 1,
+          "scale": 1
+        },
+        "overflow": 0,
+        "imageFailures": [],
+        "hiddenMotion": [],
+        "header": null,
+        "scan": {
+          "h1": "为运动健康与\n智能产品，\n设计清晰、可控的\n人本体验。",
+          "heroCopy": "李昶 · 产品设计师 / UX设计师",
+          "roles": [
+            "主要贡献: 产品设计、UX 设计与决策流程",
+            "能力与方法: 用户研究 · 交互设计 · AI 透明度",
+            "主要贡献: 用户研究、服务系统与空间体验设计",
+            "能力与方法: 服务蓝图 · 空间系统 · App 原型",
+            "主要贡献: 多角色研究、产品体验与服务系统设计",
+            "能力与方法: 异步沟通 · 亲子任务 · 服务系统"
+          ],
+          "headings": [
+            "Should I Work Out Today?",
+            "从身体状态、空间体验到长期连接，设计复杂系统里清晰而有温度的下一步。",
+            "Quiet Fitness Cabin",
+            "Connected on a Long Journey",
+            "在研究、系统与技术之间建立可理解的产品体验。",
+            "如果你正在设计更清晰、更可控的人本产品，欢迎联系我。"
+          ],
+          "projects": [
+            "Should I Work Out Today?",
+            "Quiet Fitness Cabin",
+            "Connected on a Long Journey"
+          ],
+          "boundaryMatches": 5
+        },
+        "links": [
+          {
+            "href": "http://127.0.0.1:4193/#top",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/#work",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/#about",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/chang-li-cv.pdf",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/#contact",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/should-i-work-out-today.html",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/quiet-fitness-cabin.html",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html",
+            "status": 200,
+            "ok": true
+          }
+        ],
+        "brokenLinks": []
+      },
+      "case01": {
+        "page": "case01",
+        "url": "http://127.0.0.1:4193/cases/should-i-work-out-today.html",
+        "zoom": {
+          "devicePixelRatio": 1,
+          "scale": 1
+        },
+        "overflow": 0,
+        "imageFailures": [],
+        "hiddenMotion": [],
+        "header": {
+          "position": "sticky",
+          "height": 65,
+          "zIndex": "1000"
+        },
+        "scan": {
+          "h1": "Should I\nWork Out Today?",
+          "heroCopy": "01",
+          "roles": [
+            "角色: 产品设计 / UX设计",
+            "关注: Human-Centred AI / Decision Support",
+            "状态: 进行中 / 未上线"
+          ],
+          "headings": [
+            "计划没有消失，但现实发生了变化。",
+            "系统整理信息，用户保留最后决定。",
+            "三个决定定义了 AI应该做什么，也定义了它 不应该 做什么。",
+            "从状态变化到最终选择，一个连续而可纠正的 决策过程。",
+            "目前的证据支持迭代，不支持夸大的结论。"
+          ],
+          "projects": [],
+          "boundaryMatches": 3
+        },
+        "links": [
+          {
+            "href": "http://127.0.0.1:4193/",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/should-i-work-out-today.html#overview",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/should-i-work-out-today.html#system",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/should-i-work-out-today.html#decisions",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/should-i-work-out-today.html#experience",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/should-i-work-out-today.html#testing",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/#work",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/quiet-fitness-cabin.html",
+            "status": 200,
+            "ok": true
+          }
+        ],
+        "brokenLinks": []
+      },
+      "case02": {
+        "page": "case02",
+        "url": "http://127.0.0.1:4193/cases/quiet-fitness-cabin.html",
+        "zoom": {
+          "devicePixelRatio": 1,
+          "scale": 1
+        },
+        "overflow": 0,
+        "imageFailures": [],
+        "hiddenMotion": [],
+        "header": {
+          "position": "sticky",
+          "height": 65,
+          "zIndex": "1000"
+        },
+        "scan": {
+          "h1": "Quiet\nFitness Cabin",
+          "heroCopy": "Product–Service System / Fitness Experience",
+          "roles": [
+            "Role: Product / Service / UX Design",
+            "Status: Concept Project"
+          ],
+          "headings": [
+            "困难不只发生在训练开始后。",
+            "解决方案不能只是增加一个私人房间。",
+            "数字产品、空间与现场支持必须被当作同一条路径。",
+            "空间设计的作用，是把“可控感”变成可使用的边界。",
+            "每一个界面都在减少进入服务之前的一种不确定性。",
+            "低保真测试暴露了流程问题；它没有证明系统已经有效。",
+            "一个已形成系统逻辑、但仍需要被验证的概念。"
+          ],
+          "projects": [],
+          "boundaryMatches": 14
+        },
+        "links": [
+          {
+            "href": "http://127.0.0.1:4193/#work",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/quiet-fitness-cabin.html#friction",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/quiet-fitness-cabin.html#journey",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/quiet-fitness-cabin.html#outcome",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html",
+            "status": 200,
+            "ok": true
+          }
+        ],
+        "brokenLinks": []
+      },
+      "case03": {
+        "page": "case03",
+        "url": "http://127.0.0.1:4193/cases/connected-long-journey.html",
+        "zoom": {
+          "devicePixelRatio": 1,
+          "scale": 1
+        },
+        "overflow": 0,
+        "imageFailures": [],
+        "hiddenMotion": [],
+        "header": {
+          "position": "sticky",
+          "height": 65,
+          "zIndex": "1000"
+        },
+        "scan": {
+          "h1": "Connected\non a Long\nJourney",
+          "heroCopy": "Product–Service System / Family Connection",
+          "roles": [
+            "Role: Product / UX / Service Design",
+            "Status: 2024 Academic concept",
+            "Focus: User research · Multi-stakeholder thinking · Service design · Interaction design"
+          ],
+          "headings": [
+            "联系变少不是核心问题；真正困难的是无法同步参与。",
+            "同一段分离，对司机、配偶与孩子意味着不同负担。",
+            "设计机会不是让家庭“联系更多”，而是让参与更容易发生。",
+            "数字产品、家庭互动与服务支持不是三个项目，而是一条连续体验。",
+            "关系维护不只发生在屏幕里。",
+            "App 的价值不是功能多，而是让不同家庭成员留下可被回应的互动。",
+            "已有证据可以推动设计迭代，但还不能证明长期效果。",
+            "项目形成了系统概念，但没有完成真实世界验证。"
+          ],
+          "projects": [],
+          "boundaryMatches": 14
+        },
+        "links": [
+          {
+            "href": "http://127.0.0.1:4193/#work",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html#problem",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html#roles",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html#journey",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html#spatial",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html#digital",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html#testing",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/connected-long-journey.html#outcome",
+            "status": 200,
+            "ok": true
+          },
+          {
+            "href": "http://127.0.0.1:4193/cases/quiet-fitness-cabin.html",
+            "status": 200,
+            "ok": true
+          }
+        ],
+        "brokenLinks": []
+      }
+    },
+    "steps": [
+      {
+        "action": "mobile menu",
+        "open": {
+          "expanded": "true",
+          "ariaHidden": "false",
+          "visibility": "visible",
+          "opacity": "1",
+          "pointerEvents": "auto",
+          "links": 4
+        },
+        "close": {
+          "expanded": "false",
+          "ariaHidden": "true",
+          "visibility": "hidden"
+        }
+      },
+      {
+        "action": "About",
+        "result": {
+          "url": "http://127.0.0.1:4193/#about",
+          "visible": true
+        }
+      },
+      {
+        "action": "Resume / CV",
+        "result": {
+          "href": "/chang-li-cv.pdf",
+          "download": true,
+          "status": 200,
+          "ok": true,
+          "contentType": "application/pdf"
+        }
+      },
+      {
+        "action": "Contact",
+        "result": {
+          "url": "http://127.0.0.1:4193/#contact",
+          "visible": true,
+          "mailto": "mailto:ddshynh2025@163.com"
+        }
+      },
+      {
+        "action": "Homepage → Case 01",
+        "result": {
+          "clicked": true,
+          "url": "http://127.0.0.1:4193/cases/should-i-work-out-today.html"
+        }
+      },
+      {
+        "action": "Case 01 appendix",
+        "result": {
+          "present": true,
+          "open": true,
+          "closedHeight": 157,
+          "openHeight": 3632,
+          "closed": true,
+          "closedAgainHeight": 157
+        }
+      },
+      {
+        "action": "Case 01 Back → Homepage",
+        "result": {
+          "clicked": true,
+          "url": "http://127.0.0.1:4193/#work"
+        }
+      },
+      {
+        "action": "Homepage → Case 01 again",
+        "result": {
+          "clicked": true,
+          "url": "http://127.0.0.1:4193/cases/should-i-work-out-today.html"
+        }
+      },
+      {
+        "action": "Case 01 → Case 02",
+        "result": {
+          "clicked": true,
+          "url": "http://127.0.0.1:4193/cases/quiet-fitness-cabin.html"
+        }
+      },
+      {
+        "action": "Case 02 appendix",
+        "result": {
+          "present": true,
+          "open": true,
+          "closedHeight": 74,
+          "openHeight": 1741,
+          "closed": true,
+          "closedAgainHeight": 74
+        }
+      },
+      {
+        "action": "Case 02 → Case 03",
+        "result": {
+          "clicked": true,
+          "url": "http://127.0.0.1:4193/cases/connected-long-journey.html"
+        }
+      },
+      {
+        "action": "Case 03 appendix",
+        "result": {
+          "present": true,
+          "open": true,
+          "closedHeight": 74,
+          "openHeight": 1308,
+          "closed": true,
+          "closedAgainHeight": 74
+        }
+      },
+      {
+        "action": "Case 03 → Homepage",
+        "result": {
+          "clicked": true,
+          "url": "http://127.0.0.1:4193/#work"
+        }
+      }
+    ],
+    "issues": {
+      "runtimeErrors": [],
+      "consoleErrors": [],
+      "notFound": [],
+      "imageNetworkFailures": []
+    },
+    "finalUrl": "http://127.0.0.1:4193/#work"
+  },
+  "summary": {
+    "browserZoom100": true,
+    "horizontalOverflow": 0,
+    "imageFailures": 0,
+    "runtimeErrors": 0,
+    "consoleErrors": 0,
+    "notFound": 0,
+    "brokenInternalLinks": 0,
+    "hiddenMotionNodes": 0,
+    "pathPass": true
+  }
+}

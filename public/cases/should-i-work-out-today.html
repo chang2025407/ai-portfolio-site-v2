@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Should I Work Out Today?｜AI 辅助运动决策支持｜李昶</title>
+    <meta name="description" content="一个仍在进行中的 MSc 毕业设计：探索如何让 AI 辅助运动决策保持可理解、可纠正且由用户掌控。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Should I Work Out Today?｜AI 辅助运动决策支持" />
+    <meta property="og:description" content="一个关于可理解、可纠正和用户可控的 AI 辅助运动决策概念。" />
+    <link rel="canonical" href="https://ai-portfolio-site-tan.vercel.app/cases/should-i-work-out-today.html" />
+    <meta property="og:url" content="https://ai-portfolio-site-tan.vercel.app/cases/should-i-work-out-today.html" />
+    <meta property="og:image" content="https://ai-portfolio-site-tan.vercel.app/assets/should-i-work-out-today/v15-zh/v15-zh-entry.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.png" />
+    <link rel="stylesheet" href="/cases/style.css" />
+    <link rel="stylesheet" href="/cases/should-i-work-out-today.css" />
+  </head>
+  <body class="workout-case">
+    <header class="case-nav">
+      <div class="case-shell case-nav-inner">
+        <a class="case-brand" href="/" aria-label="返回首页">
+          <strong>李昶</strong><span>产品设计师 / UX设计师</span>
+        </a>
+        <nav class="case-nav-links" aria-label="案例导航">
+          <a href="#overview">概览</a><a href="#system">系统</a><a href="#decisions">关键决策</a><a href="#experience">核心体验</a><a href="#testing">验证与反思</a>
+        </nav>
+        <details class="case-mobile-nav">
+          <summary aria-label="打开案例导航"><span></span><span></span></summary>
+          <nav aria-label="移动端案例导航">
+            <a href="#overview">概览</a><a href="#system">系统</a><a href="#decisions">关键决策</a><a href="#experience">核心体验</a><a href="#testing">验证与反思</a>
+          </nav>
+        </details>
+      </div>
+    </header>
+
+    <main>
+      <section id="overview" class="case-opening case-shell" aria-labelledby="case-opening-title">
+        <div class="opening-topline" data-motion="hero-context">
+          <a class="back-link" data-motion="hero-back" href="/#work">← 返回项目</a>
+          <div class="opening-identity" aria-label="项目标识">
+            <span>CASE 01</span>
+            <span>FINAL PROJECT / PRODUCT + UX</span>
+          </div>
+        </div>
+
+        <div class="opening-main">
+          <div class="opening-left">
+            <div class="opening-copy">
+            <p class="opening-discipline" data-motion="hero-context">PRODUCT / UX <span>+</span> HUMAN-CENTRED AI</p>
+            <h1 id="case-opening-title" data-motion="hero-title">Should I Work Out Today?</h1>
+            <p class="opening-premise" data-motion="hero-copy">当早些时候制定的计划不再符合当下的时间、精力、意愿或身体状态，问题不只是能否坚持，而是现在什么选择仍然合适。</p>
+            <p class="opening-question" data-motion="hero-copy">AI 辅助决策如何帮助用户调整原定训练，同时保留透明度、自主权与安全边界？</p>
+            </div>
+
+            <div id="problem" class="decision-moment" data-motion>
+              <p class="opening-section-label">决策时刻</p>
+              <h2>计划在早些时候制定，决定发生在现在。</h2>
+              <ol class="decision-moment-flow" aria-label="从原计划到当前决定">
+                <li class="decision-stage decision-stage-plan">
+                  <time datetime="08:00">08:00</time>
+                  <strong>早间计划</strong>
+                  <p>下班后练腿</p>
+                </li>
+                <li class="decision-flow-arrow" aria-hidden="true">→</li>
+                <li class="decision-stage decision-stage-reality">
+                  <time datetime="18:30">18:30</time>
+                  <strong>当前状态</strong>
+                  <p>疲惫 / 状态已经改变</p>
+                </li>
+                <li class="decision-flow-arrow" aria-hidden="true">→</li>
+                <li class="decision-stage decision-stage-gap">
+                  <strong>现在什么更合适？</strong>
+                  <ul aria-label="可能的决定">
+                    <li>调整</li>
+                    <li>推迟</li>
+                    <li>放弃</li>
+                    <li>安全停止</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="opening-right">
+            <dl class="opening-status" data-motion="hero-meta" aria-label="项目状态">
+              <div><dt>界面证据</dt><dd>高保真 Figma 原型</dd></div>
+              <div><dt>技术实验</dt><dd>独立 Python / ML 可行性实验</dd></div>
+              <div><dt>部署状态</dt><dd>未部署</dd></div>
+              <div><dt>临床属性</dt><dd>非临床</dd></div>
+              <div><dt>集成边界</dt><dd>ML 未与 Figma 实时连接</dd></div>
+            </dl>
+
+            <div class="opening-ui-evidence" data-motion="hero-visual" aria-label="中文 V1.5 项目界面证据">
+              <figure class="opening-ui-screen opening-ui-screen-primary">
+                <figcaption><span>01</span> 描述变化</figcaption>
+                <img src="/assets/should-i-work-out-today/v15-zh/v15-zh-entry.png" alt="中文 V1.5 输入界面，用于描述原计划与当前状态" width="450" height="904" fetchpriority="high" decoding="async" />
+              </figure>
+              <figure class="opening-ui-screen">
+                <figcaption><span>02</span> 检查判断</figcaption>
+                <img src="/assets/should-i-work-out-today/v15-zh/v15-zh-judgement.png" alt="中文 V1.5 暂时判断界面，展示判断因素与解释入口" width="450" height="904" decoding="async" />
+              </figure>
+              <figure class="opening-ui-screen">
+                <figcaption><span>03</span> 选择方案</figcaption>
+                <img src="/assets/should-i-work-out-today/v15-zh/v15-zh-options-selected.png" alt="中文 V1.5 方案界面，已选择更短训练" width="450" height="904" decoding="async" />
+              </figure>
+              <p class="opening-ui-caption">中文 V1.5 · 真实 Figma 界面 · 预设原型内容</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="system" class="case-chapter research-chapter" aria-labelledby="research-title">
+        <div class="case-shell chapter-shell">
+          <header class="chapter-intro">
+            <p class="chapter-number">02</p>
+            <div>
+              <p class="chapter-label">从研究到设计原则</p>
+              <h2 id="research-title">一个不确定的选择，需要怎样的 AI 支持？</h2>
+              <p class="chapter-lead">文献没有替项目提供用户结果。它帮助划定了设计必须尊重的边界：自主、情境、可理解的交互，以及安全治理。</p>
+            </div>
+          </header>
+
+          <div class="research-lenses" aria-label="四个研究视角">
+            <article>
+              <span>01 / 运动自主</span>
+              <h3>不把坚持训练当作唯一成功。</h3>
+              <p>用户可以调整、推迟或拒绝，而不是被单一的坚持训练目标推动。</p>
+              <small>Teixeira et al. (2012) · Ntoumanis &amp; Moller (2025)</small>
+            </article>
+            <article>
+              <span>02 / 情境化支持</span>
+              <h3>状态变化本身就是决策时刻。</h3>
+              <p>时间、精力、意愿和身体状态共同决定什么在当下仍然合适。</p>
+              <small>Nahum-Shani et al. (2018) · Hardeman et al. (2019)</small>
+            </article>
+            <article>
+              <span>03 / 人机交互</span>
+              <h3>解释、纠正与控制必须一起设计。</h3>
+              <p>解释不是结果后的装饰；用户需要先看到系统如何理解，再决定是否继续。</p>
+              <small>Amershi et al. (2019) · Miller (2019) · Bucinca et al. (2021)</small>
+            </article>
+            <article>
+              <span>04 / 安全与治理</span>
+              <h3>风险不能被压缩为一个准确率。</h3>
+              <p>安全边界需要独立于普通推荐逻辑，并明确说明系统不能做什么。</p>
+              <small>WHO (2021) · NIST AI RMF (2023)</small>
+            </article>
+          </div>
+
+          <div class="chapter-flow-arrow" aria-hidden="true">↓</div>
+
+          <div class="constraint-spine">
+            <div class="constraint-spine-heading">
+              <p>研究 → 设计约束</p>
+              <h3>三组核心原则，共同保护用户保留最终决定权。</h3>
+            </div>
+            <div class="constraint-groups">
+              <article>
+                <p><strong>透明</strong><span>+</span><strong>可纠正</strong></p>
+                <h4>看见解释，也能修正理解。</h4>
+              </article>
+              <article>
+                <p><strong>自主</strong><span>+</span><strong>低压力</strong></p>
+                <h4>接受、调整、拒绝或停止都成立。</h4>
+              </article>
+              <article>
+                <p><strong>安全</strong><span>+</span><strong>最少数据</strong></p>
+                <h4>安全中断普通逻辑；默认只用于本次会话。</h4>
+              </article>
+            </div>
+          </div>
+
+          <div class="chapter-flow-arrow" aria-hidden="true">↓</div>
+
+          <div class="strand-bridge" aria-label="两条研究路径">
+            <article>
+              <span>人机交互</span>
+              <h3>用户应该看到、质疑和控制什么？</h3>
+              <p>解释、纠正、选择、自主、隐私与可用性。</p>
+            </article>
+            <div class="strand-bridge-centre" aria-hidden="true"><span>+</span></div>
+            <article>
+              <span>技术可行性</span>
+              <h3>决策路径能否被检查和测试？</h3>
+              <p>合成数据、检索、意图规则、安全门与评估。</p>
+            </article>
+            <p class="strand-boundary">ML 未与 Figma 实时连接</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="decisions" class="case-chapter product-chapter" aria-labelledby="product-title">
+        <span id="experience" class="anchor-target" aria-hidden="true"></span>
+        <div class="case-shell chapter-shell">
+          <header class="chapter-intro chapter-intro-light">
+            <p class="chapter-number">03</p>
+            <div>
+              <p class="chapter-label">核心产品体验</p>
+              <h2 id="product-title">用户可以检查、质疑，并离开建议。</h2>
+              <p class="chapter-lead">中文 V1.5 把一次决策拆成可检查的连续过程。判断是暂时结论，选择保持并列，最后确认仍属于用户。</p>
+            </div>
+          </header>
+
+          <div class="experience-sequence">
+            <article class="experience-moment experience-moment-a">
+              <div class="experience-copy">
+                <p>A / 描述变化 → 检查理解</p>
+                <h3>先表达变化，再检查系统如何理解。</h3>
+                <p>用户描述原计划和当前阻碍，随后看到系统整理出的计划、精力、身体不适与近期训练信息。</p>
+                <span class="evidence-status status-unvalidated">已设计，尚未正式验证 · 纠正</span>
+              </div>
+              <div class="experience-media experience-media-pair">
+                <figure><figcaption>01 / 输入变化</figcaption><img src="/assets/should-i-work-out-today/v15-zh/v15-zh-entry.png" alt="中文 V1.5 输入界面" width="450" height="904" loading="lazy" decoding="async" /></figure>
+                <figure><figcaption>02 / 检查理解</figcaption><img src="/assets/should-i-work-out-today/v15-zh/v15-zh-understanding.png" alt="中文 V1.5 理解界面，支持检查和修改系统理解" width="450" height="904" loading="lazy" decoding="async" /></figure>
+              </div>
+            </article>
+
+            <article class="experience-moment experience-moment-b">
+              <div class="experience-copy">
+                <p>B / 暂时判断 → 查看理由</p>
+                <h3>判断不是答案，而是一项可检查的暂时结论。</h3>
+                <p>界面同时展示暂时判断、影响因素与“为什么是调整？”，并保留查看其他处理方式的路径。</p>
+              </div>
+              <div class="judgement-stage">
+                <figure class="judgement-screen"><figcaption><span>暂时判断</span><strong>影响这次判断的因素 · 为什么是“调整”？</strong></figcaption><img src="/assets/should-i-work-out-today/v15-zh/v15-zh-judgement.png" alt="中文 V1.5 判断界面，展示暂时判断、影响因素与理由入口" width="450" height="904" loading="lazy" decoding="async" /></figure>
+              </div>
+            </article>
+
+            <article class="experience-moment experience-moment-c">
+              <div class="experience-copy">
+                <p>C / 比较方案 → 选择或拒绝</p>
+                <h3>替代选项并列出现，不把继续训练包装成更正确。</h3>
+                <p>用户可以选择更短版本、改变形式、推迟，也可以表示这些选项都不合适。</p>
+                <span class="evidence-status status-unvalidated">已设计，尚未正式验证 · 明确拒绝 · 降低压力</span>
+              </div>
+              <div class="experience-media experience-media-pair options-comparison">
+                <figure><figcaption>03 / 方案展开</figcaption><img src="/assets/should-i-work-out-today/v15-zh/v15-zh-options-open.png" alt="中文 V1.5 方案界面，尚未选择" width="450" height="904" loading="lazy" decoding="async" /></figure>
+                <figure><figcaption>04 / 已选择方案</figcaption><img src="/assets/should-i-work-out-today/v15-zh/v15-zh-options-selected.png" alt="中文 V1.5 方案界面，已选择更短训练" width="450" height="904" loading="lazy" decoding="async" /></figure>
+              </div>
+            </article>
+
+            <article class="experience-moment experience-moment-d">
+              <div class="experience-copy">
+                <p>D / 隐私选择 → 用户确认</p>
+                <h3>保存方式是明确选择；最终决定仍然属于用户。</h3>
+                <p>默认推荐只用于本次会话。结果页保留安全边界，同时确认用户选择的结果，而不是宣告系统决定。</p>
+                <span class="evidence-status status-unvalidated">已设计，尚未正式验证 · 安全停止交互</span>
+              </div>
+              <div class="experience-media experience-media-pair privacy-summary">
+                <figure><figcaption>05 / 隐私选择</figcaption><img src="/assets/should-i-work-out-today/v15-zh/v15-zh-save.png" alt="中文 V1.5 信息保存选择界面" width="450" height="904" loading="lazy" decoding="async" /></figure>
+                <figure><figcaption>06 / 用户确认</figcaption><img src="/assets/should-i-work-out-today/v15-zh/v15-zh-summary.png" alt="中文 V1.5 结果页，强调最终决定权与安全边界" width="450" height="904" loading="lazy" decoding="async" /></figure>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="testing" class="case-chapter testing-chapter" aria-labelledby="testing-title">
+        <div class="case-shell chapter-shell">
+          <header class="chapter-intro">
+            <p class="chapter-number">04</p>
+            <div>
+              <p class="chapter-label">测试如何改变设计</p>
+              <h2 id="testing-title">两个被阻断或误解的交互，推动了具体修订。</h2>
+              <p class="chapter-lead">这些是小样本形成性证据。它支持具体迭代，不支持广泛验证、统计代表性或长期使用结论。</p>
+            </div>
+          </header>
+
+          <div class="testing-sample" aria-label="测试样本边界">
+            <article class="pilot-sample"><span>试测</span><strong>1</strong><h3>名参与者</h3><p>单独报告，不进入第二轮的任何 4/4 结果。</p></article>
+            <article class="round2-sample"><span>第二轮</span><strong>4</strong><h3>名新参与者</h3><div><p><b>4/4</b> 理解决策支持不是训练计划生成器。</p><p><b>4/4</b> 理解最终决定权仍属于自己。</p></div></article>
+          </div>
+
+          <div class="revision-stories">
+            <article class="revision-story privacy-revision">
+              <header><p>隐私 / 使用中观察</p><h3>隐私措辞被误解。</h3><span>在第二轮的两次测试中观察到</span></header>
+              <ol class="revision-chain">
+                <li><span>观察到</span><strong>隐私措辞被误解</strong></li>
+                <li aria-hidden="true">→</li>
+                <li><span>修订后</span><strong>明确说明不保留信息</strong></li>
+                <li aria-hidden="true">→</li>
+                <li><span>验证</span><strong>随后由 1 名新参与者独立完成</strong></li>
+              </ol>
+              <div class="revision-media">
+                <figure><img src="/assets/should-i-work-out-today/round2-privacy-no-save.png" alt="第二轮中文隐私测试原型证据" width="450" height="904" loading="lazy" decoding="async" /><figcaption>真实第二轮形成性测试原型</figcaption></figure>
+                <figure><img src="/assets/should-i-work-out-today/v15-zh/v15-zh-save.png" alt="中文 V1.5 信息保存界面，明确本次输入不保留" width="450" height="904" loading="lazy" decoding="async" /><figcaption>中文 V1.5 · 明确说明不保留信息</figcaption></figure>
+              </div>
+            </article>
+
+            <article class="revision-story time-revision">
+              <header><p>时间编辑 / 使用中观察</p><h3>原交互无法被完成。</h3><span>参与者 3 无法完成原交互</span></header>
+              <ol class="revision-chain">
+                <li><span>观察到</span><strong>不可操作的预览阻断了任务完成</strong></li>
+                <li aria-hidden="true">→</li>
+                <li><span>重建后</span><strong>18:30 → 19:00</strong></li>
+                <li aria-hidden="true">→</li>
+                <li><span>验证</span><strong>参与者 4 独立完成</strong></li>
+              </ol>
+              <div class="revision-media">
+                <figure><img src="/assets/should-i-work-out-today/round2-time-edit.png" alt="第二轮时间编辑原型，显示 18:30 与 19:00" width="450" height="904" loading="lazy" decoding="async" /><figcaption>重建后的时间选择</figcaption></figure>
+                <figure><img src="/assets/should-i-work-out-today/round2-time-reminder.png" alt="第二轮修改训练时间后的提醒状态" width="450" height="904" loading="lazy" decoding="async" /><figcaption>修订后的提醒状态</figcaption></figure>
+              </div>
+            </article>
+          </div>
+
+          <p class="testing-boundary">这些修订是具体证据，不是百分比结论，也不能证明完整原型已被验证。</p>
+        </div>
+      </section>
+
+      <section id="technical" class="case-chapter technical-chapter" aria-labelledby="technical-title">
+        <div class="case-shell chapter-shell">
+          <header class="chapter-intro chapter-intro-dark">
+            <p class="chapter-number">05</p>
+            <div>
+              <p class="chapter-label">技术可行性与架构修订</p>
+              <h2 id="technical-title">技术实验不是产品后端，但它让决策边界可以被检查。</h2>
+              <p class="chapter-lead">这是与 Figma 分开的 Python 可行性实验。它使用合成数据比较检索方法、检查规则层，并冻结最终留出集。</p>
+            </div>
+          </header>
+
+          <div class="technical-boundaries" aria-label="技术证据边界">
+            <span>独立技术实验</span>
+            <span>合成数据证据</span>
+            <span>非部署准确率</span>
+            <span>ML 未与 Figma 连接</span>
+          </div>
+
+          <section class="technical-panel workspace-panel" aria-labelledby="workspace-title">
+            <header><p>01 / 技术工作区</p><h3 id="workspace-title">真实技术文件，压缩成一条可核查的路径。</h3></header>
+            <div class="workspace-strip">
+              <span>Python</span><span>Sentence Transformers</span><span>MiniLM-L6-v2</span><span>384-D</span><span>余弦相似度检索</span><span>TF-IDF</span><span>意图规则</span><span>安全门</span><span>CSV / JSONL / JSON</span><span>4 个测试文件 / 40 个方法</span>
+            </div>
+            <p>完整仓库结构、数据集预览、测试矩阵与代码摘录保留在 PDF。</p>
+          </section>
+
+          <section class="technical-panel trace-panel" aria-labelledby="trace-title">
+            <header><p>02 / 一条真实决策路径</p><h3 id="trace-title">原始检索结果被保留；可检查的意图规则改变最终结果。</h3></header>
+            <ol class="decision-trace">
+              <li class="trace-input"><span>输入</span><blockquote>“I planned leg day after work, but I feel tired and do not want to go outside.”</blockquote></li>
+              <li class="trace-retrieval"><span>检索 / 前 3 项</span><ul><li><b>D01 · decline</b><em>0.6173</em></li><li><b>A01 · adapt</b><em>0.5885</em></li><li><b>D02 · decline</b><em>0.5715</em></li></ul></li>
+              <li class="trace-raw"><span>原始预测</span><strong>DECLINE</strong></li>
+              <li class="trace-rule"><span>意图规则</span><strong>fatigue + outdoor barrier<br />without total refusal</strong></li>
+              <li class="trace-layer"><span>决策层</span><strong>explicit_intent_override</strong></li>
+              <li class="trace-final"><span>最终预测</span><strong>ADAPT</strong></li>
+            </ol>
+            <dl class="trace-fields"><div><dt>requires_confirmation</dt><dd>false</dd></div><div><dt>similarity_margin</dt><dd>0.0288</dd></div></dl>
+            <p class="technical-note">相似度表示文本接近程度，不是校准后的置信度，也不是医疗判断。</p>
+          </section>
+
+          <section class="technical-panel failure-panel" aria-labelledby="failure-title">
+            <header><p>03 / 失败 → 架构修订</p><h3 id="failure-title">一次错误的 safety_stop，改变了谁可以授权安全结果。</h3></header>
+            <blockquote>“Today is chest day, but I only have twenty minutes.”</blockquote>
+            <div class="failure-observation"><div><span>预期</span><strong>ADAPT</strong></div><div><span>实际</span><strong>SAFETY_STOP</strong></div><div><span>安全规则</span><strong>false</strong></div><div><span>最相似项</span><strong>0.4971</strong></div></div>
+            <ol class="architecture-timeline"><li><b>16</b><span>开发集</span></li><li><b>48</b><span>稳健性集</span></li><li class="architecture-failure"><b>错误暴露</b><span>语义检索提出 safety_stop</span></li><li class="architecture-gate"><b>安全门</b><span>必须存在明确安全信号</span></li><li><b>60</b><span>冻结留出集</span></li></ol>
+            <p class="architecture-rule">相似度可以提出结果；只有明确规则可以授权最终的 <code>safety_stop</code>。</p>
+          </section>
+
+          <section class="technical-panel evaluation-panel" aria-labelledby="evaluation-title">
+            <header><p>04 / 冻结合成留出集</p><h3 id="evaluation-title">纯检索与安全门控架构的冻结比较。</h3></header>
+            <div class="evaluation-bars">
+              <div><span>MiniLM 纯检索</span><i style="--score:55%"></i><strong>33/60 · 55%</strong></div>
+              <div><span>MiniLM 安全门控</span><i style="--score:70%"></i><strong>42/60 · 70%</strong></div>
+              <div><span>TF-IDF 纯检索</span><i style="--score:63.33%"></i><strong>38/60 · 63.33%</strong></div>
+              <div><span>TF-IDF 安全门控</span><i style="--score:70%"></i><strong>42/60 · 70%</strong></div>
+            </div>
+            <div class="safety-summary"><article><strong>0/45</strong><span>最终安全误报</span></article><article><strong>14/15</strong><span>安全召回</span></article><article><strong>H-EN-S07</strong><span>保留失败案例 · “pain became suddenly sharp”</span></article></div>
+          </section>
+
+          <section class="technical-panel mapping-panel" aria-labelledby="mapping-title">
+            <header><p>05 / 技术信号 → 界面表达</p><h3 id="mapping-title">技术信号与界面表达是概念映射，不是实时集成。</h3></header>
+            <div class="signal-mappings"><div><span>raw prediction</span><b>→</b><strong>暂时判断</strong></div><div><span>decision / override reason</span><b>→</b><strong>可见理由</strong></div><div><span>safety gate</span><b>→</b><strong>安全边界</strong></div></div>
+            <div class="future-interaction"><span>requires_confirmation</span><strong>未来用户界面交互 · 未实现 / 未测试</strong></div>
+          </section>
+        </div>
+      </section>
+
+      <section id="evidence" class="case-chapter evidence-chapter" aria-labelledby="evidence-title">
+        <div class="case-shell chapter-shell">
+          <header class="chapter-intro">
+            <p class="chapter-number">06</p>
+            <div>
+              <p class="chapter-label">证据边界、反思与完整项目</p>
+              <h2 id="evidence-title">这个项目建立了什么，也没有建立什么。</h2>
+              <p class="chapter-lead">已完成不等于已部署，已测试不等于广泛验证，概念映射不等于已经实现。</p>
+            </div>
+          </header>
+
+          <section class="evidence-block status-map" aria-labelledby="status-title">
+            <h3 id="status-title">每项结论都有证据状态</h3>
+            <div class="status-groups">
+              <article class="status-completed"><h4>已完成</h4><p>中文 V1.5 Figma</p><p>独立 ML 可行性实验</p><p>冻结技术输出</p></article>
+              <article class="status-tested"><h4>已测试</h4><p>第二轮产品定位</p><p>最终决定权理解</p><p>隐私修订 · 时间编辑修订</p></article>
+              <article class="status-unvalidated-group"><h4>已设计但未验证</h4><p>纠正 · 明确拒绝</p><p>降低压力 · safety_stop 交互</p></article>
+              <article class="status-conceptual"><h4>概念映射</h4><p>ML 与 Figma 实时连接</p><p>实际信息保留 / 存储行为</p><p>requires_confirmation 交互</p></article>
+              <article class="status-future"><h4>待验证</h4><p>真实用户语言 · 更大且更多样的测试</p><p>专业安全审查 · 无障碍</p><p>受控连接原型</p></article>
+            </div>
+          </section>
+
+          <section class="evidence-block reflection-grid" aria-labelledby="reflection-title">
+            <h3 id="reflection-title">受证据边界约束的项目贡献</h3>
+            <div class="supported-list"><p>本项目支持的结论</p><ol><li>AI 对输入的理解应当可检查。</li><li>用户保留最终决定权。</li><li>相似度检索不足以定义项目边界。</li><li>失败分析改变了技术架构。</li><li>以人为中心的 AI 同时需要系统逻辑与界面逻辑。</li></ol></div>
+            <div class="unsupported-list"><p>本项目不支持的结论</p><ul><li>临床安全性</li><li>真实世界分类器可靠性</li><li>长期行为改变</li><li>部署就绪</li></ul></div>
+          </section>
+
+          <section class="evidence-block next-steps" aria-labelledby="next-title">
+            <header><p>下一步</p><h3 id="next-title">从已审查的边界走向受控验证。</h3></header>
+            <ol><li>数据与安全审查</li><li>测试尚未验证的交互</li><li>真实用户语言 / 知情同意与伦理</li><li>受控的 ML 连接原型</li><li>只有证据充分时才扩大研究</li></ol>
+          </section>
+
+          <details class="evidence-block references">
+            <summary><span><b>9 条已核查参考文献</b><strong>查看完整来源</strong></span><i>+</i></summary>
+            <ol>
+              <li>Amershi, S. et al. (2019) “Guidelines for Human-AI Interaction”, CHI 2019. doi:10.1145/3290605.3300233.</li>
+              <li>Bucinca, Z., Malaya, M.B. and Gajos, K.Z. (2021) “To Trust or to Think”, PACM HCI, 5(CSCW1), article 188. doi:10.1145/3449287.</li>
+              <li>Hardeman, W. et al. (2019) “A systematic review of JITAIs to promote physical activity”, IJBNPA, 16, article 31. doi:10.1186/s12966-019-0792-7.</li>
+              <li>Miller, T. (2019) “Explanation in artificial intelligence: Insights from the social sciences”, Artificial Intelligence, 267, pp. 1–38. doi:10.1016/j.artint.2018.07.007.</li>
+              <li>Nahum-Shani, I. et al. (2018) “JITAIs in Mobile Health: Key Components and Design Principles”, Annals of Behavioral Medicine, 52(6), pp. 446–462. doi:10.1007/s12160-016-9830-8.</li>
+              <li>National Institute of Standards and Technology (2023) Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. doi:10.6028/NIST.AI.100-1.</li>
+              <li>Ntoumanis, N. and Moller, A.C. (2025) “Self-determination theory informed research for promoting physical activity”, Psychology of Sport and Exercise, 80, 102879. doi:10.1016/j.psychsport.2025.102879.</li>
+              <li>Teixeira, P.J. et al. (2012) “Exercise, physical activity, and self-determination theory: a systematic review”, IJBNPA, 9, article 78. doi:10.1186/1479-5868-9-78.</li>
+              <li>World Health Organization (2021) Ethics and governance of artificial intelligence for health. Geneva: WHO. ISBN 978-92-4-002920-0.</li>
+            </ol>
+          </details>
+        </div>
+
+        <div class="project-artifact">
+          <div class="case-shell project-artifact-inner">
+            <div><p>完整项目档案</p><h3>查看完整项目 PDF</h3><span>FINAL V3 · 21 页 · 8.6 MB</span></div>
+            <div class="artifact-actions"><a href="/assets/should-i-work-out-today/Chang-Li_Should-I-Work-Out-Today_Case-Study-FINAL-v3.pdf" target="_blank" rel="noopener">在线查看</a><a href="/assets/should-i-work-out-today/Chang-Li_Should-I-Work-Out-Today_Case-Study-FINAL-v3.pdf" download>下载 PDF</a></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="case01-lightbox" id="case01-lightbox" aria-labelledby="case01-lightbox-caption">
+      <button class="case01-lightbox__close" type="button" aria-label="关闭大图">关闭</button>
+      <img id="case01-lightbox-image" alt="" />
+      <p id="case01-lightbox-caption"></p>
+    </dialog>
+
+    <footer class="case-footer"><div class="case-shell"><a class="back-link" href="/#work">← 返回项目</a><a class="next-project" href="/cases/quiet-fitness-cabin.html"><span>下一项目</span><strong>Quiet Fitness Cabin</strong><b>→</b></a></div></footer>
+    <script>
+      (() => {
+        if (!window.matchMedia("(min-width: 901px)").matches) return;
+        const dialog = document.getElementById("case01-lightbox");
+        const dialogImage = document.getElementById("case01-lightbox-image");
+        const dialogCaption = document.getElementById("case01-lightbox-caption");
+        const close = dialog?.querySelector(".case01-lightbox__close");
+        const images = document.querySelectorAll(".opening-ui-evidence img, .experience-moment img, .revision-story img");
+        let trigger = null;
+        if (!dialog || !dialogImage || !dialogCaption || !close) return;
+
+        images.forEach((image) => {
+          image.dataset.fullSrc = image.getAttribute("src");
+          image.tabIndex = 0;
+          image.setAttribute("role", "button");
+          image.setAttribute("aria-label", `${image.alt}，查看原始尺寸大图`);
+          const open = () => {
+            trigger = image;
+            dialogImage.src = image.dataset.fullSrc;
+            dialogImage.alt = image.alt;
+            dialogCaption.textContent = image.closest("figure")?.querySelector("figcaption")?.textContent.trim() || image.alt;
+            dialog.showModal();
+            close.focus();
+          };
+          image.addEventListener("click", open);
+          image.addEventListener("keydown", (event) => {
+            if (event.key === "Enter" || event.key === " ") {
+              event.preventDefault();
+              open();
+            }
+          });
+        });
+
+        close.addEventListener("click", () => dialog.close());
+        dialog.addEventListener("click", (event) => { if (event.target === dialog) dialog.close(); });
+        dialog.addEventListener("close", () => trigger?.focus());
+      })();
+    </script>
+    <script>
+      (() => {
+        const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
+        let observer;
+        try {
+          observer = new IntersectionObserver((entries) => entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            revealOnce(entry.target);
+          }), { threshold: 0.12, rootMargin: "0px 0px -6% 0px" });
+        } catch { return; }
+
+        document.documentElement.classList.add("case-motion-enabled");
+        const reveal = (element, delay = 0) => {
+          if (!element) return;
+          element.classList.add("case-motion-item");
+          element.style.setProperty("--case-motion-delay", `${reduced.matches ? 0 : delay}ms`);
+          requestAnimationFrame(() => element.classList.add("is-visible"));
+        };
+        const revealAll = (elements, start = 0, step = 70) => elements.forEach((element, index) => reveal(element, start + index * step));
+        const query = (selector, root = document) => [...root.querySelectorAll(selector)];
+
+        const heroGroups = [
+          query(".case-opening .opening-topline"),
+          query(".case-opening .opening-discipline"),
+          query(".case-opening h1"),
+          query(".case-opening .opening-premise, .case-opening .opening-question"),
+          query(".case-opening .opening-status"),
+          query(".case-opening .opening-ui-evidence"),
+        ];
+        heroGroups.forEach((group, index) => revealAll(group, index * 80, 0));
+
+        const motionTargets = [
+          document.querySelector("#problem"),
+          ...query(".chapter-intro"),
+          ...query(".research-lenses, .constraint-spine, .strand-bridge"),
+          ...query(".experience-moment"),
+          ...query(".testing-sample, .revision-story"),
+          ...query(".technical-panel"),
+          ...query(".evidence-block"),
+        ].filter(Boolean);
+        motionTargets.forEach((target) => target.classList.add("case-motion-item"));
+        const pendingTargets = new Set(motionTargets);
+
+        function revealOnce(target) {
+          if (!pendingTargets.has(target)) return;
+          reveal(target, 0);
+          pendingTargets.delete(target);
+          observer.unobserve(target);
+        }
+
+        const catchUpMotion = () => pendingTargets.forEach((target) => {
+          if (target.getBoundingClientRect().top < window.innerHeight * 1.08) revealOnce(target);
+        });
+
+        if (reduced.matches) {
+          document.documentElement.classList.add("case-motion-reduced");
+          motionTargets.forEach(revealOnce);
+        } else {
+          motionTargets.forEach((target) => observer.observe(target));
+          window.addEventListener("scroll", catchUpMotion, { passive: true });
+          catchUpMotion();
+        }
+
+        reduced.addEventListener?.("change", () => {
+          if (!reduced.matches) return;
+          document.documentElement.classList.add("case-motion-reduced");
+          motionTargets.forEach(revealOnce);
+        });
+      })();
+    </script>
+  </body>
+</html>

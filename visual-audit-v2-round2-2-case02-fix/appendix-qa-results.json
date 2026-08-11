@@ -1,0 +1,231 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "data": {
+      "overflow": 0,
+      "appendix": {
+        "top": 9552,
+        "height": 1546
+      },
+      "imageCount": 6,
+      "images": [
+        {
+          "src": "http://127.0.0.1:4174/assets/quiet-fitness-cabin/full/research-field.webp",
+          "complete": true,
+          "naturalWidth": 2250,
+          "naturalHeight": 972,
+          "renderedWidth": 610,
+          "renderedHeight": 264,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4174/assets/quiet-fitness-cabin/full/user-journey.webp",
+          "complete": true,
+          "naturalWidth": 2997,
+          "naturalHeight": 1533,
+          "renderedWidth": 610,
+          "renderedHeight": 312,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4174/assets/quiet-fitness-cabin/full/service-blueprint.webp",
+          "complete": true,
+          "naturalWidth": 3492,
+          "naturalHeight": 2250,
+          "renderedWidth": 610,
+          "renderedHeight": 393,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4174/assets/quiet-fitness-cabin/full/app-information-architecture.webp",
+          "complete": true,
+          "naturalWidth": 1967,
+          "naturalHeight": 954,
+          "renderedWidth": 610,
+          "renderedHeight": 296,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4174/assets/quiet-fitness-cabin/full/app-low-fidelity-testing.webp",
+          "complete": true,
+          "naturalWidth": 1746,
+          "naturalHeight": 897,
+          "renderedWidth": 610,
+          "renderedHeight": 313,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4174/assets/quiet-fitness-cabin/full/business-canvas.webp",
+          "complete": true,
+          "naturalWidth": 1890,
+          "naturalHeight": 1575,
+          "renderedWidth": 610,
+          "renderedHeight": 508,
+          "objectFit": "contain"
+        }
+      ],
+      "earlyInformationArchitecture": {
+        "src": "http://127.0.0.1:4174/assets/quiet-fitness-cabin/full/app-information-architecture.webp",
+        "renderedContent": "url(\"http://127.0.0.1:4174/assets/quiet-fitness-cabin/app-information-architecture.webp\")",
+        "naturalWidth": 1967,
+        "naturalHeight": 954,
+        "renderedWidth": 610,
+        "renderedHeight": 296,
+        "objectFit": "contain",
+        "height": "295.938px",
+        "complete": true,
+        "rightEdge": 1340
+      },
+      "links": [
+        {
+          "href": "http://127.0.0.1:4174/#work",
+          "status": 200,
+          "ok": true
+        },
+        {
+          "href": "http://127.0.0.1:4174/cases/quiet-fitness-cabin.html#friction",
+          "status": 200,
+          "ok": true
+        },
+        {
+          "href": "http://127.0.0.1:4174/cases/quiet-fitness-cabin.html#journey",
+          "status": 200,
+          "ok": true
+        },
+        {
+          "href": "http://127.0.0.1:4174/cases/quiet-fitness-cabin.html#outcome",
+          "status": 200,
+          "ok": true
+        },
+        {
+          "href": "http://127.0.0.1:4174/cases/connected-long-journey.html",
+          "status": 200,
+          "ok": true
+        }
+      ]
+    },
+    "issues": {
+      "js": [],
+      "images": [],
+      "notFound": []
+    }
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "data": {
+      "overflow": 0,
+      "appendix": {
+        "top": 11351,
+        "height": 1741
+      },
+      "imageCount": 6,
+      "images": [
+        {
+          "src": "http://127.0.0.1:4174/assets/quiet-fitness-cabin/full/research-field.webp",
+          "complete": true,
+          "naturalWidth": 2250,
+          "naturalHeight": 972,
+          "renderedWidth": 358,
+          "renderedHeight": 155,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4174/assets/quiet-fitness-cabin/full/user-journey.webp",
+          "complete": true,
+          "naturalWidth": 2997,
+          "naturalHeight": 1533,
+          "renderedWidth": 358,
+          "renderedHeight": 183,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4174/assets/quiet-fitness-cabin/full/service-blueprint.webp",
+          "complete": true,
+          "naturalWidth": 3492,
+          "naturalHeight": 2250,
+          "renderedWidth": 358,
+          "renderedHeight": 231,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4174/assets/quiet-fitness-cabin/full/app-information-architecture.webp",
+          "complete": true,
+          "naturalWidth": 1967,
+          "naturalHeight": 954,
+          "renderedWidth": 358,
+          "renderedHeight": 174,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4174/assets/quiet-fitness-cabin/full/app-low-fidelity-testing.webp",
+          "complete": true,
+          "naturalWidth": 1746,
+          "naturalHeight": 897,
+          "renderedWidth": 358,
+          "renderedHeight": 184,
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:4174/assets/quiet-fitness-cabin/full/business-canvas.webp",
+          "complete": true,
+          "naturalWidth": 1890,
+          "naturalHeight": 1575,
+          "renderedWidth": 358,
+          "renderedHeight": 298,
+          "objectFit": "contain"
+        }
+      ],
+      "earlyInformationArchitecture": {
+        "src": "http://127.0.0.1:4174/assets/quiet-fitness-cabin/full/app-information-architecture.webp",
+        "renderedContent": "url(\"http://127.0.0.1:4174/assets/quiet-fitness-cabin/app-information-architecture.webp\")",
+        "naturalWidth": 1967,
+        "naturalHeight": 954,
+        "renderedWidth": 358,
+        "renderedHeight": 174,
+        "objectFit": "contain",
+        "height": "173.688px",
+        "complete": true,
+        "rightEdge": 374
+      },
+      "links": [
+        {
+          "href": "http://127.0.0.1:4174/#work",
+          "status": 200,
+          "ok": true
+        },
+        {
+          "href": "http://127.0.0.1:4174/cases/quiet-fitness-cabin.html#friction",
+          "status": 200,
+          "ok": true
+        },
+        {
+          "href": "http://127.0.0.1:4174/cases/quiet-fitness-cabin.html#journey",
+          "status": 200,
+          "ok": true
+        },
+        {
+          "href": "http://127.0.0.1:4174/cases/quiet-fitness-cabin.html#outcome",
+          "status": 200,
+          "ok": true
+        },
+        {
+          "href": "http://127.0.0.1:4174/cases/connected-long-journey.html",
+          "status": 200,
+          "ok": true
+        }
+      ]
+    },
+    "issues": {
+      "js": [],
+      "images": [],
+      "notFound": []
+    }
+  },
+  "generatedAt": "2026-08-08T23:10:24.586Z"
+}

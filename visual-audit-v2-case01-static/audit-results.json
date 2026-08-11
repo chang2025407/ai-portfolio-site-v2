@@ -1,0 +1,20 @@
+{
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 13484,
+    "closed": true,
+    "images": [],
+    "v14": 0
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 16914,
+    "closed": true,
+    "images": [],
+    "v14": 0
+  },
+  "runtimeErrors": [],
+  "networkFailures": []
+}

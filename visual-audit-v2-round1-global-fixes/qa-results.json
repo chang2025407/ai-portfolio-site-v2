@@ -1,0 +1,586 @@
+{
+  "results": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": 0,
+      "images": [],
+      "header": {
+        "height": 76,
+        "zIndex": "1000",
+        "background": "rgb(241, 238, 231)",
+        "opacity": "1",
+        "position": "sticky"
+      },
+      "anchors": [
+        {
+          "id": "mobile-navigation",
+          "margin": "92px"
+        },
+        {
+          "id": "top",
+          "margin": "92px"
+        },
+        {
+          "id": "work",
+          "margin": "112px"
+        },
+        {
+          "id": "about",
+          "margin": "92px"
+        },
+        {
+          "id": "contact",
+          "margin": "112px"
+        }
+      ],
+      "anchor": {
+        "id": "work",
+        "targetTop": 112,
+        "headerBottom": 76,
+        "visible": true
+      },
+      "interaction": {
+        "linkCount": 9,
+        "menu": {
+          "kind": "button",
+          "expanded": "false",
+          "visible": "visible"
+        }
+      },
+      "links": 9,
+      "issues": {
+        "js": [],
+        "images": [],
+        "notFound": []
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": 0,
+      "images": [],
+      "header": {
+        "height": 64,
+        "zIndex": "1000",
+        "background": "rgb(241, 238, 231)",
+        "opacity": "1",
+        "position": "sticky"
+      },
+      "anchors": [
+        {
+          "id": "mobile-navigation",
+          "margin": "76px"
+        },
+        {
+          "id": "top",
+          "margin": "76px"
+        },
+        {
+          "id": "work",
+          "margin": "112px"
+        },
+        {
+          "id": "about",
+          "margin": "76px"
+        },
+        {
+          "id": "contact",
+          "margin": "112px"
+        }
+      ],
+      "anchor": {
+        "id": "work",
+        "targetTop": 112,
+        "headerBottom": 64,
+        "visible": true
+      },
+      "interaction": {
+        "linkCount": 9,
+        "menu": {
+          "kind": "button",
+          "expanded": "false",
+          "visible": "hidden"
+        }
+      },
+      "links": 9,
+      "issues": {
+        "js": [],
+        "images": [],
+        "notFound": []
+      }
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": 0,
+      "images": [],
+      "header": {
+        "height": 77,
+        "zIndex": "1000",
+        "background": "rgb(243, 240, 232)",
+        "opacity": "1",
+        "position": "sticky"
+      },
+      "anchors": [
+        {
+          "id": "overview",
+          "margin": "92px"
+        },
+        {
+          "id": "problem",
+          "margin": "92px"
+        },
+        {
+          "id": "system",
+          "margin": "92px"
+        },
+        {
+          "id": "decisions",
+          "margin": "92px"
+        },
+        {
+          "id": "experience",
+          "margin": "92px"
+        },
+        {
+          "id": "testing",
+          "margin": "92px"
+        }
+      ],
+      "anchor": {
+        "id": "overview",
+        "targetTop": 77,
+        "headerBottom": 77,
+        "visible": true
+      },
+      "interaction": {
+        "linkCount": 8,
+        "menu": {
+          "kind": "details",
+          "open": true
+        },
+        "appendix": {
+          "present": true,
+          "open": true,
+          "images": 13
+        }
+      },
+      "links": 8,
+      "issues": {
+        "js": [],
+        "images": [],
+        "notFound": []
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": 0,
+      "images": [],
+      "header": {
+        "height": 65,
+        "zIndex": "1000",
+        "background": "rgb(243, 240, 232)",
+        "opacity": "1",
+        "position": "sticky"
+      },
+      "anchors": [
+        {
+          "id": "overview",
+          "margin": "76px"
+        },
+        {
+          "id": "problem",
+          "margin": "76px"
+        },
+        {
+          "id": "system",
+          "margin": "76px"
+        },
+        {
+          "id": "decisions",
+          "margin": "76px"
+        },
+        {
+          "id": "experience",
+          "margin": "76px"
+        },
+        {
+          "id": "testing",
+          "margin": "76px"
+        }
+      ],
+      "anchor": {
+        "id": "overview",
+        "targetTop": 65,
+        "headerBottom": 65,
+        "visible": true
+      },
+      "interaction": {
+        "linkCount": 8,
+        "menu": {
+          "kind": "details",
+          "open": true
+        },
+        "appendix": {
+          "present": true,
+          "open": true,
+          "images": 13
+        }
+      },
+      "links": 8,
+      "issues": {
+        "js": [],
+        "images": [],
+        "notFound": []
+      }
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": 0,
+      "images": [],
+      "header": {
+        "height": 77,
+        "zIndex": "1000",
+        "background": "rgb(247, 247, 243)",
+        "opacity": "1",
+        "position": "sticky"
+      },
+      "anchors": [
+        {
+          "id": "case-title",
+          "margin": "92px"
+        },
+        {
+          "id": "friction",
+          "margin": "92px"
+        },
+        {
+          "id": "journey",
+          "margin": "92px"
+        },
+        {
+          "id": "spatial",
+          "margin": "92px"
+        },
+        {
+          "id": "digital",
+          "margin": "92px"
+        },
+        {
+          "id": "testing",
+          "margin": "92px"
+        },
+        {
+          "id": "outcome",
+          "margin": "92px"
+        }
+      ],
+      "anchor": {
+        "id": "friction",
+        "targetTop": 184,
+        "headerBottom": 77,
+        "visible": true
+      },
+      "interaction": {
+        "linkCount": 5,
+        "appendix": {
+          "present": true,
+          "open": true,
+          "images": 6
+        }
+      },
+      "links": 5,
+      "issues": {
+        "js": [],
+        "images": [],
+        "notFound": []
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": 0,
+      "images": [],
+      "header": {
+        "height": 65,
+        "zIndex": "1000",
+        "background": "rgb(247, 247, 243)",
+        "opacity": "1",
+        "position": "sticky"
+      },
+      "anchors": [
+        {
+          "id": "case-title",
+          "margin": "76px"
+        },
+        {
+          "id": "friction",
+          "margin": "76px"
+        },
+        {
+          "id": "journey",
+          "margin": "76px"
+        },
+        {
+          "id": "spatial",
+          "margin": "76px"
+        },
+        {
+          "id": "digital",
+          "margin": "76px"
+        },
+        {
+          "id": "testing",
+          "margin": "76px"
+        },
+        {
+          "id": "outcome",
+          "margin": "76px"
+        }
+      ],
+      "anchor": {
+        "id": "friction",
+        "targetTop": 153,
+        "headerBottom": 65,
+        "visible": true
+      },
+      "interaction": {
+        "linkCount": 5,
+        "appendix": {
+          "present": true,
+          "open": true,
+          "images": 6
+        }
+      },
+      "links": 5,
+      "issues": {
+        "js": [],
+        "images": [],
+        "notFound": []
+      }
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": 0,
+      "images": [],
+      "header": {
+        "height": 77,
+        "zIndex": "1000",
+        "background": "rgb(247, 247, 242)",
+        "opacity": "1",
+        "position": "sticky"
+      },
+      "anchors": [
+        {
+          "id": "case-title",
+          "margin": "92px"
+        },
+        {
+          "id": "problem",
+          "margin": "92px"
+        },
+        {
+          "id": "roles",
+          "margin": "92px"
+        },
+        {
+          "id": "journey",
+          "margin": "92px"
+        },
+        {
+          "id": "spatial",
+          "margin": "92px"
+        },
+        {
+          "id": "digital",
+          "margin": "92px"
+        },
+        {
+          "id": "testing",
+          "margin": "92px"
+        },
+        {
+          "id": "outcome",
+          "margin": "92px"
+        }
+      ],
+      "anchor": {
+        "id": "problem",
+        "targetTop": 184,
+        "headerBottom": 77,
+        "visible": true
+      },
+      "interaction": {
+        "linkCount": 9,
+        "appendix": {
+          "present": true,
+          "open": true,
+          "images": 5
+        }
+      },
+      "links": 9,
+      "issues": {
+        "js": [],
+        "images": [],
+        "notFound": []
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": 0,
+      "images": [],
+      "header": {
+        "height": 65,
+        "zIndex": "1000",
+        "background": "rgb(247, 247, 242)",
+        "opacity": "1",
+        "position": "sticky"
+      },
+      "anchors": [
+        {
+          "id": "case-title",
+          "margin": "76px"
+        },
+        {
+          "id": "problem",
+          "margin": "76px"
+        },
+        {
+          "id": "roles",
+          "margin": "76px"
+        },
+        {
+          "id": "journey",
+          "margin": "76px"
+        },
+        {
+          "id": "spatial",
+          "margin": "76px"
+        },
+        {
+          "id": "digital",
+          "margin": "76px"
+        },
+        {
+          "id": "testing",
+          "margin": "76px"
+        },
+        {
+          "id": "outcome",
+          "margin": "76px"
+        }
+      ],
+      "anchor": {
+        "id": "problem",
+        "targetTop": 153,
+        "headerBottom": 65,
+        "visible": true
+      },
+      "interaction": {
+        "linkCount": 9,
+        "appendix": {
+          "present": true,
+          "open": true,
+          "images": 5
+        }
+      },
+      "links": 9,
+      "issues": {
+        "js": [],
+        "images": [],
+        "notFound": []
+      }
+    }
+  ],
+  "reduced": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "overflow": 0,
+    "images": [],
+    "header": {
+      "height": 65,
+      "zIndex": "1000",
+      "background": "rgb(247, 247, 243)",
+      "opacity": "1",
+      "position": "sticky"
+    },
+    "anchors": [
+      {
+        "id": "case-title",
+        "margin": "76px"
+      },
+      {
+        "id": "friction",
+        "margin": "76px"
+      },
+      {
+        "id": "journey",
+        "margin": "76px"
+      },
+      {
+        "id": "spatial",
+        "margin": "76px"
+      },
+      {
+        "id": "digital",
+        "margin": "76px"
+      },
+      {
+        "id": "testing",
+        "margin": "76px"
+      },
+      {
+        "id": "outcome",
+        "margin": "76px"
+      }
+    ],
+    "anchor": {
+      "id": "friction",
+      "targetTop": 152,
+      "headerBottom": 65,
+      "visible": true
+    },
+    "interaction": {
+      "linkCount": 5,
+      "appendix": {
+        "present": true,
+        "open": true,
+        "images": 6
+      }
+    },
+    "links": 5,
+    "issues": {
+      "js": [],
+      "images": [],
+      "notFound": []
+    }
+  },
+  "firstLoad": {
+    "visible": true,
+    "motionReady": true
+  },
+  "generatedAt": "2026-08-08T21:15:23.659Z"
+}

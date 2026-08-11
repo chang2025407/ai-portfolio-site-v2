@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quiet Fitness Cabin｜产品服务系统概念</title>
+    <meta name="description" content="Quiet Fitness Cabin 是一个连接预约、伙伴匹配、训练空间、模块化器械与训练后服务的健身产品服务系统概念。" />
+    <link rel="canonical" href="https://ai-portfolio-site-tan.vercel.app/cases/quiet-fitness-cabin.html" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="stylesheet" href="/cases/quiet-fitness-cabin.css" />
+  </head>
+  <body class="qfc-case">
+    <header class="qfc-nav">
+      <div class="qfc-nav__inner">
+        <a class="qfc-brand" href="/#work" aria-label="返回项目列表"><strong>李昶</strong><span>产品设计师 / UX设计师</span></a>
+        <nav aria-label="案例章节导航"><a href="#research">研究</a><a href="#service">服务系统</a><a href="#space">空间与器械</a><a href="#reflection">反思</a></nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="qfc-opening qfc-wrap" aria-labelledby="case-title">
+        <div class="qfc-opening__copy">
+          <p class="qfc-eyebrow">Product–Service System / Fitness Experience</p>
+          <h1 id="case-title">Quiet<br />Fitness Cabin</h1>
+          <p class="qfc-opening__position">一个连接预约、伙伴匹配、训练空间、模块化器械与训练后服务的健身产品服务系统概念。</p>
+          <div class="qfc-status" aria-label="项目状态"><span>概念设计项目</span><span>未建成</span><span>未完成工程验证</span><span>未完成运营或商业验证</span></div>
+        </div>
+        <figure class="qfc-opening__image"><img src="/assets/quiet-fitness-cabin/hero-space.webp" width="2200" height="1403" alt="Quiet Fitness Cabin 训练空间总体概念效果图" fetchpriority="high" /><figcaption>总体空间效果图｜原始 Fitness.pdf 展板中的空间概念</figcaption></figure>
+      </section>
+
+      <section id="research" class="qfc-chapter qfc-wrap qfc-research">
+        <header class="qfc-chapter__head"><p>02 / 研究</p><h2>传统健身体验中的不确定感</h2><p class="qfc-chapter__lead">原始场馆观察、问题记录与用户旅程材料，指向训练开始前后连续出现的体验摩擦。</p></header>
+        <div class="qfc-research__layout">
+          <div class="qfc-frictions"><article><span>01</span><h3>拥挤与高人流</h3><p>共享场地的密度会改变用户对进入和使用的预期。</p></article><article><span>02</span><h3>被注视 / 暴露感</h3><p>陌生环境中的可见程度可能放大迈出第一步的压力。</p></article><article><span>03</span><h3>对器械不熟悉</h3><p>器械复杂、动作不确定，又不愿在公开环境中主动求助。</p></article><article><span>04</span><h3>独自训练</h3><p>缺少伙伴与陪伴，让开始和持续训练都更难安排。</p></article><article><span>05</span><h3>不敢主动求助</h3><p>用户可能需要指导，却不一定愿意向陌生人开口。</p></article><article><span>06</span><h3>场地与时间不够灵活</h3><p>营业时间、地点与预约状态影响是否能安心到场。</p></article></div>
+          <figure class="qfc-research__image" data-qfc-lightbox><img src="/assets/quiet-fitness-cabin/research-field.webp" data-full-src="/assets/quiet-fitness-cabin/full/research-field-lightbox.webp" width="1160" height="630" alt="原始项目中的健身场馆观察与问题记录" /><figcaption>Field research｜原始项目材料中的观察与提问记录。这里呈现问题方向，不作统计代表性结论。</figcaption></figure>
+        </div>
+        <figure class="qfc-journey-evidence" data-qfc-lightbox><img src="/assets/quiet-fitness-cabin/full/user-journey.webp" data-full-src="/assets/quiet-fitness-cabin/full/user-journey.webp" width="2997" height="1533" loading="lazy" alt="原始项目中的训练前、训练中与训练后用户旅程" /><figcaption>用户旅程材料把不确定感放在寻找、进入、使用器械、拉伸社交与训练后服务的连续过程中理解。</figcaption></figure>
+      </section>
+
+      <section id="transition" class="qfc-chapter qfc-transition">
+        <div class="qfc-wrap"><header class="qfc-chapter__head"><p>03 / 从问题到系统</p><h2>降低训练压力，需要一条连续的服务路径。</h2><p class="qfc-chapter__lead">线上沟通、支持安排、到场、空间使用与训练后服务需要共同发挥作用。</p></header>
+          <ol class="qfc-sequence"><li><span>01</span><strong>训练前</strong></li><li><span>02</span><strong>安排支持</strong></li><li><span>03</span><strong>到达</strong></li><li><span>04</span><strong>线下训练</strong></li><li><span>05</span><strong>训练后支持</strong></li></ol>
+        </div>
+      </section>
+
+      <section id="service" class="qfc-chapter qfc-service">
+        <div class="qfc-wrap"><header class="qfc-chapter__head"><p>04 / 服务系统</p><h2>五个连续阶段，把数字触点、现场支持与空间使用接起来。</h2><p class="qfc-chapter__lead">以下是对原始服务蓝图核心逻辑的网页化重组。每一阶段都同时呈现用户、服务、支持人员与协同流程。</p></header>
+          <div class="qfc-service-system" aria-label="五阶段服务系统">
+            <article><header><span>01</span><h3>在线沟通</h3></header><dl><div><dt>用户行动</dt><dd>提出训练需求，了解服务方式。</dd></div><div><dt>服务触点</dt><dd>线上沟通与服务说明。</dd></div><div><dt>工作人员 / 支持</dt><dd>回应问题，说明可选支持。</dd></div><div><dt>技术 / 协同支持</dt><dd>聊天与用户信息支持。</dd></div></dl></article>
+            <article><header><span>02</span><h3>匹配 / 预约伙伴</h3></header><dl><div><dt>用户行动</dt><dd>查看支持者，选择并确认匹配。</dd></div><div><dt>服务触点</dt><dd>匹配信息与预约确认。</dd></div><div><dt>工作人员 / 支持</dt><dd>确认伙伴预约信息。</dd></div><div><dt>技术 / 协同支持</dt><dd>预约与实时通知系统。</dd></div></dl></article>
+            <article><header><span>03</span><h3>场地预约</h3></header><dl><div><dt>用户行动</dt><dd>确认时间、地点与场地安排。</dd></div><div><dt>服务触点</dt><dd>场地信息与预约入口。</dd></div><div><dt>工作人员 / 支持</dt><dd>协助确认场地使用。</dd></div><div><dt>技术 / 协同支持</dt><dd>预约状态与通知协同。</dd></div></dl></article>
+            <article><header><span>04</span><h3>到场 / 验证</h3></header><dl><div><dt>用户行动</dt><dd>到场并完成预约验证。</dd></div><div><dt>服务触点</dt><dd>入口验证与进入提示。</dd></div><div><dt>工作人员 / 支持</dt><dd>在需要时协助进入空间。</dd></div><div><dt>技术 / 协同支持</dt><dd>预约验证与场地状态。</dd></div></dl></article>
+            <article><header><span>05</span><h3>线下训练与训练后支持</h3></header><dl><div><dt>用户行动</dt><dd>使用器械、训练，并查看训练后信息。</dd></div><div><dt>服务触点</dt><dd>器械、训练协助、淋浴与补给。</dd></div><div><dt>工作人员 / 支持</dt><dd>提供训练、拉伸和现场协助。</dd></div><div><dt>技术 / 协同支持</dt><dd>设备维护、补给与清洁管理。</dd></div></dl></article>
+          </div>
+          <figure class="qfc-documentary" data-qfc-lightbox><img src="/assets/quiet-fitness-cabin/service-blueprint.webp" width="2600" height="1675" loading="lazy" alt="原始项目服务蓝图" /><figcaption>Original service blueprint｜作为项目文档保留；网页主叙事使用上方重组后的服务逻辑。</figcaption></figure>
+        </div>
+      </section>
+
+      <section id="space" class="qfc-chapter qfc-space">
+        <div class="qfc-wrap"><header class="qfc-chapter__head"><p>05 / 空间与器械</p><h2>把“可控感”转化为空间边界、进入路径与设备支持。</h2><p class="qfc-chapter__lead">这是一个以图像为主的概念章节：空间与器械均为原始项目设计输出，不代表建成性能。</p></header>
+          <figure class="qfc-space-hero" data-qfc-lightbox><img src="/assets/quiet-fitness-cabin/hero-space.webp" data-full-src="/assets/quiet-fitness-cabin/full/space-hero-lightbox.webp" width="2200" height="1403" loading="lazy" alt="低密度训练空间总体概念效果图" /><figcaption><strong>Overall spatial proposition</strong><span>设计尝试以较少的同时使用者、明确的训练边界与可见服务节点回应拥挤和暴露感。</span></figcaption></figure>
+          <div class="qfc-space-themes"><article><span>01</span><h3>到达与验证</h3><p>概念将预约信息与到场入口连接，帮助用户在进入训练前确认路径。</p></article><article><span>02</span><h3>低密度分区</h3><p>不同训练区域被用来组织人数、视线与使用边界。</p></article><article><span>03</span><h3>训练模式</h3><p>原始项目呈现个人与团体训练的使用情境。</p></article><article><span>04</span><h3>模块化器械 / 使用支持</h3><p>器械组合与现场协助被纳入整体体验设想。</p></article></div>
+          <figure class="qfc-space-wide" data-qfc-lightbox><img src="/assets/quiet-fitness-cabin/spatial-system.webp" data-full-src="/assets/quiet-fitness-cabin/full/spatial-system.webp" width="2376" height="1428" loading="lazy" alt="空间布局、入口预约验证与使用场景" /><figcaption><strong>Arrival, zoning and training modes</strong><span>原始项目呈现预约验证、空间分区与训练使用场景；它们是概念方案，不代表已建成空间。</span></figcaption></figure>
+          <div class="qfc-space-split"><figure data-qfc-lightbox><img src="/assets/quiet-fitness-cabin/modular-equipment.webp" data-full-src="/assets/quiet-fitness-cabin/full/modular-equipment-lightbox.webp" width="1833" height="1733" loading="lazy" alt="模块化健身器械与连接结构" /><figcaption><strong>Modular equipment and usage support</strong><span>器械组合与榫卯式连接是概念设想；工程、安全与可维护性仍未验证。</span></figcaption></figure><aside><p>Concept boundary</p><h3>空间、器械与预约被当作一个整体系统设计。</h3><ul><li>分阶段进入与预约验证</li><li>不同训练区域与使用模式</li><li>设备支持与现场协助节点</li></ul><span>原始项目呈现，不等同于建成、合规或可运营结果。</span></aside></div>
+        </div>
+      </section>
+
+      <section id="digital" class="qfc-chapter qfc-digital">
+        <div class="qfc-wrap"><header class="qfc-chapter__head"><p>06 / 数字触点</p><h2>App 是服务系统的入口，而不是项目的全部。</h2><p class="qfc-chapter__lead">以下保留原始英文界面作为项目证据，中文说明负责解释它们在整体服务路径中的位置。界面为概念原型，未上线。</p></header>
+          <ol class="qfc-app-flow"><li><span>01</span><strong>提出训练需求</strong></li><li><span>02</span><strong>浏览 / 匹配伙伴或经验者</strong></li><li><span>03</span><strong>确认匹配</strong></li><li><span>04</span><strong>场地预约 / 查看位置</strong></li><li><span>05</span><strong>经验者处理请求</strong><small>supporting evidence only</small></li></ol>
+          <div class="qfc-app-evidence"><figure><img src="/assets/quiet/app-normalized/app-01.webp" width="440" height="780" loading="lazy" alt="原始英文 App：提出训练需求" /><figcaption><b>01</b><span>提出训练需求</span></figcaption></figure><figure><img src="/assets/quiet/app-normalized/app-02.webp" width="440" height="780" loading="lazy" alt="原始英文 App：浏览支持者列表" /><figcaption><b>02</b><span>浏览 / 匹配</span></figcaption></figure><figure><img src="/assets/quiet/app-normalized/app-03.webp" width="440" height="780" loading="lazy" alt="原始英文 App：确认匹配" /><figcaption><b>03</b><span>确认匹配</span></figcaption></figure><figure><img src="/assets/quiet/app-normalized/app-04.webp" width="440" height="780" loading="lazy" alt="原始英文 App：预约场地与查看位置" /><figcaption><b>04</b><span>预约场地 / 查看位置</span></figcaption></figure><figure class="qfc-app-evidence__support"><img src="/assets/quiet/app-normalized/app-05.webp" width="440" height="780" loading="lazy" alt="原始英文 App：经验者处理请求" /><figcaption><b>05</b><span>经验者处理请求</span></figcaption></figure></div>
+        </div>
+      </section>
+
+      <section id="reflection" class="qfc-chapter qfc-reflection">
+        <div class="qfc-wrap"><header class="qfc-chapter__head"><p>07 / 测试、证据边界与反思</p><h2>低保真测试记录了问题，但没有证明系统已经有效。</h2><p class="qfc-chapter__lead">现有材料支持形成性发现与设计改动，不支持可用性、满意度或压力改善的验证性结论。</p></header>
+          <div class="qfc-testing"><figure data-qfc-lightbox><img src="/assets/quiet-fitness-cabin/app-low-fidelity-testing.webp" width="1616" height="830" loading="lazy" alt="原始项目低保真测试记录" /><figcaption>Low-fidelity testing｜原始项目中的测试情境与问题记录。</figcaption></figure><div class="qfc-testing__notes"><article><b>记录</b><p>低保真测试发生过，材料记录用户需要时间理解匹配与预约。</p></article><article><b>问题</b><p>匹配 / 预约入口、信息透明度，以及字体与图标可见性需要改善。</p></article><article><b>改动</b><p>项目材料记录了收拢预约入口、强化步骤关系与放大文字 / 图标的方向。</p></article></div></div>
+          <div class="qfc-boundaries"><article><h3>已完成</h3><p>空间、器械、服务与 App 流程等概念设计产出。</p></article><article><h3>已设计但未验证</h3><p>匹配机制、预约体验、服务协同。</p></article><article><h3>概念性内容</h3><p>业务模式、运营流程、场地部署。</p></article><article><h3>限制</h3><p>研究与测试证据不完整。</p></article><article><h3>后续验证</h3><p>聚焦“需求设置 → 匹配 → 预约 → 首次训练”核心路径。</p></article></div>
+          <blockquote>包容性的健身体验不仅关乎能否进入空间，也关乎用户能否控制被注视、获得指导与参与社交的程度。</blockquote>
+          <a class="qfc-pdf-cta" href="/assets/quiet-fitness-cabin/Quiet-Fitness-Cabin.pdf" target="_blank" rel="noopener"><span>查看完整项目 PDF</span><i>↗</i></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="qfc-footer qfc-wrap"><a href="/cases/connected-long-journey.html"><span>下一项目</span><strong>Connected on a Long Journey</strong><i>→</i></a></footer>
+    <dialog class="qfc-lightbox" id="qfc-lightbox" aria-labelledby="qfc-lightbox-caption">
+      <div class="qfc-lightbox__panel">
+        <button class="qfc-lightbox__close" type="button" aria-label="关闭大图">关闭</button>
+        <img id="qfc-lightbox-image" alt="" />
+        <p id="qfc-lightbox-caption"></p>
+      </div>
+    </dialog>
+    <script>
+      (() => {
+        const dialog = document.getElementById("qfc-lightbox");
+        const dialogImage = document.getElementById("qfc-lightbox-image");
+        const dialogCaption = document.getElementById("qfc-lightbox-caption");
+        const close = dialog?.querySelector(".qfc-lightbox__close");
+        let trigger = null;
+        if (!dialog || !dialogImage || !dialogCaption || !close) return;
+        const closeDialog = () => dialog.close();
+        document.querySelectorAll("[data-qfc-lightbox]").forEach((figure) => {
+          const image = figure.querySelector("img");
+          if (!image) return;
+          image.tabIndex = 0;
+          image.setAttribute("role", "button");
+          image.setAttribute("aria-label", `${image.alt}，查看高清大图`);
+          const open = () => {
+            trigger = image;
+            const inlineSource = image.currentSrc || image.src;
+            const fullSource = image.dataset.fullSrc || inlineSource.replace("/assets/quiet-fitness-cabin/", "/assets/quiet-fitness-cabin/full/");
+            dialogImage.onerror = () => { dialogImage.onerror = null; dialogImage.src = inlineSource; };
+            dialogImage.src = fullSource;
+            dialogImage.alt = image.alt;
+            dialogCaption.textContent = figure.querySelector("figcaption")?.textContent.trim() || image.alt;
+            dialog.showModal();
+            close.focus();
+          };
+          image.addEventListener("click", open);
+          image.addEventListener("keydown", (event) => {
+            if (event.key === "Enter" || event.key === " ") { event.preventDefault(); open(); }
+          });
+        });
+        close.addEventListener("click", closeDialog);
+        dialog.addEventListener("click", (event) => { if (event.target === dialog) closeDialog(); });
+        dialog.addEventListener("close", () => trigger?.focus());
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,171 @@
+{
+  "generatedAt": "2026-08-07T20:26:13.277Z",
+  "previewUrl": "http://127.0.0.1:4173/",
+  "videoFallbackReason": "Chrome is available, but this environment has no Playwright/Puppeteer recorder and no FFmpeg/WebM encoder. Continuous browser keyframes were captured through CDP instead.",
+  "desktop": {
+    "name": "desktop-1440",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "horizontalOverflow": 0,
+    "bodyHorizontalOverflow": 0,
+    "imageFailures": [],
+    "rootClasses": "home-v2 home-motion-ready home-scroll-motion-ready",
+    "projectStates": [
+      {
+        "id": "01",
+        "visibleClass": true,
+        "imageOpacity": "1",
+        "copyOpacity": "1"
+      },
+      {
+        "id": "02",
+        "visibleClass": true,
+        "imageOpacity": "1",
+        "copyOpacity": "1"
+      },
+      {
+        "id": "03",
+        "visibleClass": true,
+        "imageOpacity": "1",
+        "copyOpacity": "1"
+      }
+    ],
+    "noMotionClassFallback": {
+      "titleOpacity": "1",
+      "titleTransform": "none",
+      "projectImageOpacity": "1",
+      "projectCopyOpacity": "1"
+    },
+    "jsErrors": [],
+    "imageNetworkFailures": [],
+    "linkChecks": [
+      {
+        "url": "http://127.0.0.1:4173/cases/should-i-work-out-today.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "http://127.0.0.1:4173/cases/quiet-fitness-cabin.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "http://127.0.0.1:4173/cases/connected-long-journey.html",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "projectPositions": [
+      {
+        "id": "01",
+        "y": 464.515625
+      },
+      {
+        "id": "02",
+        "y": 1499.734375
+      },
+      {
+        "id": "03",
+        "y": 2340.734375
+      }
+    ]
+  },
+  "mobile": {
+    "name": "mobile-390",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "horizontalOverflow": 0,
+    "bodyHorizontalOverflow": 0,
+    "imageFailures": [],
+    "rootClasses": "home-v2 home-motion-ready home-scroll-motion-ready",
+    "projectStates": [
+      {
+        "id": "01",
+        "visibleClass": true,
+        "imageOpacity": "1",
+        "copyOpacity": "1"
+      },
+      {
+        "id": "02",
+        "visibleClass": true,
+        "imageOpacity": "1",
+        "copyOpacity": "1"
+      },
+      {
+        "id": "03",
+        "visibleClass": false,
+        "imageOpacity": "0",
+        "copyOpacity": "0"
+      }
+    ],
+    "noMotionClassFallback": {
+      "titleOpacity": "1",
+      "titleTransform": "none",
+      "projectImageOpacity": "1",
+      "projectCopyOpacity": "1"
+    },
+    "jsErrors": [],
+    "imageNetworkFailures": [],
+    "linkChecks": [
+      {
+        "url": "http://127.0.0.1:4173/cases/should-i-work-out-today.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "http://127.0.0.1:4173/cases/quiet-fitness-cabin.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "http://127.0.0.1:4173/cases/connected-long-journey.html",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "projectPositions": [
+      {
+        "id": "01",
+        "y": 436.76125
+      },
+      {
+        "id": "02",
+        "y": 1606.870625
+      },
+      {
+        "id": "03",
+        "y": 2516.089375
+      }
+    ]
+  },
+  "reducedMotion": {
+    "mediaMatches": true,
+    "rootClasses": "home-v2",
+    "htmlScrollBehavior": "auto",
+    "title": {
+      "opacity": "1",
+      "transform": "none",
+      "animationName": "none",
+      "animationDuration": "1e-06s"
+    },
+    "track": {
+      "dasharray": "none",
+      "dashoffset": "0px",
+      "animationName": "none"
+    },
+    "projectImage": {
+      "opacity": "1",
+      "transform": "none",
+      "transitionDuration": "1e-06s"
+    },
+    "projectCopy": {
+      "opacity": "1",
+      "transform": "none",
+      "transitionDuration": "1e-06s"
+    }
+  }
+}

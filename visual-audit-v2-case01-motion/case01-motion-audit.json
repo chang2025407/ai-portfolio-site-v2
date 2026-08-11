@@ -1,0 +1,179 @@
+{
+  "previewUrl": "http://127.0.0.1:4173/cases/should-i-work-out-today.html",
+  "recording": {
+    "available": false,
+    "reason": "Playwright/Puppeteer and FFmpeg/WebM encoding are not installed in this environment; no video was fabricated."
+  },
+  "observer": {
+    "threshold": 0.15,
+    "rootMargin": "0px 0px -8% 0px",
+    "once": true,
+    "fastScrollCatchup": true
+  },
+  "motion": {
+    "tokens": {
+      "fast": "180ms",
+      "base": "420ms",
+      "slow": "620ms",
+      "easing": "cubic-bezier(.22,.8,.2,1)"
+    },
+    "hero": "six staggered groups, 0–400ms delay",
+    "decisionProblem": "heading/content then principles at 70ms steps",
+    "system": "per-step copy then image at 80ms",
+    "criticalDecisions": "per-block heading, UI, evidence",
+    "coreExperience": "per-phase header then two screens at 90ms",
+    "testing": "reading blocks and evidence at 70ms steps"
+  },
+  "desktop": {
+    "initial": {
+      "root": "case-motion-enabled",
+      "titleOpacity": "0",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 18)",
+      "duration": "0.42s, 0.42s",
+      "ease": "cubic-bezier(0.22, 0.8, 0.2, 1), cubic-bezier(0.22, 0.8, 0.2, 1)"
+    },
+    "heroFinal": {
+      "titleOpacity": "1",
+      "titleTransform": "none",
+      "visualOpacity": "1",
+      "visualTransform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    "normalScroll": {
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "total": 57,
+      "hidden": 0,
+      "visuallyHidden": 0,
+      "images": [],
+      "appendixOpen": false,
+      "v14": 0
+    },
+    "fastScroll": {
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "total": 57,
+      "hidden": 0,
+      "visuallyHidden": 0,
+      "images": [],
+      "appendixOpen": false,
+      "v14": 0
+    },
+    "once": {
+      "retainedBeforeRevisit": true,
+      "retainedAfterRevisit": true
+    },
+    "appendix": {
+      "before": false,
+      "after": true,
+      "summaryFocused": true,
+      "summaryOutline": "rgb(16, 19, 18) none 3px"
+    },
+    "anchors": {
+      "links": [
+        {
+          "hash": "#overview",
+          "target": true
+        },
+        {
+          "hash": "#system",
+          "target": true
+        },
+        {
+          "hash": "#decisions",
+          "target": true
+        },
+        {
+          "hash": "#experience",
+          "target": true
+        },
+        {
+          "hash": "#testing",
+          "target": true
+        }
+      ],
+      "back": "/#work"
+    },
+    "runtimeErrors": [],
+    "networkFailures": []
+  },
+  "mobile": {
+    "initial": {
+      "root": "case-motion-enabled",
+      "titleOpacity": "0",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 10)",
+      "duration": "0.3s",
+      "ease": "cubic-bezier(0.22, 0.8, 0.2, 1), cubic-bezier(0.22, 0.8, 0.2, 1)"
+    },
+    "heroFinal": {
+      "titleOpacity": "1",
+      "titleTransform": "none",
+      "visualOpacity": "1",
+      "visualTransform": "none"
+    },
+    "normalScroll": {
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "total": 57,
+      "hidden": 0,
+      "visuallyHidden": 0,
+      "images": [],
+      "appendixOpen": false,
+      "v14": 0
+    },
+    "fastScroll": {
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "total": 57,
+      "hidden": 0,
+      "visuallyHidden": 0,
+      "images": [],
+      "appendixOpen": false,
+      "v14": 0
+    },
+    "once": {
+      "retainedBeforeRevisit": true,
+      "retainedAfterRevisit": true
+    },
+    "appendix": {
+      "before": false,
+      "after": true,
+      "summaryFocused": true,
+      "summaryOutline": "rgb(16, 19, 18) none 3px"
+    },
+    "anchors": {
+      "links": [
+        {
+          "hash": "#overview",
+          "target": true
+        },
+        {
+          "hash": "#system",
+          "target": true
+        },
+        {
+          "hash": "#decisions",
+          "target": true
+        },
+        {
+          "hash": "#experience",
+          "target": true
+        },
+        {
+          "hash": "#testing",
+          "target": true
+        }
+      ],
+      "back": "/#work"
+    },
+    "runtimeErrors": [],
+    "networkFailures": []
+  },
+  "reducedMotion": {
+    "media": true,
+    "scrollBehavior": "auto",
+    "hidden": 0,
+    "transformed": 0,
+    "appendixWorks": true,
+    "runtimeErrors": []
+  }
+}

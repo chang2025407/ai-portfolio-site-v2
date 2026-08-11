@@ -1,0 +1,15 @@
+{
+  "desktop": {
+    "overflow": 0,
+    "images": 0,
+    "critical": "三个决定定义了 AI\n应该做什么，\n也定义了它 不应该 做什么。",
+    "experience": "从状态变化到最终选择，\n一个连续而可纠正的 决策过程。"
+  },
+  "mobile": {
+    "overflow": 0,
+    "images": 0,
+    "phases": 3
+  },
+  "runtimeErrors": [],
+  "networkFailures": []
+}

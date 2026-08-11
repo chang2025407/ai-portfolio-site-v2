@@ -1,0 +1,136 @@
+{
+  "generatedAt": "2026-08-07T20:56:11.814Z",
+  "previewUrl": "http://127.0.0.1:4173/",
+  "videoFallbackReason": "No Playwright/Puppeteer recorder or FFmpeg/WebM encoder is available; requested evidence is provided as browser-captured PNG states.",
+  "desktop": {
+    "styles": {
+      "navHover": {
+        "color": "rgb(201, 239, 55)",
+        "underline": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "ctaHover": {
+        "transform": "matrix(1, 0, 0, 1, 0, -1)",
+        "filter": "brightness(1.08)"
+      },
+      "ctaTransition": "0.22s, 0.22s, 0.22s, 0.22s, 0.16s",
+      "primaryImageTransform": "matrix(1.015, 0, 0, 1.015, 0, 0)",
+      "secondaryImageTransform": "none",
+      "caseArrowTransform": "matrix(1, 0, 0, 1, 5, 0)",
+      "caseSignalLine": "matrix(1.08, 0, 0, 1, 0, 0)",
+      "overflow": 0,
+      "bodyOverflow": 0,
+      "imageFailures": []
+    },
+    "focusStyles": [
+      {
+        "selector": ".home-nav a",
+        "outline": "rgb(201, 239, 55) solid 2px"
+      },
+      {
+        "selector": ".hero-actions .solid-link",
+        "outline": "rgb(201, 239, 55) solid 2px"
+      },
+      {
+        "selector": ".hero-actions .outline-link",
+        "outline": "rgb(201, 239, 55) solid 2px"
+      },
+      {
+        "selector": ".case-entry",
+        "outline": "rgb(201, 239, 55) solid 2px"
+      },
+      {
+        "selector": ".contact-actions .solid-link",
+        "outline": "rgb(201, 239, 55) solid 2px"
+      }
+    ],
+    "footerStyle": {
+      "filter": "brightness(1.08)",
+      "transform": "matrix(1, 0, 0, 1, 0, -1)"
+    },
+    "jsErrors": [],
+    "imageFailures": [],
+    "linkChecks": [
+      {
+        "url": "http://127.0.0.1:4173/cases/should-i-work-out-today.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "http://127.0.0.1:4173/cases/quiet-fitness-cabin.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "http://127.0.0.1:4173/cases/connected-long-journey.html",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "resume": {
+      "url": "http://127.0.0.1:4173/chang-li-cv.pdf",
+      "status": 200,
+      "ok": true
+    },
+    "mailto": "mailto:ddshynh2025@163.com"
+  },
+  "mobile": {
+    "openState": {
+      "ariaExpanded": "true",
+      "ariaHidden": "false",
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "overflow": 0,
+      "bodyOverflow": 0
+    },
+    "closedAfterLink": {
+      "expanded": "false",
+      "hidden": "true"
+    },
+    "closedAfterEscape": "false",
+    "mobileStyles": {
+      "imageTransform": "none",
+      "ctaTransform": "matrix(1, 0, 0, 1, 0, 1)",
+      "imageFailures": [],
+      "overflow": 0,
+      "bodyOverflow": 0
+    },
+    "jsErrors": [],
+    "imageFailures": [],
+    "linkChecks": [
+      {
+        "url": "http://127.0.0.1:4173/cases/should-i-work-out-today.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "http://127.0.0.1:4173/cases/quiet-fitness-cabin.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "url": "http://127.0.0.1:4173/cases/connected-long-journey.html",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "resume": {
+      "url": "http://127.0.0.1:4173/chang-li-cv.pdf",
+      "status": 200,
+      "ok": true
+    },
+    "mailto": "mailto:ddshynh2025@163.com"
+  },
+  "reducedMotion": {
+    "mediaMatches": true,
+    "rootClasses": "home-v2",
+    "titleTransform": "none",
+    "ctaTransform": "none",
+    "imageTransform": "none",
+    "caseArrowTransform": "none",
+    "menuTransform": "none",
+    "menuOpacity": "1",
+    "htmlScrollBehavior": "auto",
+    "imageFailures": 0,
+    "overflow": 0
+  }
+}

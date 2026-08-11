@@ -1,0 +1,164 @@
+{
+  "desktop": {
+    "overflow": 0,
+    "imageFailures": [],
+    "motifWidth": 532,
+    "heroWidth": 1440,
+    "indices": [
+      {
+        "id": "01",
+        "x": 32,
+        "y": -42
+      },
+      {
+        "id": "02",
+        "x": 32,
+        "y": -42
+      },
+      {
+        "id": "03",
+        "x": 32,
+        "y": -42
+      }
+    ],
+    "menu": null,
+    "links": [
+      {
+        "href": "http://127.0.0.1:4173/#top",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4173/#work",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4173/#about",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4173/chang-li-cv.pdf",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4173/#contact",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4173/cases/should-i-work-out-today.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4173/cases/quiet-fitness-cabin.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4173/cases/connected-long-journey.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "mailto:ddshynh2025@163.com",
+        "status": "mailto",
+        "ok": true
+      }
+    ],
+    "issues": {
+      "js": [],
+      "images": [],
+      "notFound": []
+    }
+  },
+  "mobile": {
+    "overflow": 0,
+    "imageFailures": [],
+    "motifWidth": 0,
+    "heroWidth": 390,
+    "indices": [
+      {
+        "id": "01",
+        "x": 16,
+        "y": -24
+      },
+      {
+        "id": "02",
+        "x": 16,
+        "y": -24
+      },
+      {
+        "id": "03",
+        "x": 16,
+        "y": -24
+      }
+    ],
+    "menu": {
+      "expanded": "true",
+      "hidden": "false",
+      "visible": "visible",
+      "opacity": "1",
+      "overflow": 0
+    },
+    "links": [
+      {
+        "href": "http://127.0.0.1:4173/#top",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4173/#work",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4173/#about",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4173/chang-li-cv.pdf",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4173/#contact",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4173/cases/should-i-work-out-today.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4173/cases/quiet-fitness-cabin.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4173/cases/connected-long-journey.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "mailto:ddshynh2025@163.com",
+        "status": "mailto",
+        "ok": true
+      }
+    ],
+    "issues": {
+      "js": [],
+      "images": [],
+      "notFound": []
+    }
+  },
+  "reducedMotion": {
+    "emulated": "prefers-reduced-motion: reduce",
+    "screenshot": "1440-reduced-motion.png"
+  }
+}

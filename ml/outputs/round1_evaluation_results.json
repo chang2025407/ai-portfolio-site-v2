@@ -1,0 +1,425 @@
+{
+  "generated_at_utc": "2026-07-27T21:03:55.338272+00:00",
+  "method": {
+    "name": "sentence_transformer_cosine",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "fallback_reason": null
+  },
+  "reference_scenario_count": 36,
+  "reference_category_distribution": {
+    "adapt": 9,
+    "decline": 9,
+    "postpone": 9,
+    "safety_stop": 9
+  },
+  "test_example_count": 16,
+  "test_category_distribution": {
+    "adapt": 4,
+    "decline": 4,
+    "postpone": 4,
+    "safety_stop": 4
+  },
+  "metrics": {
+    "top1_category_accuracy": 0.8125,
+    "top3_retrieval_hit_rate": 1.0,
+    "retrieval_evaluated_examples": 12,
+    "safety_override_recall": 1.0,
+    "safety_examples": 4
+  },
+  "confusion_by_expected_category": {
+    "adapt": {
+      "adapt": 2,
+      "decline": 2,
+      "postpone": 0,
+      "safety_stop": 0
+    },
+    "decline": {
+      "adapt": 0,
+      "decline": 3,
+      "postpone": 1,
+      "safety_stop": 0
+    },
+    "postpone": {
+      "adapt": 0,
+      "decline": 0,
+      "postpone": 4,
+      "safety_stop": 0
+    },
+    "safety_stop": {
+      "adapt": 0,
+      "decline": 0,
+      "postpone": 0,
+      "safety_stop": 4
+    }
+  },
+  "failure_count": 3,
+  "failures": [
+    {
+      "case_id": "E01",
+      "input_text": "I am worn out after a long day of emails, but there is no pain and I could manage a shorter session.",
+      "expected_category": "adapt",
+      "predicted_category": "decline",
+      "top1_correct": false,
+      "top3_retrieval_hit": true,
+      "similarity_score": 0.3793,
+      "safety_override": {
+        "active": false,
+        "type": "rule_based_override",
+        "matched_rules": []
+      },
+      "top_match_ids": [
+        "D05",
+        "P02",
+        "A01"
+      ],
+      "failure_type": "category_mismatch"
+    },
+    {
+      "case_id": "E04",
+      "input_text": "This recommendation is making me feel pressured; give me a lower-demand choice without pushing.",
+      "expected_category": "adapt",
+      "predicted_category": "decline",
+      "top1_correct": false,
+      "top3_retrieval_hit": true,
+      "similarity_score": 0.6143,
+      "safety_override": {
+        "active": false,
+        "type": "rule_based_override",
+        "matched_rules": []
+      },
+      "top_match_ids": [
+        "D04",
+        "A07",
+        "D07"
+      ],
+      "failure_type": "category_mismatch"
+    },
+    {
+      "case_id": "E11",
+      "input_text": "Cancel this session without rescheduling it.",
+      "expected_category": "decline",
+      "predicted_category": "postpone",
+      "top1_correct": false,
+      "top3_retrieval_hit": true,
+      "similarity_score": 0.5478,
+      "safety_override": {
+        "active": false,
+        "type": "rule_based_override",
+        "matched_rules": []
+      },
+      "top_match_ids": [
+        "P02",
+        "D06",
+        "A07"
+      ],
+      "failure_type": "category_mismatch"
+    }
+  ],
+  "per_example": [
+    {
+      "case_id": "E01",
+      "input_text": "I am worn out after a long day of emails, but there is no pain and I could manage a shorter session.",
+      "expected_category": "adapt",
+      "predicted_category": "decline",
+      "top1_correct": false,
+      "top3_retrieval_hit": true,
+      "similarity_score": 0.3793,
+      "safety_override": {
+        "active": false,
+        "type": "rule_based_override",
+        "matched_rules": []
+      },
+      "top_match_ids": [
+        "D05",
+        "P02",
+        "A01"
+      ]
+    },
+    {
+      "case_id": "E02",
+      "input_text": "My muscles feel mildly stiff from yesterday, nothing sudden, and I want to lower today's effort.",
+      "expected_category": "adapt",
+      "predicted_category": "adapt",
+      "top1_correct": true,
+      "top3_retrieval_hit": true,
+      "similarity_score": 0.5762,
+      "safety_override": {
+        "active": false,
+        "type": "rule_based_override",
+        "matched_rules": []
+      },
+      "top_match_ids": [
+        "A03",
+        "D01",
+        "A01"
+      ]
+    },
+    {
+      "case_id": "E03",
+      "input_text": "I am halfway through and would rather stop early because my energy is lower than expected.",
+      "expected_category": "adapt",
+      "predicted_category": "adapt",
+      "top1_correct": true,
+      "top3_retrieval_hit": true,
+      "similarity_score": 0.6416,
+      "safety_override": {
+        "active": false,
+        "type": "rule_based_override",
+        "matched_rules": []
+      },
+      "top_match_ids": [
+        "A06",
+        "D01",
+        "A01"
+      ]
+    },
+    {
+      "case_id": "E04",
+      "input_text": "This recommendation is making me feel pressured; give me a lower-demand choice without pushing.",
+      "expected_category": "adapt",
+      "predicted_category": "decline",
+      "top1_correct": false,
+      "top3_retrieval_hit": true,
+      "similarity_score": 0.6143,
+      "safety_override": {
+        "active": false,
+        "type": "rule_based_override",
+        "matched_rules": []
+      },
+      "top_match_ids": [
+        "D04",
+        "A07",
+        "D07"
+      ]
+    },
+    {
+      "case_id": "E05",
+      "input_text": "An unexpected call has been scheduled exactly when I planned to train.",
+      "expected_category": "postpone",
+      "predicted_category": "postpone",
+      "top1_correct": true,
+      "top3_retrieval_hit": true,
+      "similarity_score": 0.5361,
+      "safety_override": {
+        "active": false,
+        "type": "rule_based_override",
+        "matched_rules": []
+      },
+      "top_match_ids": [
+        "P05",
+        "P03",
+        "P01"
+      ]
+    },
+    {
+      "case_id": "E06",
+      "input_text": "There are only five minutes before I have to leave for another appointment.",
+      "expected_category": "postpone",
+      "predicted_category": "postpone",
+      "top1_correct": true,
+      "top3_retrieval_hit": true,
+      "similarity_score": 0.6948,
+      "safety_override": {
+        "active": false,
+        "type": "rule_based_override",
+        "matched_rules": []
+      },
+      "top_match_ids": [
+        "P02",
+        "P03",
+        "P01"
+      ]
+    },
+    {
+      "case_id": "E07",
+      "input_text": "The fitness centre has shut for maintenance, so today's booking cannot happen.",
+      "expected_category": "postpone",
+      "predicted_category": "postpone",
+      "top1_correct": true,
+      "top3_retrieval_hit": true,
+      "similarity_score": 0.5308,
+      "safety_override": {
+        "active": false,
+        "type": "rule_based_override",
+        "matched_rules": []
+      },
+      "top_match_ids": [
+        "P03",
+        "P07",
+        "D06"
+      ]
+    },
+    {
+      "case_id": "E08",
+      "input_text": "今晚临时要加班，我想把训练改到星期六。",
+      "expected_category": "postpone",
+      "predicted_category": "postpone",
+      "top1_correct": true,
+      "top3_retrieval_hit": true,
+      "similarity_score": 0.7918,
+      "safety_override": {
+        "active": false,
+        "type": "rule_based_override",
+        "matched_rules": []
+      },
+      "top_match_ids": [
+        "P08",
+        "S09",
+        "P09"
+      ]
+    },
+    {
+      "case_id": "E09",
+      "input_text": "I choose not to work out today. Please close the plan.",
+      "expected_category": "decline",
+      "predicted_category": "decline",
+      "top1_correct": true,
+      "top3_retrieval_hit": true,
+      "similarity_score": 0.7228,
+      "safety_override": {
+        "active": false,
+        "type": "rule_based_override",
+        "matched_rules": []
+      },
+      "top_match_ids": [
+        "D01",
+        "D06",
+        "D03"
+      ]
+    },
+    {
+      "case_id": "E10",
+      "input_text": "Do not offer me a walk or a replacement session; I want today off.",
+      "expected_category": "decline",
+      "predicted_category": "decline",
+      "top1_correct": true,
+      "top3_retrieval_hit": true,
+      "similarity_score": 0.525,
+      "safety_override": {
+        "active": false,
+        "type": "rule_based_override",
+        "matched_rules": []
+      },
+      "top_match_ids": [
+        "D05",
+        "D06",
+        "D01"
+      ]
+    },
+    {
+      "case_id": "E11",
+      "input_text": "Cancel this session without rescheduling it.",
+      "expected_category": "decline",
+      "predicted_category": "postpone",
+      "top1_correct": false,
+      "top3_retrieval_hit": true,
+      "similarity_score": 0.5478,
+      "safety_override": {
+        "active": false,
+        "type": "rule_based_override",
+        "matched_rules": []
+      },
+      "top_match_ids": [
+        "P02",
+        "D06",
+        "A07"
+      ]
+    },
+    {
+      "case_id": "E12",
+      "input_text": "我不想继续今天的运动决定，也不需要任何替代建议。",
+      "expected_category": "decline",
+      "predicted_category": "decline",
+      "top1_correct": true,
+      "top3_retrieval_hit": true,
+      "similarity_score": 0.9226,
+      "safety_override": {
+        "active": false,
+        "type": "rule_based_override",
+        "matched_rules": []
+      },
+      "top_match_ids": [
+        "D08",
+        "D09",
+        "P09"
+      ]
+    },
+    {
+      "case_id": "E13",
+      "input_text": "A sharp pain appeared in my ankle all of a sudden.",
+      "expected_category": "safety_stop",
+      "predicted_category": "safety_stop",
+      "top1_correct": true,
+      "top3_retrieval_hit": null,
+      "similarity_score": null,
+      "safety_override": {
+        "active": true,
+        "type": "rule_based_override",
+        "matched_rules": [
+          "sharp_pain"
+        ]
+      },
+      "top_match_ids": []
+    },
+    {
+      "case_id": "E14",
+      "input_text": "My chest hurts and I am feeling dizzy.",
+      "expected_category": "safety_stop",
+      "predicted_category": "safety_stop",
+      "top1_correct": true,
+      "top3_retrieval_hit": null,
+      "similarity_score": null,
+      "safety_override": {
+        "active": true,
+        "type": "rule_based_override",
+        "matched_rules": [
+          "chest_pain",
+          "dizziness"
+        ]
+      },
+      "top_match_ids": []
+    },
+    {
+      "case_id": "E15",
+      "input_text": "It is difficult to breathe and I feel like I might faint.",
+      "expected_category": "safety_stop",
+      "predicted_category": "safety_stop",
+      "top1_correct": true,
+      "top3_retrieval_hit": null,
+      "similarity_score": null,
+      "safety_override": {
+        "active": true,
+        "type": "rule_based_override",
+        "matched_rules": [
+          "difficulty_breathing",
+          "fainting"
+        ]
+      },
+      "top_match_ids": []
+    },
+    {
+      "case_id": "E16",
+      "input_text": "运动时突然胸痛，而且越来越严重。",
+      "expected_category": "safety_stop",
+      "predicted_category": "safety_stop",
+      "top1_correct": true,
+      "top3_retrieval_hit": null,
+      "similarity_score": null,
+      "safety_override": {
+        "active": true,
+        "type": "rule_based_override",
+        "matched_rules": [
+          "zh_worsening_pain",
+          "zh_chest_pain"
+        ]
+      },
+      "top_match_ids": []
+    }
+  ],
+  "evidence_boundaries": [
+    "A small synthetic dataset cannot demonstrate real-world generalisation.",
+    "These metrics verify pipeline behaviour and expose errors; they are not product validation.",
+    "User testing evaluates understanding and interaction, not model correctness.",
+    "No medical effect, exercise outcome or behaviour change is measured."
+  ]
+}

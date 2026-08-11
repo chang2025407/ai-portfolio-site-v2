@@ -1,0 +1,71 @@
+{
+  "original_input": "I planned leg day after work, but I feel tired and do not want to go outside.",
+  "method": {
+    "name": "sentence_transformer_cosine",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "fallback_reason": null
+  },
+  "top_matches": [
+    {
+      "rank": 1,
+      "scenario_id": "D01",
+      "scenario_text": "I have decided that I do not want to exercise today.",
+      "category": "decline",
+      "similarity": 0.6173,
+      "rationale": "The user has made an explicit decision not to exercise.",
+      "data_source": "LLM-assisted synthetic seed data",
+      "review_status": "manually review required"
+    },
+    {
+      "rank": 2,
+      "scenario_id": "A01",
+      "scenario_text": "I planned a full workout after work, but I feel mentally tired and the session now feels too demanding.",
+      "category": "adapt",
+      "similarity": 0.5885,
+      "rationale": "The plan still appears possible, but its demand no longer matches the user's current energy.",
+      "data_source": "LLM-assisted synthetic seed data",
+      "review_status": "manually review required"
+    },
+    {
+      "rank": 3,
+      "scenario_id": "D02",
+      "scenario_text": "I want a rest day and I do not want an alternative workout.",
+      "category": "decline",
+      "similarity": 0.5715,
+      "rationale": "The user rejects both the original plan and replacement activity.",
+      "data_source": "LLM-assisted synthetic seed data",
+      "review_status": "manually review required"
+    }
+  ],
+  "decision_layer": "explicit_intent_override",
+  "matched_intent_rule": "fatigue and an outdoor barrier without total refusal",
+  "embedding_prediction": "decline",
+  "final_prediction": "adapt",
+  "override_reason": "Explicit action intent takes precedence over the raw decline retrieval prediction.",
+  "top1_similarity": 0.6173,
+  "top2_similarity": 0.5885,
+  "similarity_margin": 0.0288,
+  "requires_confirmation": false,
+  "confirmation_reasons": [],
+  "confirmation_thresholds": {
+    "minimum_top1_similarity": 0.5,
+    "minimum_similarity_margin": 0.04
+  },
+  "selected_category": "adapt",
+  "similarity_score": 0.6173,
+  "rationale": "The user indicates willingness to continue with a lower-demand or lower-friction option.",
+  "suggested_action": "Offer a shorter, lighter or more accessible alternative while keeping decline equally visible.",
+  "explanation": "The system first applies safety rules, then transparent user-intent rules, and uses embedding retrieval when neither layer settles the action. The raw retrieval result remains visible.",
+  "safety_override": {
+    "active": false,
+    "type": "rule_based_override",
+    "matched_rules": []
+  },
+  "limitations": [
+    "This is a research prototype built from a small synthetic seed dataset, not a validated product.",
+    "Similarity is not a calibrated probability or medical assessment.",
+    "The prototype does not diagnose conditions or decide whether a person should exercise.",
+    "Rule-based safety coverage is intentionally conservative and incomplete.",
+    "Real-world generalisation, multilingual performance and repeated use have not been established."
+  ]
+}

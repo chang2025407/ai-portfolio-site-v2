@@ -1,0 +1,320 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "reduced": false,
+    "overflow": 0,
+    "imageFailures": [],
+    "sections": {
+      "overview": {
+        "top": 77,
+        "height": 1076,
+        "bottom": 1153
+      },
+      "problem": {
+        "top": 1305,
+        "height": 948,
+        "bottom": 2253
+      },
+      "system": {
+        "top": 2405,
+        "height": 2219,
+        "bottom": 4624
+      },
+      "decisions": {
+        "top": 4776,
+        "height": 4266,
+        "bottom": 9042
+      },
+      "experience": {
+        "top": 9042,
+        "height": 4237,
+        "bottom": 13279
+      },
+      "testing": {
+        "top": 13399,
+        "height": 984,
+        "bottom": 14383
+      }
+    },
+    "chapter03": {
+      "top": 2405,
+      "height": 2219,
+      "bottom": 4624
+    },
+    "chapter04LastBottom": 9042,
+    "chapter05IntroTop": 9146,
+    "motionHidden": 0,
+    "header": {
+      "height": 77,
+      "background": "rgb(243, 240, 232)",
+      "zIndex": "1000"
+    },
+    "linkStatus": [
+      {
+        "href": "http://127.0.0.1:4174/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/should-i-work-out-today.html#overview",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/should-i-work-out-today.html#system",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/should-i-work-out-today.html#decisions",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/should-i-work-out-today.html#experience",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/should-i-work-out-today.html#testing",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/#work",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/connected-long-journey.html",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "issues": {
+      "js": [],
+      "images": [],
+      "notFound": []
+    }
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reduced": false,
+    "overflow": 0,
+    "imageFailures": [],
+    "sections": {
+      "overview": {
+        "top": 65,
+        "height": 1344,
+        "bottom": 1409
+      },
+      "problem": {
+        "top": 1505,
+        "height": 1508,
+        "bottom": 3014
+      },
+      "system": {
+        "top": 3110,
+        "height": 2196,
+        "bottom": 5306
+      },
+      "decisions": {
+        "top": 5402,
+        "height": 3283,
+        "bottom": 8684
+      },
+      "experience": {
+        "top": 8684,
+        "height": 6352,
+        "bottom": 15037
+      },
+      "testing": {
+        "top": 15133,
+        "height": 1542,
+        "bottom": 16675
+      }
+    },
+    "chapter03": {
+      "top": 3110,
+      "height": 2196,
+      "bottom": 5306
+    },
+    "chapter04LastBottom": 8684,
+    "chapter05IntroTop": 8772,
+    "motionHidden": 0,
+    "header": {
+      "height": 65,
+      "background": "rgb(243, 240, 232)",
+      "zIndex": "1000"
+    },
+    "linkStatus": [
+      {
+        "href": "http://127.0.0.1:4174/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/should-i-work-out-today.html#overview",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/should-i-work-out-today.html#system",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/should-i-work-out-today.html#decisions",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/should-i-work-out-today.html#experience",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/should-i-work-out-today.html#testing",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/#work",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/connected-long-journey.html",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "issues": {
+      "js": [],
+      "images": [],
+      "notFound": []
+    }
+  },
+  "reduced": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reduced": true,
+    "overflow": 0,
+    "imageFailures": [
+      "http://127.0.0.1:4174/assets/should-i-work-out-today/final-deck/01-cover.webp",
+      "http://127.0.0.1:4174/assets/should-i-work-out-today/final-deck/02-problem.webp",
+      "http://127.0.0.1:4174/assets/should-i-work-out-today/final-deck/03-users-opportunity.webp",
+      "http://127.0.0.1:4174/assets/should-i-work-out-today/final-deck/04-design-challenge.webp",
+      "http://127.0.0.1:4174/assets/should-i-work-out-today/final-deck/05-product-principles.webp",
+      "http://127.0.0.1:4174/assets/should-i-work-out-today/final-deck/06-system-flow.webp",
+      "http://127.0.0.1:4174/assets/should-i-work-out-today/final-deck/07-ai-transparency.webp",
+      "http://127.0.0.1:4174/assets/should-i-work-out-today/final-deck/08-control-correction.webp",
+      "http://127.0.0.1:4174/assets/should-i-work-out-today/final-deck/09-pressure-safety.webp",
+      "http://127.0.0.1:4174/assets/should-i-work-out-today/final-deck/10-privacy-permissions.webp",
+      "http://127.0.0.1:4174/assets/should-i-work-out-today/final-deck/11-decision-outcomes.webp",
+      "http://127.0.0.1:4174/assets/should-i-work-out-today/final-deck/12-testing-evidence.webp",
+      "http://127.0.0.1:4174/assets/should-i-work-out-today/final-deck/13-reflection-next-steps.webp"
+    ],
+    "sections": {
+      "overview": {
+        "top": 65,
+        "height": 1344,
+        "bottom": 1409
+      },
+      "problem": {
+        "top": 1505,
+        "height": 1508,
+        "bottom": 3014
+      },
+      "system": {
+        "top": 3110,
+        "height": 2196,
+        "bottom": 5306
+      },
+      "decisions": {
+        "top": 5402,
+        "height": 3283,
+        "bottom": 8684
+      },
+      "experience": {
+        "top": 8684,
+        "height": 6352,
+        "bottom": 15037
+      },
+      "testing": {
+        "top": 15133,
+        "height": 1542,
+        "bottom": 16675
+      }
+    },
+    "chapter03": {
+      "top": 3110,
+      "height": 2196,
+      "bottom": 5306
+    },
+    "chapter04LastBottom": 8684,
+    "chapter05IntroTop": 8772,
+    "motionHidden": 0,
+    "header": {
+      "height": 65,
+      "background": "rgb(243, 240, 232)",
+      "zIndex": "1000"
+    },
+    "linkStatus": [
+      {
+        "href": "http://127.0.0.1:4174/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/should-i-work-out-today.html#overview",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/should-i-work-out-today.html#system",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/should-i-work-out-today.html#decisions",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/should-i-work-out-today.html#experience",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/should-i-work-out-today.html#testing",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/#work",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4174/cases/connected-long-journey.html",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "issues": {
+      "js": [],
+      "images": [],
+      "notFound": []
+    }
+  },
+  "generatedAt": "2026-08-08T21:54:23.342Z"
+}

@@ -1,0 +1,384 @@
+{
+  "generatedAt": "2026-08-09T13:16:02.881Z",
+  "build": {
+    "command": "npm.cmd run build",
+    "status": "passed"
+  },
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "case01Footer": {
+      "text": "下一项目Quiet Fitness Cabin→",
+      "label": "Quiet Fitness Cabin",
+      "href": "/cases/quiet-fitness-cabin.html",
+      "top": 14880,
+      "height": 101
+    },
+    "case01ToCase02": true,
+    "case02Footer": {
+      "text": "Next projectConnected on a Long Journey→",
+      "label": "Connected on a Long Journey",
+      "href": "/cases/connected-long-journey.html"
+    },
+    "case02ToCase03": true,
+    "pages": {
+      "case01": {
+        "url": "http://127.0.0.1:4191/cases/should-i-work-out-today.html",
+        "overflow": 0,
+        "imageFailures": [],
+        "internalLinks": [
+          "http://127.0.0.1:4191/",
+          "http://127.0.0.1:4191/cases/should-i-work-out-today.html#overview",
+          "http://127.0.0.1:4191/cases/should-i-work-out-today.html#system",
+          "http://127.0.0.1:4191/cases/should-i-work-out-today.html#decisions",
+          "http://127.0.0.1:4191/cases/should-i-work-out-today.html#experience",
+          "http://127.0.0.1:4191/cases/should-i-work-out-today.html#testing",
+          "http://127.0.0.1:4191/#work",
+          "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html"
+        ]
+      },
+      "case02": {
+        "url": "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html",
+        "overflow": 0,
+        "imageFailures": [],
+        "internalLinks": [
+          "http://127.0.0.1:4191/#work",
+          "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html#friction",
+          "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html#journey",
+          "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html#outcome",
+          "http://127.0.0.1:4191/cases/connected-long-journey.html"
+        ]
+      },
+      "case03": {
+        "url": "http://127.0.0.1:4191/cases/connected-long-journey.html",
+        "overflow": 0,
+        "imageFailures": [],
+        "internalLinks": [
+          "http://127.0.0.1:4191/#work",
+          "http://127.0.0.1:4191/cases/connected-long-journey.html#problem",
+          "http://127.0.0.1:4191/cases/connected-long-journey.html#roles",
+          "http://127.0.0.1:4191/cases/connected-long-journey.html#journey",
+          "http://127.0.0.1:4191/cases/connected-long-journey.html#spatial",
+          "http://127.0.0.1:4191/cases/connected-long-journey.html#digital",
+          "http://127.0.0.1:4191/cases/connected-long-journey.html#testing",
+          "http://127.0.0.1:4191/cases/connected-long-journey.html#outcome",
+          "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html"
+        ]
+      }
+    },
+    "linkResults": [
+      {
+        "href": "http://127.0.0.1:4191/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/should-i-work-out-today.html#overview",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/should-i-work-out-today.html#system",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/should-i-work-out-today.html#decisions",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/should-i-work-out-today.html#experience",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/should-i-work-out-today.html#testing",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/#work",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/#work",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html#friction",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html#journey",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html#outcome",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/connected-long-journey.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/#work",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/connected-long-journey.html#problem",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/connected-long-journey.html#roles",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/connected-long-journey.html#journey",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/connected-long-journey.html#spatial",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/connected-long-journey.html#digital",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/connected-long-journey.html#testing",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/connected-long-journey.html#outcome",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "issues": {
+      "runtimeErrors": [],
+      "consoleErrors": [],
+      "notFound": [],
+      "imageNetworkFailures": []
+    }
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "case01Footer": {
+      "text": "下一项目Quiet Fitness Cabin→",
+      "label": "Quiet Fitness Cabin",
+      "href": "/cases/quiet-fitness-cabin.html",
+      "top": 17142,
+      "height": 84
+    },
+    "case01ToCase02": true,
+    "case02Footer": {
+      "text": "Next projectConnected on a Long Journey→",
+      "label": "Connected on a Long Journey",
+      "href": "/cases/connected-long-journey.html"
+    },
+    "case02ToCase03": true,
+    "pages": {
+      "case01": {
+        "url": "http://127.0.0.1:4191/cases/should-i-work-out-today.html",
+        "overflow": 0,
+        "imageFailures": [],
+        "internalLinks": [
+          "http://127.0.0.1:4191/",
+          "http://127.0.0.1:4191/cases/should-i-work-out-today.html#overview",
+          "http://127.0.0.1:4191/cases/should-i-work-out-today.html#system",
+          "http://127.0.0.1:4191/cases/should-i-work-out-today.html#decisions",
+          "http://127.0.0.1:4191/cases/should-i-work-out-today.html#experience",
+          "http://127.0.0.1:4191/cases/should-i-work-out-today.html#testing",
+          "http://127.0.0.1:4191/#work",
+          "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html"
+        ]
+      },
+      "case02": {
+        "url": "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html",
+        "overflow": 0,
+        "imageFailures": [],
+        "internalLinks": [
+          "http://127.0.0.1:4191/#work",
+          "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html#friction",
+          "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html#journey",
+          "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html#outcome",
+          "http://127.0.0.1:4191/cases/connected-long-journey.html"
+        ]
+      },
+      "case03": {
+        "url": "http://127.0.0.1:4191/cases/connected-long-journey.html",
+        "overflow": 0,
+        "imageFailures": [],
+        "internalLinks": [
+          "http://127.0.0.1:4191/#work",
+          "http://127.0.0.1:4191/cases/connected-long-journey.html#problem",
+          "http://127.0.0.1:4191/cases/connected-long-journey.html#roles",
+          "http://127.0.0.1:4191/cases/connected-long-journey.html#journey",
+          "http://127.0.0.1:4191/cases/connected-long-journey.html#spatial",
+          "http://127.0.0.1:4191/cases/connected-long-journey.html#digital",
+          "http://127.0.0.1:4191/cases/connected-long-journey.html#testing",
+          "http://127.0.0.1:4191/cases/connected-long-journey.html#outcome",
+          "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html"
+        ]
+      }
+    },
+    "linkResults": [
+      {
+        "href": "http://127.0.0.1:4191/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/should-i-work-out-today.html#overview",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/should-i-work-out-today.html#system",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/should-i-work-out-today.html#decisions",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/should-i-work-out-today.html#experience",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/should-i-work-out-today.html#testing",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/#work",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/#work",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html#friction",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html#journey",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html#outcome",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/connected-long-journey.html",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/#work",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/connected-long-journey.html#problem",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/connected-long-journey.html#roles",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/connected-long-journey.html#journey",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/connected-long-journey.html#spatial",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/connected-long-journey.html#digital",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/connected-long-journey.html#testing",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/connected-long-journey.html#outcome",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "href": "http://127.0.0.1:4191/cases/quiet-fitness-cabin.html",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "issues": {
+      "runtimeErrors": [],
+      "consoleErrors": [],
+      "notFound": [],
+      "imageNetworkFailures": []
+    }
+  },
+  "summary": {
+    "case01ToCase02": true,
+    "case02ToCase03": true,
+    "footerCopy": true,
+    "horizontalOverflow": 0,
+    "imageFailures": 0,
+    "runtimeErrors": 0,
+    "consoleErrors": 0,
+    "notFound": 0,
+    "brokenInternalLinks": 0
+  }
+}
