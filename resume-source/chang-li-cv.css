@@ -102,6 +102,10 @@ a {
   text-decoration: none;
 }
 
+.keep-together {
+  white-space: nowrap;
+}
+
 .portfolio-line a,
 .portfolio-line strong {
   font-weight: 700;
