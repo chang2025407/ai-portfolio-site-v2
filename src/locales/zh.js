@@ -1,9 +1,11 @@
 const zh = {
   meta: { title: "李昶｜产品设计师 / UX设计师作品集", description: "李昶的产品设计作品集，关注运动健康、智能产品与人本 AI 体验。" },
   brand: { name: "李昶", role: "产品设计师 / UX设计师" },
-  navigation: { work: "项目", about: "关于", resume: "简历", contact: "联系" },
+  navigation: { work: "项目", about: "关于", resume: "简历", contact: "联系", mainLabel: "主导航", mobileLabel: "移动端主导航", languageLabel: "语言切换", openMenu: "打开菜单", closeMenu: "关闭菜单" },
   resume: { href: "/chang-li-cv.pdf" },
   hero: {
+    identityRole: "Product Designer / UX Designer",
+    identityBackground: "AI / ML background",
     eyebrow: "李昶 · 产品设计师 / UX设计师",
     title: "为运动健康与\n智能产品，\n设计清晰、可控的\n人本体验。",
     subtitle: "具备 AI 与机器学习背景，连接用户研究、交互设计、产品思维与技术理解。",
@@ -41,6 +43,6 @@ const zh = {
     successDescription: "已收到你的消息，我会尽快回复。",
     submitError: "发送失败，请稍后重试，或直接通过邮箱联系。"
   },
-  footer: { role: "李昶 / 产品设计师 / UX设计师" }
+  footer: { role: "李昶 / 产品设计师 / UX设计师", copyright: "© 2026 李昶" }
 };
 export default zh;

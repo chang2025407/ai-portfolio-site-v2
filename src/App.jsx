@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { ArrowUpRight, Copy, Download, Mail, Phone, X } from "lucide-react";
 import { useForm, ValidationError } from "@formspree/react";
 import LandingHero from "./LandingHero";
-import { DEFAULT_LOCALE, LANGUAGE_STORAGE_KEY, locales } from "./locales";
+import { locales } from "./locales";
 import useHomeMotion from "./useHomeMotion";
 import "./home-v2.css";
 
@@ -37,7 +37,7 @@ function HomeHero({ copy }) {
   return (
     <section className="home-hero hero-v4" id="top" data-home-hero>
       <div className="hero-v4-layout">
-        <div className="hero-v4-identity"><h1>Chang Li</h1><p className="hero-v4-role">Product Designer / UX Designer</p><p className="hero-v4-ai">AI / ML background</p></div>
+        <div className="hero-v4-identity"><h1>Chang Li</h1><p className="hero-v4-role">{copy.hero.identityRole}</p><p className="hero-v4-ai">{copy.hero.identityBackground}</p></div>
         <div className="hero-v4-visual" aria-hidden="true"><img src="/assets/home/hero-signature-v1.png" alt="" /></div>
         <div className="hero-v4-support"><p>{copy.hero.intro}</p><div className="hero-actions"><a className="solid-link" href="#work">{copy.hero.primaryCta}<ArrowUpRight size={17} /></a></div></div>
       </div>
@@ -202,7 +202,7 @@ function ContactSection({ copy }) {
           </article>
         </div>
       </div>
-      <footer><span>{copy.footer.role}</span><span>© 2026 李昶</span></footer>
+      <footer><span>{copy.footer.role}</span><span>{copy.footer.copyright}</span></footer>
 
       {isModalOpen && (
         <div className="contact-modal-backdrop" onMouseDown={(event) => event.target === event.currentTarget && !isSubmittingRef.current && closeModal()}>
@@ -228,11 +228,14 @@ function HomeContent({ copy }) {
   </>;
 }
 
-function getInitialLocale() { try { return localStorage.getItem(LANGUAGE_STORAGE_KEY) || DEFAULT_LOCALE; } catch { return DEFAULT_LOCALE; } }
+function getLocaleFromPath() {
+  if (typeof window === "undefined") return "zh";
+  return window.location.pathname === "/en" || window.location.pathname.startsWith("/en/") ? "en" : "zh";
+}
 export default function App() {
-  const [locale] = useState(getInitialLocale);
+  const [locale] = useState(getLocaleFromPath);
   const copy = locales[locale] || locales.zh;
   const homeMotionRef = useHomeMotion();
   useEffect(() => { document.documentElement.lang = locale === "en" ? "en" : "zh-CN"; document.title = copy.meta.title; const m = document.head.querySelector('meta[name="description"]'); if (m) m.setAttribute("content", copy.meta.description); }, [copy, locale]);
-  return <main className="home-v2" ref={homeMotionRef}><LandingHero copy={copy} /><HomeContent copy={copy} /></main>;
+  return <main className="home-v2" ref={homeMotionRef}><LandingHero copy={copy} locale={locale} /><HomeContent copy={copy} /></main>;
 }

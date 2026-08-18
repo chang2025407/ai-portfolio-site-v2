@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Should I Work Out Today? — Human-Centred AI Case Study</title>
+    <meta name="description" content="A Product, UX and Interaction Design case study exploring transparent, correctable and user-controlled AI-assisted exercise decisions." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Should I Work Out Today? — Human-Centred AI Case Study" />
+    <meta property="og:description" content="A Product, UX and Interaction Design case study about understandable, correctable and user-controlled AI-assisted decisions." />
+    <link rel="canonical" href="https://ai-portfolio-site-v2.onrender.com/en/cases/should-i-work-out-today.html" />
+    <link rel="alternate" hreflang="zh-CN" href="https://ai-portfolio-site-v2.onrender.com/cases/should-i-work-out-today.html" />
+    <link rel="alternate" hreflang="en" href="https://ai-portfolio-site-v2.onrender.com/en/cases/should-i-work-out-today.html" />
+    <link rel="alternate" hreflang="x-default" href="https://ai-portfolio-site-v2.onrender.com/cases/should-i-work-out-today.html" />
+    <meta property="og:url" content="https://ai-portfolio-site-v2.onrender.com/en/cases/should-i-work-out-today.html" />
+    <meta property="og:image" content="https://ai-portfolio-site-v2.onrender.com/assets/should-i-work-out-today/v15-en/v15-en-entry.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.png" />
+    <link rel="stylesheet" href="/cases/style.css" />
+    <link rel="stylesheet" href="/cases/should-i-work-out-today.css" />
+    <link rel="stylesheet" href="/cases/language-switch.css" />
+  </head>
+  <body class="workout-case">
+    <header class="case-nav">
+      <div class="case-shell case-nav-inner">
+        <a class="case-brand" href="/en" aria-label="Back to the homepage">
+          <strong>Chang Li</strong><span>Product / UX / Interaction Designer</span>
+        </a>
+        <nav class="case-nav-links" aria-label="Case navigation">
+          <a href="#overview">Overview</a><a href="#system">System</a><a href="#decisions">Decisions</a><a href="#experience">Experience</a><a href="#testing">Testing</a>
+        </nav>
+        <nav class="case-language-switch" aria-label="Language"><a href="/cases/should-i-work-out-today.html">中文</a><span aria-hidden="true">|</span><a href="/en/cases/should-i-work-out-today.html" aria-current="page">EN</a></nav>
+        <details class="case-mobile-nav">
+          <summary aria-label="Open case navigation"><span></span><span></span></summary>
+          <nav aria-label="Mobile case navigation">
+            <a href="#overview">Overview</a><a href="#system">System</a><a href="#decisions">Decisions</a><a href="#experience">Experience</a><a href="#testing">Testing</a>
+          </nav>
+        </details>
+      </div>
+    </header>
+
+    <main>
+      <section id="overview" class="case-opening case-shell" aria-labelledby="case-opening-title">
+        <div class="opening-topline" data-motion="hero-context">
+          <a class="back-link" data-motion="hero-back" href="/en#work">← Back to work</a>
+          <div class="opening-identity" aria-label="Project identity">
+            <span>CASE 01 · 2026</span>
+            <span>FINAL PROJECT / PRODUCT + UX</span>
+          </div>
+        </div>
+
+        <div class="opening-main">
+          <div class="opening-left">
+            <div class="opening-copy">
+            <p class="opening-discipline" data-motion="hero-context">PRODUCT / UX <span>+</span> HUMAN-CENTRED AI</p>
+            <h1 id="case-opening-title" data-motion="hero-title">Should I Work Out Today?</h1>
+            <p class="opening-premise" data-motion="hero-copy">When a plan made earlier no longer fits the user's current time, energy, motivation or physical state, the task is no longer adherence. It is deciding what remains appropriate now.</p>
+            <p class="opening-question" data-motion="hero-copy">How might AI-assisted decision support help people adapt a planned workout while preserving transparency, autonomy and safety?</p>
+            </div>
+
+            <div id="problem" class="decision-moment" data-motion>
+              <p class="opening-section-label">DECISION MOMENT</p>
+              <h2>The plan was made earlier. The decision happens now.</h2>
+              <ol class="decision-moment-flow" aria-label="From the original plan to the current decision">
+                <li class="decision-stage decision-stage-plan">
+                  <time datetime="08:00">08:00</time>
+                  <strong>Morning plan</strong>
+                  <p>Leg day after work</p>
+                </li>
+                <li class="decision-flow-arrow" aria-hidden="true">→</li>
+                <li class="decision-stage decision-stage-reality">
+                  <time datetime="18:30">18:30</time>
+                  <strong>Current reality</strong>
+                  <p>Tired / state changed</p>
+                </li>
+                <li class="decision-flow-arrow" aria-hidden="true">→</li>
+                <li class="decision-stage decision-stage-gap">
+                  <strong>What fits now?</strong>
+                  <ul aria-label="Possible decisions">
+                    <li>Adapt</li>
+                    <li>Postpone</li>
+                    <li>Decline</li>
+                    <li>Safety stop</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="opening-right">
+            <dl class="opening-status" data-motion="hero-meta" aria-label="Project status">
+              <div><dt>Interface evidence</dt><dd>High-fidelity Figma prototype</dd></div>
+              <div><dt>Technical exploration</dt><dd>Separate Python / ML feasibility experiment</dd></div>
+              <div><dt>Deployment</dt><dd>Not deployed</dd></div>
+              <div><dt>Clinical status</dt><dd>Non-clinical</dd></div>
+              <div><dt>Integration boundary</dt><dd>No live ML–Figma integration</dd></div>
+            </dl>
+
+            <div class="opening-ui-evidence" data-motion="hero-visual" aria-label="Final English V1.5 interface evidence">
+              <figure class="opening-ui-screen opening-ui-screen-primary">
+                <figcaption><span>01</span> Describe the change</figcaption>
+                <img src="/assets/should-i-work-out-today/v15-en/v15-en-entry.webp" alt="Final English V1.5 input screen for describing the original plan and current state" width="450" height="904" fetchpriority="high" decoding="async" />
+              </figure>
+              <figure class="opening-ui-screen">
+                <figcaption><span>02</span> Review the judgement</figcaption>
+                <img src="/assets/should-i-work-out-today/v15-en/v15-en-judgement.webp" alt="Final English V1.5 provisional judgement screen with decision factors and explanation access" width="450" height="904" decoding="async" />
+              </figure>
+              <figure class="opening-ui-screen">
+                <figcaption><span>03</span> Select an option</figcaption>
+                <img src="/assets/should-i-work-out-today/v15-en/v15-en-options-selected.webp" alt="Final English V1.5 options screen with a shorter workout selected" width="450" height="904" decoding="async" />
+              </figure>
+              <p class="opening-ui-caption">Final English V1.5 · Real Figma interface · Predefined prototype content</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="system" class="case-chapter research-chapter" aria-labelledby="research-title">
+        <div class="case-shell chapter-shell">
+          <header class="chapter-intro">
+            <p class="chapter-number">02</p>
+            <div>
+              <p class="chapter-label">FROM RESEARCH TO DESIGN CONSTRAINTS</p>
+              <h2 id="research-title">What should AI support in an uncertain decision?</h2>
+              <p class="chapter-lead">The literature did not provide user outcomes for this project. It helped define boundaries the design needed to respect: autonomy, context, understandable interaction and safety governance.</p>
+            </div>
+          </header>
+
+          <div class="research-lenses" aria-label="Four research lenses">
+            <article>
+              <span>01 / EXERCISE AUTONOMY</span>
+              <h3>Adherence is not the only successful outcome.</h3>
+              <p>People can adapt, postpone or decline rather than being pushed towards a single adherence goal.</p>
+              <small>Teixeira et al. (2012) · Ntoumanis &amp; Moller (2025)</small>
+            </article>
+            <article>
+              <span>02 / CONTEXTUAL SUPPORT</span>
+              <h3>A change in state creates the decision moment.</h3>
+              <p>Time, energy, motivation and physical state collectively shape what remains appropriate.</p>
+              <small>Nahum-Shani et al. (2018) · Hardeman et al. (2019)</small>
+            </article>
+            <article>
+              <span>03 / HUMAN–AI INTERACTION</span>
+              <h3>Explanation, correction and control belong together.</h3>
+              <p>Explanation is not decoration after the result. People need to see how the system understood them before deciding whether to continue.</p>
+              <small>Amershi et al. (2019) · Miller (2019) · Bucinca et al. (2021)</small>
+            </article>
+            <article>
+              <span>04 / SAFETY &amp; GOVERNANCE</span>
+              <h3>Risk cannot be reduced to one accuracy score.</h3>
+              <p>Safety boundaries need to remain separate from ordinary recommendation logic and state what the system cannot do.</p>
+              <small>WHO (2021) · NIST AI RMF (2023)</small>
+            </article>
+          </div>
+
+          <div class="chapter-flow-arrow" aria-hidden="true">↓</div>
+
+          <div class="constraint-spine">
+            <div class="constraint-spine-heading">
+              <p>RESEARCH → DESIGN CONSTRAINTS</p>
+              <h3>Three paired principles protect the user’s final say.</h3>
+            </div>
+            <div class="constraint-groups">
+              <article>
+                <p><strong>Transparent</strong><span>+</span><strong>Correctable</strong></p>
+                <h4>See the reasoning and correct the interpretation.</h4>
+              </article>
+              <article>
+                <p><strong>Autonomous</strong><span>+</span><strong>Low-pressure</strong></p>
+                <h4>Accept, adapt, decline or stop without penalty.</h4>
+              </article>
+              <article>
+                <p><strong>Safe</strong><span>+</span><strong>Data-minimal</strong></p>
+                <h4>Safety interrupts ordinary logic; session-only by default.</h4>
+              </article>
+            </div>
+          </div>
+
+          <div class="chapter-flow-arrow" aria-hidden="true">↓</div>
+
+          <div class="strand-bridge" aria-label="Two project strands">
+            <article>
+              <span>HUMAN INTERACTION</span>
+              <h3>What should people be able to see, question and control?</h3>
+              <p>Explanation, correction, choice, autonomy, privacy and usability.</p>
+            </article>
+            <div class="strand-bridge-centre" aria-hidden="true"><span>+</span></div>
+            <article>
+              <span>TECHNICAL FEASIBILITY</span>
+              <h3>Can the decision path be inspected and tested?</h3>
+              <p>Synthetic data, retrieval, intent rules, safety gating and evaluation.</p>
+            </article>
+            <p class="strand-boundary">NO LIVE ML–FIGMA INTEGRATION</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="decisions" class="case-chapter product-chapter" aria-labelledby="product-title">
+        <span id="experience" class="anchor-target" aria-hidden="true"></span>
+        <div class="case-shell chapter-shell">
+          <header class="chapter-intro chapter-intro-light">
+            <p class="chapter-number">03</p>
+            <div>
+              <p class="chapter-label">CORE PRODUCT EXPERIENCE</p>
+              <h2 id="product-title">People can inspect, question and leave the recommendation.</h2>
+              <p class="chapter-lead">Final English V1.5 breaks one decision into an inspectable sequence. The judgement remains provisional, alternatives remain equal and the final confirmation belongs to the user.</p>
+            </div>
+          </header>
+
+          <div class="experience-sequence">
+            <article class="experience-moment experience-moment-a">
+              <div class="experience-copy">
+                <p>A / DESCRIBE → REVIEW</p>
+                <h3>Describe what changed, then review the system’s understanding.</h3>
+                <p>The user describes the original plan and current barrier, then reviews how the system has organised the plan, energy, discomfort and recent activity.</p>
+                <span class="evidence-status status-unvalidated">Designed, not formally validated · Correction</span>
+              </div>
+              <div class="experience-media experience-media-pair">
+                <figure><figcaption>01 / DESCRIBE THE CHANGE</figcaption><img src="/assets/should-i-work-out-today/v15-en/v15-en-entry.webp" alt="Final English V1.5 input screen" width="450" height="904" loading="lazy" decoding="async" /></figure>
+                <figure><figcaption>02 / REVIEW UNDERSTANDING</figcaption><img src="/assets/should-i-work-out-today/v15-en/v15-en-understanding.webp" alt="Final English V1.5 understanding screen for reviewing and correcting the system interpretation" width="450" height="904" loading="lazy" decoding="async" /></figure>
+              </div>
+            </article>
+
+            <article class="experience-moment experience-moment-b">
+              <div class="experience-copy">
+                <p>B / PROVISIONAL JUDGEMENT → VISIBLE REASONING</p>
+                <h3>The judgement is not the answer. It is a provisional conclusion that can be inspected.</h3>
+                <p>The interface presents the provisional judgement, influencing factors and a “Why adapt?” explanation while keeping other options accessible.</p>
+              </div>
+              <div class="judgement-stage">
+                <figure class="judgement-screen"><figcaption><span>PROVISIONAL JUDGEMENT</span><strong>Factors shaping this judgement · Why “adapt”?</strong></figcaption><img src="/assets/should-i-work-out-today/v15-en/v15-en-judgement.webp" alt="Final English V1.5 judgement screen showing the provisional judgement, influencing factors and reasoning access" width="450" height="904" loading="lazy" decoding="async" /></figure>
+              </div>
+            </article>
+
+            <article class="experience-moment experience-moment-c">
+              <div class="experience-copy">
+                <p>C / COMPARE → SELECT OR DECLINE</p>
+                <h3>Alternatives sit side by side without presenting continued exercise as more correct.</h3>
+                <p>The user can choose a shorter version, change format, postpone or state that none of the options fit.</p>
+                <span class="evidence-status status-unvalidated">Designed, not formally validated · Explicit decline · Reduced pressure</span>
+              </div>
+              <div class="experience-media experience-media-pair options-comparison">
+                <figure><figcaption>03 / OPTIONS OPEN</figcaption><img src="/assets/should-i-work-out-today/v15-en/v15-en-options-unselected.webp" alt="Final English V1.5 options screen before selection" width="450" height="904" loading="lazy" decoding="async" /></figure>
+                <figure><figcaption>04 / OPTION SELECTED</figcaption><img src="/assets/should-i-work-out-today/v15-en/v15-en-options-selected.webp" alt="Final English V1.5 options screen with a shorter workout selected" width="450" height="904" loading="lazy" decoding="async" /></figure>
+              </div>
+            </article>
+
+            <article class="experience-moment experience-moment-d">
+              <div class="experience-copy">
+                <p>D / PRIVACY CHOICE → USER CONFIRMS</p>
+                <h3>Saving is an explicit choice; the final decision remains with the user.</h3>
+                <p>The default recommendation is session-only. The summary preserves the safety boundary while confirming the user’s choice rather than declaring a system decision.</p>
+                <span class="evidence-status status-unvalidated">Designed, not formally validated · Safety-stop interaction</span>
+              </div>
+              <div class="experience-media experience-media-pair privacy-summary">
+                <figure><figcaption>05 / PRIVACY CHOICE</figcaption><img src="/assets/should-i-work-out-today/v15-en/v15-en-save.webp" alt="Final English V1.5 information-saving choice screen" width="450" height="904" loading="lazy" decoding="async" /></figure>
+                <figure><figcaption>06 / USER CONFIRMS</figcaption><img src="/assets/should-i-work-out-today/v15-en/v15-en-summary.webp" alt="Final English V1.5 summary emphasising user control and the safety boundary" width="450" height="904" loading="lazy" decoding="async" /></figure>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="testing" class="case-chapter testing-chapter" aria-labelledby="testing-title">
+        <div class="case-shell chapter-shell">
+          <header class="chapter-intro">
+            <p class="chapter-number">04</p>
+            <div>
+              <p class="chapter-label">TESTING → DESIGN REVISION</p>
+              <h2 id="testing-title">Two blocked or misunderstood interactions led to specific revisions.</h2>
+              <p class="chapter-lead">This is small-sample formative evidence. It supports specific iterations, not broad validation, statistical representation or long-term conclusions.</p>
+            </div>
+          </header>
+
+          <div class="testing-sample" aria-label="Testing sample boundary">
+            <article class="pilot-sample"><span>PILOT</span><strong>1</strong><h3>participant</h3><p>Reported separately and excluded from all Round 2 results.</p></article>
+            <article class="round2-sample"><span>ROUND 2</span><strong>4</strong><h3>new participants</h3><div><p><b>4/4</b> understood this as decision support, not a workout-plan generator.</p><p><b>4/4</b> understood that the final decision remained theirs.</p></div></article>
+          </div>
+
+          <div class="revision-stories">
+            <article class="revision-story privacy-revision">
+              <header><p>PRIVACY / OBSERVED IN USE</p><h3>The privacy wording was misunderstood.</h3><span>Observed in two Round 2 sessions</span></header>
+              <ol class="revision-chain">
+                <li><span>OBSERVED</span><strong>Privacy wording was misunderstood</strong></li>
+                <li aria-hidden="true">→</li>
+                <li><span>REVISED</span><strong>State explicitly that information is not retained</strong></li>
+                <li aria-hidden="true">→</li>
+                <li><span>VERIFIED</span><strong>One later participant completed it independently</strong></li>
+              </ol>
+              <div class="revision-media">
+                <figure><img src="/assets/should-i-work-out-today/round2-privacy-no-save.png" alt="Original Chinese Round 2 privacy-testing prototype evidence" width="450" height="904" loading="lazy" decoding="async" /><figcaption>Original Round 2 formative-testing prototype</figcaption></figure>
+                <figure><img src="/assets/should-i-work-out-today/v15-en/v15-en-save.webp" alt="Final English V1.5 information-saving screen stating that the current input is not retained" width="450" height="904" loading="lazy" decoding="async" /><figcaption>Final English V1.5 · Explicit non-retention wording</figcaption></figure>
+              </div>
+            </article>
+
+            <article class="revision-story time-revision">
+              <header><p>TIME EDIT / OBSERVED IN USE</p><h3>The original interaction could not be completed.</h3><span>Participant 3 could not complete the original interaction</span></header>
+              <ol class="revision-chain">
+                <li><span>OBSERVED</span><strong>A non-interactive preview blocked task completion</strong></li>
+                <li aria-hidden="true">→</li>
+                <li><span>REBUILT</span><strong>18:30 → 19:00</strong></li>
+                <li aria-hidden="true">→</li>
+                <li><span>VERIFIED</span><strong>Participant 4 completed it independently</strong></li>
+              </ol>
+              <div class="revision-media">
+                <figure><img src="/assets/should-i-work-out-today/round2-time-edit.png" alt="Original Chinese Round 2 time-edit prototype showing 18:30 and 19:00" width="450" height="904" loading="lazy" decoding="async" /><figcaption>Rebuilt time selection</figcaption></figure>
+                <figure><img src="/assets/should-i-work-out-today/round2-time-reminder.png" alt="Original Chinese Round 2 reminder state after changing the workout time" width="450" height="904" loading="lazy" decoding="async" /><figcaption>Revised reminder state</figcaption></figure>
+              </div>
+            </article>
+          </div>
+
+          <p class="testing-boundary">These revisions are specific evidence, not percentage claims, and do not show that the complete prototype has been validated.</p>
+        </div>
+      </section>
+
+      <section id="technical" class="case-chapter technical-chapter" aria-labelledby="technical-title">
+        <div class="case-shell chapter-shell">
+          <header class="chapter-intro chapter-intro-dark">
+            <p class="chapter-number">05</p>
+            <div>
+              <p class="chapter-label">TECHNICAL FEASIBILITY &amp; ARCHITECTURE REVISION</p>
+              <h2 id="technical-title">The experiment is not a product backend, but it makes decision boundaries inspectable.</h2>
+              <p class="chapter-lead">This Python feasibility experiment is separate from Figma. It uses synthetic data to compare retrieval methods, inspect rule layers and freeze a final holdout set.</p>
+            </div>
+          </header>
+
+          <div class="technical-boundaries" aria-label="Technical evidence boundaries">
+            <span>SEPARATE TECHNICAL EXPERIMENT</span>
+            <span>SYNTHETIC DATA EVIDENCE</span>
+            <span>NON-DEPLOYMENT ACCURACY</span>
+            <span>NO ML–FIGMA CONNECTION</span>
+          </div>
+
+          <section class="technical-panel workspace-panel" aria-labelledby="workspace-title">
+            <header><p>01 / TECHNICAL WORKSPACE</p><h3 id="workspace-title">Real technical files, condensed into an auditable path.</h3></header>
+            <div class="workspace-strip">
+              <span>Python</span><span>Sentence Transformers</span><span>MiniLM-L6-v2</span><span>384-D</span><span>Cosine retrieval</span><span>TF-IDF</span><span>Intent rules</span><span>Safety gate</span><span>CSV / JSONL / JSON</span><span>4 test files / 40 methods</span>
+            </div>
+            <p>The full repository structure, dataset previews, test matrix and code excerpts remain in the PDF.</p>
+          </section>
+
+          <section class="technical-panel trace-panel" aria-labelledby="trace-title">
+            <header><p>02 / ONE REAL DECISION TRACE</p><h3 id="trace-title">The raw retrieval result remains visible; an inspectable intent rule changes the final result.</h3></header>
+            <ol class="decision-trace">
+              <li class="trace-input"><span>INPUT</span><blockquote>“I planned leg day after work, but I feel tired and do not want to go outside.”</blockquote></li>
+              <li class="trace-retrieval"><span>RETRIEVAL / TOP 3</span><ul><li><b>D01 · decline</b><em>0.6173</em></li><li><b>A01 · adapt</b><em>0.5885</em></li><li><b>D02 · decline</b><em>0.5715</em></li></ul></li>
+              <li class="trace-raw"><span>RAW PREDICTION</span><strong>DECLINE</strong></li>
+              <li class="trace-rule"><span>INTENT RULE</span><strong>fatigue + outdoor barrier<br />without total refusal</strong></li>
+              <li class="trace-layer"><span>DECISION LAYER</span><strong>explicit_intent_override</strong></li>
+              <li class="trace-final"><span>FINAL PREDICTION</span><strong>ADAPT</strong></li>
+            </ol>
+            <dl class="trace-fields"><div><dt>requires_confirmation</dt><dd>false</dd></div><div><dt>similarity_margin</dt><dd>0.0288</dd></div></dl>
+            <p class="technical-note">Similarity represents textual proximity. It is neither calibrated confidence nor a medical judgement.</p>
+          </section>
+
+          <section class="technical-panel failure-panel" aria-labelledby="failure-title">
+            <header><p>03 / FAILURE → ARCHITECTURE REVISION</p><h3 id="failure-title">One incorrect safety_stop changed what could authorise a safety outcome.</h3></header>
+            <blockquote>“Today is chest day, but I only have twenty minutes.”</blockquote>
+            <div class="failure-observation"><div><span>EXPECTED</span><strong>ADAPT</strong></div><div><span>ACTUAL</span><strong>SAFETY_STOP</strong></div><div><span>SAFETY RULE</span><strong>false</strong></div><div><span>TOP SIMILARITY</span><strong>0.4971</strong></div></div>
+            <ol class="architecture-timeline"><li><b>16</b><span>Development set</span></li><li><b>48</b><span>Robustness set</span></li><li class="architecture-failure"><b>Failure exposed</b><span>Semantic retrieval proposed safety_stop</span></li><li class="architecture-gate"><b>Safety gate</b><span>Explicit safety evidence required</span></li><li><b>60</b><span>Frozen holdout</span></li></ol>
+            <p class="architecture-rule">Similarity may propose an outcome; only an explicit rule can authorise the final <code>safety_stop</code>.</p>
+          </section>
+
+          <section class="technical-panel evaluation-panel" aria-labelledby="evaluation-title">
+            <header><p>04 / FROZEN SYNTHETIC HOLDOUT</p><h3 id="evaluation-title">A frozen comparison of pure retrieval and safety-gated architectures.</h3></header>
+            <div class="evaluation-bars">
+              <div><span>MiniLM pure</span><i style="--score:55%"></i><strong>33/60 · 55%</strong></div>
+              <div><span>MiniLM safety-gated</span><i style="--score:70%"></i><strong>42/60 · 70%</strong></div>
+              <div><span>TF-IDF pure</span><i style="--score:63.33%"></i><strong>38/60 · 63.33%</strong></div>
+              <div><span>TF-IDF safety-gated</span><i style="--score:70%"></i><strong>42/60 · 70%</strong></div>
+            </div>
+            <div class="safety-summary"><article><strong>0/45</strong><span>Final safety false positives</span></article><article><strong>14/15</strong><span>Safety recall</span></article><article><strong>H-EN-S07</strong><span>Retained failure · “pain became suddenly sharp”</span></article></div>
+          </section>
+
+          <section class="technical-panel mapping-panel" aria-labelledby="mapping-title">
+            <header><p>05 / TECHNICAL SIGNAL → INTERFACE EXPRESSION</p><h3 id="mapping-title">This is a conceptual mapping, not a live integration.</h3></header>
+            <div class="signal-mappings"><div><span>raw prediction</span><b>→</b><strong>provisional judgement</strong></div><div><span>decision / override reason</span><b>→</b><strong>visible reasoning</strong></div><div><span>safety gate</span><b>→</b><strong>safety boundary</strong></div></div>
+            <div class="future-interaction"><span>requires_confirmation</span><strong>Future interface interaction · Not implemented / not tested</strong></div>
+          </section>
+        </div>
+      </section>
+
+      <section id="evidence" class="case-chapter evidence-chapter" aria-labelledby="evidence-title">
+        <div class="case-shell chapter-shell">
+          <header class="chapter-intro">
+            <p class="chapter-number">06</p>
+            <div>
+              <p class="chapter-label">EVIDENCE BOUNDARIES, REFLECTION &amp; FULL PROJECT</p>
+              <h2 id="evidence-title">What this project establishes—and what it does not.</h2>
+              <p class="chapter-lead">Completed does not mean deployed. Tested does not mean broadly validated. Conceptual mapping does not mean implemented.</p>
+            </div>
+          </header>
+
+          <section class="evidence-block status-map" aria-labelledby="status-title">
+            <h3 id="status-title">Every claim has an evidence status</h3>
+            <div class="status-groups">
+              <article class="status-completed"><h4>COMPLETED</h4><p>Final English V1.5 Figma</p><p>Separate ML feasibility experiment</p><p>Frozen technical outputs</p></article>
+              <article class="status-tested"><h4>TESTED</h4><p>Round 2 product framing</p><p>Understanding of final user control</p><p>Privacy revision · Time-edit revision</p></article>
+              <article class="status-unvalidated-group"><h4>DESIGNED, NOT VALIDATED</h4><p>Correction · Explicit decline</p><p>Reduced pressure · safety_stop interaction</p></article>
+              <article class="status-conceptual"><h4>CONCEPTUAL MAPPING</h4><p>Live ML–Figma connection</p><p>Actual data retention / storage behaviour</p><p>requires_confirmation interaction</p></article>
+              <article class="status-future"><h4>TO VALIDATE</h4><p>Real user language · Larger, more diverse testing</p><p>Professional safety review · Accessibility</p><p>Controlled connected prototype</p></article>
+            </div>
+          </section>
+
+          <section class="evidence-block reflection-grid" aria-labelledby="reflection-title">
+            <h3 id="reflection-title">A contribution bounded by evidence</h3>
+            <div class="supported-list"><p>WHAT THE PROJECT SUPPORTS</p><ol><li>AI interpretation of input should be inspectable.</li><li>The user retains the final decision.</li><li>Similarity retrieval alone cannot define the product boundary.</li><li>Failure analysis changed the technical architecture.</li><li>Human-Centred AI needs both system logic and interface logic.</li></ol></div>
+            <div class="unsupported-list"><p>WHAT THE PROJECT DOES NOT SUPPORT</p><ul><li>Clinical safety</li><li>Real-world classifier reliability</li><li>Long-term behaviour change</li><li>Deployment readiness</li></ul></div>
+          </section>
+
+          <section class="evidence-block next-steps" aria-labelledby="next-title">
+            <header><p>NEXT STEPS</p><h3 id="next-title">Move from reviewed boundaries to controlled validation.</h3></header>
+            <ol><li>Data and safety review</li><li>Test the interactions not yet validated</li><li>Real user language / informed consent and ethics</li><li>Controlled ML-connected prototype</li><li>Expand the study only when evidence supports it</li></ol>
+          </section>
+
+          <details class="evidence-block references">
+            <summary><span><b>9 VERIFIED REFERENCES</b><strong>View full sources</strong></span><i>+</i></summary>
+            <ol>
+              <li>Amershi, S. et al. (2019) “Guidelines for Human-AI Interaction”, CHI 2019. doi:10.1145/3290605.3300233.</li>
+              <li>Bucinca, Z., Malaya, M.B. and Gajos, K.Z. (2021) “To Trust or to Think”, PACM HCI, 5(CSCW1), article 188. doi:10.1145/3449287.</li>
+              <li>Hardeman, W. et al. (2019) “A systematic review of JITAIs to promote physical activity”, IJBNPA, 16, article 31. doi:10.1186/s12966-019-0792-7.</li>
+              <li>Miller, T. (2019) “Explanation in artificial intelligence: Insights from the social sciences”, Artificial Intelligence, 267, pp. 1–38. doi:10.1016/j.artint.2018.07.007.</li>
+              <li>Nahum-Shani, I. et al. (2018) “JITAIs in Mobile Health: Key Components and Design Principles”, Annals of Behavioral Medicine, 52(6), pp. 446–462. doi:10.1007/s12160-016-9830-8.</li>
+              <li>National Institute of Standards and Technology (2023) Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. doi:10.6028/NIST.AI.100-1.</li>
+              <li>Ntoumanis, N. and Moller, A.C. (2025) “Self-determination theory informed research for promoting physical activity”, Psychology of Sport and Exercise, 80, 102879. doi:10.1016/j.psychsport.2025.102879.</li>
+              <li>Teixeira, P.J. et al. (2012) “Exercise, physical activity, and self-determination theory: a systematic review”, IJBNPA, 9, article 78. doi:10.1186/1479-5868-9-78.</li>
+              <li>World Health Organization (2021) Ethics and governance of artificial intelligence for health. Geneva: WHO. ISBN 978-92-4-002920-0.</li>
+            </ol>
+          </details>
+        </div>
+
+        <div class="project-artifact">
+          <div class="case-shell project-artifact-inner">
+            <div><p>FULL PROJECT ARCHIVE</p><h3>View the complete project PDF</h3><span>FINAL V3 · 21 pages · 8.6 MB</span></div>
+            <div class="artifact-actions"><a href="/assets/should-i-work-out-today/Chang-Li_Should-I-Work-Out-Today_Case-Study-FINAL-v3.pdf" target="_blank" rel="noopener">View online</a><a href="/assets/should-i-work-out-today/Chang-Li_Should-I-Work-Out-Today_Case-Study-FINAL-v3.pdf" download>Download PDF</a></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="case01-lightbox" id="case01-lightbox" aria-labelledby="case01-lightbox-caption">
+      <button class="case01-lightbox__close" type="button" aria-label="Close enlarged image">Close</button>
+      <img id="case01-lightbox-image" alt="" />
+      <p id="case01-lightbox-caption"></p>
+    </dialog>
+
+    <footer class="case-footer"><div class="case-shell"><a class="back-link" href="/en#work">← Back to work</a><a class="next-project" href="/en/cases/quiet-fitness-cabin.html"><span>Next project</span><strong>Quiet Fitness Cabin</strong><b>→</b></a></div></footer>
+    <script>
+      (() => {
+        if (!window.matchMedia("(min-width: 901px)").matches) return;
+        const dialog = document.getElementById("case01-lightbox");
+        const dialogImage = document.getElementById("case01-lightbox-image");
+        const dialogCaption = document.getElementById("case01-lightbox-caption");
+        const close = dialog?.querySelector(".case01-lightbox__close");
+        const images = document.querySelectorAll(".opening-ui-evidence img, .experience-moment img, .revision-story img");
+        let trigger = null;
+        if (!dialog || !dialogImage || !dialogCaption || !close) return;
+
+        images.forEach((image) => {
+          image.dataset.fullSrc = image.getAttribute("src");
+          image.tabIndex = 0;
+          image.setAttribute("role", "button");
+          image.setAttribute("aria-label", `${image.alt}, view original-size image`);
+          const open = () => {
+            trigger = image;
+            dialogImage.src = image.dataset.fullSrc;
+            dialogImage.alt = image.alt;
+            dialogCaption.textContent = image.closest("figure")?.querySelector("figcaption")?.textContent.trim() || image.alt;
+            dialog.showModal();
+            close.focus();
+          };
+          image.addEventListener("click", open);
+          image.addEventListener("keydown", (event) => {
+            if (event.key === "Enter" || event.key === " ") {
+              event.preventDefault();
+              open();
+            }
+          });
+        });
+
+        close.addEventListener("click", () => dialog.close());
+        dialog.addEventListener("click", (event) => { if (event.target === dialog) dialog.close(); });
+        dialog.addEventListener("close", () => trigger?.focus());
+      })();
+    </script>
+    <script>
+      (() => {
+        const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
+        let observer;
+        try {
+          observer = new IntersectionObserver((entries) => entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            revealOnce(entry.target);
+          }), { threshold: 0.12, rootMargin: "0px 0px -6% 0px" });
+        } catch { return; }
+
+        document.documentElement.classList.add("case-motion-enabled");
+        const reveal = (element, delay = 0) => {
+          if (!element) return;
+          element.classList.add("case-motion-item");
+          element.style.setProperty("--case-motion-delay", `${reduced.matches ? 0 : delay}ms`);
+          requestAnimationFrame(() => element.classList.add("is-visible"));
+        };
+        const revealAll = (elements, start = 0, step = 70) => elements.forEach((element, index) => reveal(element, start + index * step));
+        const query = (selector, root = document) => [...root.querySelectorAll(selector)];
+
+        const heroGroups = [
+          query(".case-opening .opening-topline"),
+          query(".case-opening .opening-discipline"),
+          query(".case-opening h1"),
+          query(".case-opening .opening-premise, .case-opening .opening-question"),
+          query(".case-opening .opening-status"),
+          query(".case-opening .opening-ui-evidence"),
+        ];
+        heroGroups.forEach((group, index) => revealAll(group, index * 80, 0));
+
+        const motionTargets = [
+          document.querySelector("#problem"),
+          ...query(".chapter-intro"),
+          ...query(".research-lenses, .constraint-spine, .strand-bridge"),
+          ...query(".experience-moment"),
+          ...query(".testing-sample, .revision-story"),
+          ...query(".technical-panel"),
+          ...query(".evidence-block"),
+        ].filter(Boolean);
+        motionTargets.forEach((target) => target.classList.add("case-motion-item"));
+        const pendingTargets = new Set(motionTargets);
+
+        function revealOnce(target) {
+          if (!pendingTargets.has(target)) return;
+          reveal(target, 0);
+          pendingTargets.delete(target);
+          observer.unobserve(target);
+        }
+
+        const catchUpMotion = () => pendingTargets.forEach((target) => {
+          if (target.getBoundingClientRect().top < window.innerHeight * 1.08) revealOnce(target);
+        });
+
+        if (reduced.matches) {
+          document.documentElement.classList.add("case-motion-reduced");
+          motionTargets.forEach(revealOnce);
+        } else {
+          motionTargets.forEach((target) => observer.observe(target));
+          window.addEventListener("scroll", catchUpMotion, { passive: true });
+          catchUpMotion();
+        }
+
+        reduced.addEventListener?.("change", () => {
+          if (!reduced.matches) return;
+          document.documentElement.classList.add("case-motion-reduced");
+          motionTargets.forEach(revealOnce);
+        });
+      })();
+    </script>
+  </body>
+</html>
