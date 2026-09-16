@@ -18,7 +18,7 @@
         imageCaption: "原始项目画面：数字产品概念与线下家庭工作坊。",
         meta: [
           { label: "我的角色", value: "产品体验设计 / 服务设计 / UI概念设计" },
-          { label: "项目周期", value: "2024年9月—2024年11月" },
+          { label: "项目周期", value: "2024.09–2024.12" },
           { label: "项目性质", value: "个人学术项目" },
           { label: "用户", value: "长期货车司机、配偶、子女及社区支持者" },
           { label: "交付内容", value: "App概念、用户流程、线下工作坊、服务蓝图", wide: true },
@@ -183,7 +183,7 @@
         imageCaption: "Original project material: digital concept and offline family workshop.",
         meta: [
           { label: "Role", value: "Product Experience Design / Service Design / UI Concept" },
-          { label: "Timeline", value: "Sep 2024 - Nov 2024" },
+          { label: "Timeline", value: "2024.09–2024.12" },
           { label: "Context", value: "Individual Academic Project" },
           { label: "Users", value: "Long-haul drivers, spouses, children and community supporters" },
           { label: "Outputs", value: "Mobile app concept, user flows, offline workshop and service blueprint", wide: true },

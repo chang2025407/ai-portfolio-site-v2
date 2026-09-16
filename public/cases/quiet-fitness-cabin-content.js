@@ -40,7 +40,7 @@
         imageCaption: "总体空间效果图，来自原始 Fitness.pdf 展板。",
         meta: [
           { label: "我的角色", value: "UX设计 / 服务设计 / 空间体验" },
-          { label: "项目周期", value: "2024年6月—2024年9月" },
+          { label: "项目周期", value: "2024.06–2024.09" },
           { label: "项目性质", value: "个人概念项目" },
           {
             label: "交付内容",
@@ -452,7 +452,7 @@
         imageCaption: "Overall spatial render from the original Fitness.pdf board.",
         meta: [
           { label: "My role", value: "UX Design / Service Design / Spatial Experience" },
-          { label: "Duration", value: "Jun 2024 - Sep 2024" },
+          { label: "Duration", value: "2024.06–2024.09" },
           { label: "Project nature", value: "Individual Concept Project" },
           {
             label: "Deliverables",
