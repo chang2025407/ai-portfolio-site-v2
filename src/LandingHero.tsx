@@ -9,6 +9,7 @@ export default function LandingHero({ copy, locale }: { copy: Copy; locale: "zh"
     { label: copy.navigation.work, href: "#work" },
     { label: copy.navigation.about, href: "#about" },
     { label: copy.navigation.resume, href: copy.resume.href, download: true },
+    { label: copy.navigation.portfolio, href: copy.portfolio.href, download: true },
     { label: copy.navigation.contact, href: "#contact" },
   ];
   useEffect(() => {

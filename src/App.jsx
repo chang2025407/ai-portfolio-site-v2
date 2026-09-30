@@ -6,7 +6,7 @@ import { locales } from "./locales";
 import useHomeMotion from "./useHomeMotion";
 import "./home-v2.css";
 
-const contact = { email: "ddshynh2025@163.com", phone: "18595386369" };
+const contact = { email: "ddshynh2025@163.com", phone: "+86 185 9538 6369" };
 
 function ProjectChapter({ project, index, copy }) {
   const imageClass = project.id === "01" ? "project-visual workout-visual" : "project-visual";
@@ -37,9 +37,9 @@ function HomeHero({ copy }) {
   return (
     <section className="home-hero hero-v4" id="top" data-home-hero>
       <div className="hero-v4-layout">
-        <div className="hero-v4-identity"><h1>Chang Li</h1><p className="hero-v4-role">{copy.hero.identityRole}</p><p className="hero-v4-ai">{copy.hero.identityBackground}</p></div>
+        <div className="hero-v4-identity"><h1>Chang Li</h1><p className="hero-v4-role">{copy.hero.identityRole}</p><p className="hero-v4-ai">{copy.hero.identityBackground}</p><p className="hero-v4-focus">{copy.hero.focus}</p></div>
         <div className="hero-v4-visual" aria-hidden="true"><img src="/assets/home/hero-signature-v1.png" alt="" /></div>
-        <div className="hero-v4-support"><p>{copy.hero.intro}</p><div className="hero-actions"><a className="solid-link" href="#work">{copy.hero.primaryCta}<ArrowUpRight size={17} /></a></div></div>
+        <div className="hero-v4-support"><p>{copy.hero.intro}</p><div className="hero-actions"><a className="solid-link" href="#work">{copy.hero.primaryCta}<ArrowUpRight size={17} /></a><a className="outline-link" href={copy.portfolio.href} download>{copy.hero.portfolioCta}<Download size={16} /></a></div></div>
       </div>
     </section>
   );
@@ -179,9 +179,7 @@ function ContactSection({ copy }) {
         <div className="contact-intro">
           <p className="eyebrow">{copy.contact.kicker}</p>
           <h2>{copy.contact.title}</h2>
-          <a className="outline-link contact-resume-link" href={copy.resume.href} download>
-            {copy.hero.resumeCta}<Download size={16} />
-          </a>
+          <div className="contact-download-links"><a className="outline-link contact-resume-link" href={copy.resume.href} download>{copy.hero.resumeCta}<Download size={16} /></a><a className="outline-link contact-resume-link" href={copy.portfolio.href} download>{copy.hero.portfolioCta}<Download size={16} /></a></div>
         </div>
         <div className="contact-methods" aria-label={copy.contact.detailsLabel}>
           <article className="contact-method">
@@ -223,7 +221,7 @@ function HomeContent({ copy }) {
   return <>
     <HomeHero copy={copy} /><SelectedWorkIntro copy={copy} />
     <section className="work-v2">{copy.projects.map((project, index) => <ProjectChapter key={project.id} project={project} index={index} copy={copy} />)}</section>
-    <section className="background-v2" id="about"><div className="section-lead"><p className="eyebrow">{copy.about.kicker}</p><h2>{copy.about.title}</h2></div><div className="background-grid"><div><p className="column-label">{copy.about.capabilitiesLabel}</p><ul>{copy.capabilities.map((item) => <li key={item}>{item}</li>)}</ul></div><div><p className="column-label">{copy.about.educationLabel}</p><ul className="education-list">{copy.education.map((item) => <li key={item.title}><strong>{item.title}</strong><span>{item.detail}</span></li>)}</ul></div></div></section>
+    <section className="background-v2" id="about"><div className="section-lead"><p className="eyebrow">{copy.about.kicker}</p><h2>{copy.about.title}</h2></div><div className="background-grid"><div><p className="column-label">{copy.about.workflowLabel}</p><p className="about-workflow">{copy.about.workflow}</p><p className="column-label">{copy.about.capabilitiesLabel}</p><ul>{copy.capabilities.map((item) => <li key={item}>{item}</li>)}</ul></div><div><p className="column-label">{copy.about.educationLabel}</p><ul className="education-list">{copy.education.map((item) => <li key={item.title}><strong>{item.title}</strong><span>{item.detail}</span></li>)}</ul></div></div></section>
     <ContactSection copy={copy} />
   </>;
 }
