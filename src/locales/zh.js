@@ -5,21 +5,21 @@ const zh = {
   resume: { href: "/chang-li-cv.pdf" },
   portfolio: { href: "/chang-li-portfolio.pdf" },
   hero: {
-    identityRole: "Product Designer / UX Designer / Interaction Designer",
+    identityRole: "Product / UX / Interaction Designer",
     identityBackground: "AI / ML background",
-    focus: "长期关注：运动健康与数字—实体融合体验",
+    focus: "长期关注：个人健康管理、运动健康与智能穿戴体验",
     eyebrow: "李昶 · Product Designer / UX Designer / Interaction Designer",
     title: "设计清晰、可控的\n产品与交互体验。",
     subtitle: "AI / ML 背景用于理解 Human-Centred AI、技术可行性与产品边界。",
-    intro: "我从用户研究、需求分析与信息架构出发，推进 User Flow、Figma 高保真交互原型、可用性测试与设计迭代。",
+    intro: "从用户研究到关键交互，形成可检查的原型，并用真实测试发现推动迭代。",
     primaryCta: "查看精选项目", resumeCta: "下载简历", portfolioCta: "查看完整作品集 PDF"
   },
-  work: { kicker: "精选项目", title: "从身体状态、空间体验到长期连接，设计复杂系统里清晰而有温度的下一步。" },
-  projectLabels: { contribution: "主要贡献", focus: "能力与方法", open: "查看案例" },
+  work: { kicker: "精选项目", title: "从个人决策，到健身服务，再到家庭连接。", navigationLabel: "按设计能力选择项目" },
+  projectLabels: { contribution: "主要贡献", focus: "设计重点", open: "查看案例" },
   projects: [
-    { id: "01", title: "Should I Work Out Today?", status: "2026.06–2026.09 · AI 辅助决策产品设计项目", type: "Human-Centred AI / Product Experience", question: "当身体状态与原定计划不再匹配，用户如何理解建议，并保留调整运动的控制权？", role: "Product Experience / UX / Interaction Design", tags: ["用户研究", "问题定义", "信息架构 / User Flow", "高保真原型", "形成性可用性测试"], image: "/assets/should-i-work-out-today/03-ai-judgement.png", imageSecondary: "/assets/should-i-work-out-today/02-ai-understanding.png", coverAlt: "Should I Work Out Today 运动决策支持界面", link: "/cases/should-i-work-out-today.html" },
-    { id: "02", title: "Quiet Fitness Cabin", status: "2024.06–2024.09 · 健身服务系统设计项目", type: "Product Experience / UX / Service Design", question: "面对陌生的健身房环境，健身新手如何获得更明确、更低压力的进入与训练体验？", role: "Product Experience / UX / Service Design", tags: ["场景观察", "情境访谈", "竞品分析", "用户旅程", "低保真测试"], image: "/assets/quiet-fitness-cabin/hero-space.webp", coverAlt: "Quiet Fitness Cabin 健身空间系统", link: "/cases/quiet-fitness-cabin.html" },
-    { id: "03", title: "Connected on a Long Journey", status: "2024.09–2024.12 · 家庭连接服务设计项目", type: "Product Experience / Service Design", question: "当货车司机长期在外工作，家庭成员如何通过异步沟通与共同任务维持日常连接？", role: "Product Experience / Service Design", tags: ["语音留言", "共享日记", "亲子任务", "服务蓝图"], image: "/assets/connected-long-journey/hero-family-app.webp", coverAlt: "Connected on a Long Journey 货车司机家庭连接概念", link: "/cases/connected-long-journey.html" }
+    { id: "01", title: "Should I Work Out Today?", status: "2026.06–2026.09 · AI 辅助决策产品设计项目", type: "Human-Centred AI / Product Experience", question: "当身体状态与原定计划不再匹配，用户如何理解建议，并保留调整运动的控制权？", role: "Product Experience / UX / Interaction Design", preview: "AI 决策交互 · 用户控制 · 测试迭代", tags: ["AI 决策交互", "用户控制", "真实测试与迭代"], image: "/assets/should-i-work-out-today/final-en/judgement.png", imageSecondary: "/assets/should-i-work-out-today/final-en/understanding.png", coverAlt: "Should I Work Out Today 运动决策支持界面", link: "/cases/should-i-work-out-today.html" },
+    { id: "02", title: "Quiet Fitness Cabin", status: "2024.06–2024.09 · 健身服务系统设计项目", type: "Product Experience / UX / Service Design", question: "健身新手如何设置需求、找到伙伴并预约场地，让到场训练更有准备？", role: "Product Experience / UX / Service Design", preview: "健身 App · 匹配预约 · 线下服务", tags: ["需求设置", "伙伴匹配与预约", "数字与实体服务衔接"], image: "/assets/quiet-fitness-cabin/hero-space.webp", coverAlt: "Quiet Fitness Cabin 健身空间系统", link: "/cases/quiet-fitness-cabin.html" },
+    { id: "03", title: "Connected on a Long Journey", status: "2024.09–2024.12 · 家庭连接服务设计项目", type: "Product Experience / Service Design", question: "当货车司机长期在外工作，家庭成员如何通过异步沟通与共同任务维持日常连接？", role: "Product Experience / Service Design", preview: "多角色研究 · 异步家庭交互", tags: ["司机访谈与多角色分析", "异步家庭交互", "跨触点服务设计"], image: "/assets/connected-long-journey/hero-family-app.webp", coverAlt: "Connected on a Long Journey 货车司机家庭连接概念", link: "/cases/connected-long-journey.html" }
   ],
   about: { kicker: "能力与教育", title: "在研究、系统与技术之间建立可理解的产品体验。", capabilitiesLabel: "能力", educationLabel: "教育背景", workflowLabel: "工作方式", workflow: "用户研究 → 需求分析 → 信息架构 / User Flow → 交互原型 → 可用性测试 → 设计迭代。AI / ML 背景用于理解技术可行性、Human-Centred AI 与产品边界。" },
   capabilities: ["用户研究 / User Research", "需求分析", "用户旅程", "信息架构", "User Flow", "交互设计", "Figma / 高保真交互原型", "可用性测试", "服务设计", "Human-Centred AI", "数字—实体体验设计", "基础 / 探索性质 Python / ML"],

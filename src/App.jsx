@@ -57,7 +57,7 @@ function SelectedWorkIntro({ copy }) {
     observer.observe(section);
     return () => observer.disconnect();
   }, []);
-  return <section className="selected-work-intro" id="work" ref={sectionRef} aria-labelledby="selected-work-title"><div className="selected-work-intro-grid"><p className="selected-work-label" data-selected-work-reveal>SELECTED WORK</p><div className="selected-work-framing"><h2 id="selected-work-title" data-selected-work-reveal>{copy.work.title}</h2><p className="selected-work-sequence" data-selected-work-reveal>DIGITAL <span aria-hidden="true">→</span> PHYSICAL <span aria-hidden="true">→</span> HUMAN</p></div></div></section>;
+  return <section className="selected-work-intro" id="work" ref={sectionRef} aria-labelledby="selected-work-title"><div className="selected-work-intro-grid"><p className="selected-work-label" data-selected-work-reveal>SELECTED WORK</p><div className="selected-work-framing"><h2 id="selected-work-title" data-selected-work-reveal>{copy.work.title}</h2></div><nav className="selected-work-links" aria-label={copy.work.navigationLabel} data-selected-work-reveal>{copy.projects.map(project => <a key={project.id} href={project.link}><span>{project.id} / {project.title}</span><strong>{project.preview}</strong><ArrowUpRight size={16} aria-hidden="true" /></a>)}</nav></div></section>;
 }
 
 function ContactForm({ copy, onSubmittingChange }) {
