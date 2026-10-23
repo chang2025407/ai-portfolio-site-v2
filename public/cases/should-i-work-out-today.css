@@ -58,6 +58,7 @@ html{scroll-padding-top:92px}
   .correction-evidence{grid-template-columns:160px minmax(0,390px);width:min(100%,590px)}
 }
 .opening-role{max-width:620px;margin:24px 0 0;color:inherit;font-size:14px;line-height:1.6}.opening-role strong{font-weight:750}
+.opening-quick-links{display:flex;flex-wrap:wrap;gap:10px 20px;margin:18px 0 0;font-size:13px;font-weight:760;line-height:1.5}.opening-quick-links a{color:var(--case-ui);text-decoration-thickness:1px;text-underline-offset:4px}
 
 @media (min-width:901px) {
   .opening-ui-evidence img,
@@ -202,7 +203,7 @@ html{scroll-padding-top:92px}
   letter-spacing:.08em;
 }
 .decision-moment h2 {
-  max-width:480px;
+  max-width:560px;
   margin:12px 0 0;
   font-size:29px;
   line-height:1.08;
@@ -345,6 +346,7 @@ html{scroll-padding-top:92px}
   .recruiter-summary { width:calc(100vw - 40px); padding:24px 0; }
   .recruiter-summary h2 { font-size:28px; }
   .recruiter-summary-grid { grid-template-columns:1fr; gap:20px; }
+  .opening-quick-links{display:grid;gap:8px;margin-top:16px}
   .recruiter-summary footer { display:block; }
   .recruiter-summary footer .back-link { margin-top:8px; }
   .recruiter-summary + .research-chapter { margin-top:32px; }
@@ -377,12 +379,15 @@ html{scroll-padding-top:92px}
     padding:26px 0 72px;
   }
   .opening-topline { align-items:flex-start; gap:18px; }
+  .opening-topline > * { min-width:0; }
   .opening-identity {
+    max-width:48%;
     flex-direction:column;
     align-items:flex-end;
     gap:4px;
     text-align:right;
   }
+  .opening-identity span { max-width:100%; overflow-wrap:anywhere; }
   .opening-main {
     display:flex;
     flex-direction:column;
@@ -403,6 +408,7 @@ html{scroll-padding-top:92px}
   }
   .opening-premise { margin-top:22px; font-size:20px; line-height:1.4; }
   .opening-question { margin-top:18px; font-size:15px; }
+  .opening-role { overflow-wrap:anywhere; }
   .opening-status { margin-top:34px; }
   .opening-status div {
     grid-template-columns:112px minmax(0, 1fr);
